@@ -49,7 +49,7 @@
     "role": "post_calculation_checks",
     "sha256": "9b2949019c302eb4411d29fcdb733145195d33601c388b72b38fa8539cfd6d1f"
   },
-  "python": "3.13",
+  "python": ">=3.11",
   "repair_version": "postcalc_provenance_repair_2026_07_14",
   "run_status": "public_release_reproduction",
   "sealed_manifest_sha256": "db938d126b80602df693a049033ae37ca815df702dba0fc14ab3edce64f4f835",

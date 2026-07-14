@@ -1174,7 +1174,7 @@ def run() -> dict[str, object]:
     run_manifest = {
         "run_status": "public_release_reproduction", "created_utc": build_timestamp(),
         "repair_version": REPAIR_VERSION,
-        "git_commit": git_commit(), "python": f"{sys.version_info.major}.{sys.version_info.minor}", "platform": "portable-python-standard-library", "sealed_manifest_sha256": sha256_file(sealed_path),
+        "git_commit": git_commit(), "python": ">=3.11", "platform": "portable-python-standard-library", "sealed_manifest_sha256": sha256_file(sealed_path),
         "selected_k": k, "hierarchical_p50_hs": fmt(imputed), "u_visibility_fingerprint": visibility_hash,
         "candidate_manifest_sha256": candidate_manifest_hash, "calculated_outputs": [file_entry(path, role) for role, path in calculated_paths.items()],
         "post_calculation_checks": file_entry(final_checks_path, "post_calculation_checks"), "paper_hold": True,
