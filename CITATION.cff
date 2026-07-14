@@ -5,5 +5,5 @@ type: dataset
 version: 1.0.0
 date-released: 2026-07-14
 license: CC-BY-4.0
-repository-code: "https://github.com/OWNER/cicero-credit-networks"
+repository-code: "https://github.com/hcl-1024/cicero-credit-networks"
 abstract: "Reviewed Cicero-era credit records, exposure-group authorities, and reproducible network and active-stock calculations."

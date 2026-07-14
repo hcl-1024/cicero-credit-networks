@@ -1,5 +1,5 @@
-/data/canonical/ @OWNER
-/data/exposure_groups/ @OWNER
-/config/ @OWNER
-/results/official/ @OWNER
-/validation/ @OWNER
+/data/canonical/ @hcl-1024
+/data/exposure_groups/ @hcl-1024
+/config/ @hcl-1024
+/results/official/ @hcl-1024
+/validation/ @hcl-1024
