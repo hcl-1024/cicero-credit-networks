@@ -1,0 +1,7 @@
+slice_name,record_count,stress_record_count,high_stress_record_count,refinancing_record_count,repayment_pressure_record_count,strict_hs_total,candidate_hs_total,slice_rule
+broad_canonical,114,92,8,10,28,258000,4688000,all canonical records
+ciceronian_period_only,107,89,8,10,27,258000,4688000,date_period == ciceronian_period
+latin_controlled_only,106,88,8,10,26,258000,4688000,source_support_tier == Latin-controlled
+high_confidence_only,50,43,6,7,14,258000,1658000,confidence == high
+private_household_only,47,43,6,7,15,258000,4488000,scope_type in private/household
+strict_combined_slice,23,21,4,4,5,258000,1458000,ciceronian + Latin-controlled + high confidence + private/household

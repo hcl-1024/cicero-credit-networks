@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "release": "1.0.0",
+  "calculation_window": "45-44 BCE",
+  "same_window_anchor_hs": 300000,
+  "private_credit_prior_anchor_hs": 400000,
+  "k_search_min": 5,
+  "k_search_max": 50,
+  "stock_denominator_months": 12,
+  "imputed_edge_months": 12,
+  "senator_comparison_population": 600,
+  "lognormal_sigma": 1.0,
+  "truncated_pareto_alpha": 1.585,
+  "truncated_pareto_cap_hs": 50000000
+}

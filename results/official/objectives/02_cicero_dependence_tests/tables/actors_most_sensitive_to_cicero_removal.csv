@@ -1,0 +1,51 @@
+variant_pair_id,node_id,canonical_name,actor_type,present_with_cicero,present_without_cicero,presence_status,metric,value_with_cicero,value_without_cicero,absolute_delta,percent_delta,rank_with_cicero,rank_without_cicero,rank_delta
+ciceronian_period_vs_cicero_removed,actor_scribonius_libo,Scribonius Libo,individual,yes,yes,present_in_both,pagerank,0.009087,0.017948,0.008861,97.51,23,7,-16
+ciceronian_period_vs_cicero_removed,actor_quintus_cicero,Quintus Cicero,family_or_household,yes,yes,present_in_both,pagerank,0.026162,0.032851,0.006689,25.57,2,1,-1
+ciceronian_period_vs_cicero_removed,actor_oppius,Oppius,individual,yes,yes,present_in_both,pagerank,0.006417,0.012602,0.006185,96.38,46,14,-32
+ciceronian_period_vs_cicero_removed,actor_dolabella,Dolabella,individual,yes,yes,present_in_both,pagerank,0.007181,0.011699,0.004518,62.92,34,16,-18
+ciceronian_period_vs_cicero_removed,actor_plancus,Plancus,individual,yes,yes,present_in_both,pagerank,0.016959,0.020872,0.003913,23.07,7,6,-1
+ciceronian_period_vs_cicero_removed,actor_caerellia,Caerellia,individual,yes,yes,present_in_both,pagerank,0.011614,0.014964,0.003350,28.84,14,10,-4
+ciceronian_period_vs_cicero_removed,actor_cluvius,Cluvius,professional_financier,yes,yes,present_in_both,pagerank,0.019521,0.022834,0.003313,16.97,6,5,-1
+ciceronian_period_vs_cicero_removed,actor_l_tullius_montanus,L. Tullius Montanus,individual,yes,yes,present_in_both,pagerank,0.005513,0.008805,0.003292,59.71,60,30,-30
+ciceronian_period_vs_cicero_removed,actor_p_sallustius,P. Sallustius,individual,yes,yes,present_in_both,pagerank,0.006971,0.010209,0.003238,46.45,37,25,-12
+ciceronian_period_vs_cicero_removed,actor_atticus,Atticus,individual,yes,yes,present_in_both,pagerank,0.025561,0.028600,0.003039,11.89,4,2,-2
+ciceronian_period_vs_cicero_removed,actor_egnatius,Egnatius,individual,yes,yes,present_in_both,pagerank,0.013156,0.016123,0.002967,22.55,10,8,-2
+ciceronian_period_vs_cicero_removed,actor_philotimus,Philotimus,freedman_or_agent,yes,yes,present_in_both,pagerank,0.005449,0.008329,0.002880,52.85,62,32,-30
+ciceronian_period_vs_cicero_removed,actor_terentia,Terentia,family_or_household,yes,yes,present_in_both,pagerank,0.005449,0.008329,0.002880,52.85,61,31,-30
+ciceronian_period_vs_cicero_removed,actor_cocceius,Cocceius,individual,yes,yes,present_in_both,pagerank,0.004981,0.007849,0.002868,57.58,68,41,-27
+ciceronian_period_vs_cicero_removed,actor_brutus,Brutus,individual,yes,yes,present_in_both,pagerank,0.022398,0.024800,0.002402,10.72,5,4,-1
+ciceronian_period_vs_cicero_removed,actor_camillus,Camillus,individual,yes,yes,present_in_both,pagerank,0.004422,0.006603,0.002181,49.32,97,52,-45
+ciceronian_period_vs_cicero_removed,actor_roman_state,Roman state,public_body,yes,yes,present_in_both,pagerank,0.009215,0.011186,0.001971,21.39,21,21,0
+ciceronian_period_vs_cicero_removed,actor_scapula_heirs,Scapula heirs,individual,yes,yes,present_in_both,pagerank,0.009215,0.011186,0.001971,21.39,22,22,0
+ciceronian_period_vs_cicero_removed,actor_curius,Curius,individual,yes,yes,present_in_both,pagerank,0.004553,0.006461,0.001908,41.91,93,53,-40
+ciceronian_period_vs_cicero_removed,actor_amici,amici,collective_group,yes,yes,present_in_both,pagerank,0.010001,0.011838,0.001837,18.37,18,15,-3
+ciceronian_period_vs_cicero_removed,actor_pompey,Pompey,individual,yes,yes,present_in_both,pagerank,0.013220,0.015032,0.001812,13.71,9,9,0
+ciceronian_period_vs_cicero_removed,actor_castricius,Castricius,individual,yes,yes,present_in_both,pagerank,0.007730,0.009511,0.001781,23.04,29,27,-2
+ciceronian_period_vs_cicero_removed,actor_l_carpinatius,L. Carpinatius,individual,yes,yes,present_in_both,pagerank,0.007451,0.009044,0.001593,21.38,31,28,-3
+ciceronian_period_vs_cicero_removed,actor_sicilian_tax_company,Sicilian tax company,collective_group,yes,yes,present_in_both,pagerank,0.007451,0.009044,0.001593,21.38,32,29,-3
+ciceronian_period_vs_cicero_removed,actor_a_caninius_satyrus,A. Caninius Satyrus,individual,yes,yes,present_in_both,pagerank,0.009667,0.011186,0.001519,15.71,19,17,-2
+ciceronian_period_vs_cicero_removed,actor_p_varius,P. Varius,individual,yes,yes,present_in_both,pagerank,0.009667,0.011186,0.001519,15.71,20,18,-2
+ciceronian_period_vs_cicero_removed,actor_tullia_s_creditors,Tullia's creditors,collective_group,yes,yes,present_in_both,pagerank,0.005854,0.007326,0.001472,25.15,55,49,-6
+ciceronian_period_vs_cicero_removed,actor_brutus_albinus_friends,Brutus Albinus friends,collective_group,yes,yes,present_in_both,pagerank,0.006467,0.007849,0.001382,21.37,39,37,-2
+ciceronian_period_vs_cicero_removed,actor_q_considius,Q. Considius,individual,yes,yes,present_in_both,pagerank,0.006467,0.007849,0.001382,21.37,40,43,3
+ciceronian_period_vs_cicero_removed,actor_creditores,creditores,collective_group,yes,yes,present_in_both,pagerank,0.006467,0.007849,0.001382,21.37,41,44,3
+ciceronian_period_vs_cicero_removed,actor_his_amici,his amici,collective_group,yes,yes,present_in_both,pagerank,0.006467,0.007849,0.001382,21.37,42,45,3
+ciceronian_period_vs_cicero_removed,actor_young_lucullus,young Lucullus,individual,yes,yes,present_in_both,pagerank,0.006467,0.007849,0.001382,21.37,43,46,3
+ciceronian_period_vs_cicero_removed,actor_caelius,Caelius,individual,yes,yes,present_in_both,pagerank,0.005622,0.004243,-0.001379,-24.53,58,115,57
+ciceronian_period_vs_cicero_removed,actor_c_fufius,C. Fufius,individual,yes,yes,present_in_both,pagerank,0.006392,0.007759,0.001367,21.39,47,47,0
+ciceronian_period_vs_cicero_removed,actor_m_fufius,M. Fufius,individual,yes,yes,present_in_both,pagerank,0.006392,0.007759,0.001367,21.39,48,48,0
+ciceronian_period_vs_cicero_removed,actor_flaminius,Flaminius,individual,yes,yes,present_in_both,pagerank,0.003852,0.005182,0.001330,34.53,101,78,-23
+ciceronian_period_vs_cicero_removed,actor_tiro,Tiro,freedman_or_agent,yes,yes,present_in_both,pagerank,0.004196,0.005522,0.001326,31.60,99,69,-30
+ciceronian_period_vs_cicero_removed,actor_l_titius_strabo,L. Titius Strabo,individual,yes,yes,present_in_both,pagerank,0.026044,0.027349,0.001305,5.01,3,3,0
+ciceronian_period_vs_cicero_removed,actor_funisulanus,Funisulanus,individual,yes,yes,present_in_both,pagerank,0.003867,0.005145,0.001278,33.05,100,81,-19
+ciceronian_period_vs_cicero_removed,actor_philocles,Philocles,individual,yes,yes,present_in_both,pagerank,0.005971,0.007248,0.001277,21.39,54,50,-4
+ciceronian_period_vs_cicero_removed,actor_antony_creditors,Antony creditors,collective_group,yes,yes,present_in_both,pagerank,0.005757,0.006988,0.001231,21.38,56,51,-5
+ciceronian_period_vs_cicero_removed,actor_caepio,Caepio,individual,yes,yes,present_in_both,pagerank,0.007029,0.008232,0.001203,17.11,35,33,-2
+ciceronian_period_vs_cicero_removed,actor_m_antonius,M. Antonius,individual,yes,yes,present_in_both,pagerank,0.007029,0.008232,0.001203,17.11,36,34,-2
+ciceronian_period_vs_cicero_removed,actor_borrowers_under_verres_scheme,borrowers under Verres' scheme,collective_group,yes,yes,present_in_both,pagerank,0.005229,0.006347,0.001118,21.38,67,55,-12
+ciceronian_period_vs_cicero_removed,actor_mylasa_and_alabanda,Mylasa and Alabanda,individual,yes,yes,present_in_both,pagerank,0.004981,0.006046,0.001065,21.38,69,61,-8
+ciceronian_period_vs_cicero_removed,actor_p_iunius,P. Iunius,individual,yes,yes,present_in_both,pagerank,0.004981,0.006046,0.001065,21.38,70,62,-8
+ciceronian_period_vs_cicero_removed,actor_p_quinctius,P. Quinctius,individual,yes,yes,present_in_both,pagerank,0.004981,0.006046,0.001065,21.38,71,63,-8
+ciceronian_period_vs_cicero_removed,actor_cities_in_asia,cities in Asia,civic_body,yes,yes,present_in_both,pagerank,0.004981,0.006046,0.001065,21.38,72,64,-8
+ciceronian_period_vs_cicero_removed,actor_fulvia,Fulvia,individual,yes,yes,present_in_both,pagerank,0.004766,0.005786,0.001020,21.40,76,68,-8
+ciceronian_period_vs_cicero_removed,actor_q_axius_son,Q. Axius' son,individual,yes,yes,present_in_both,pagerank,0.004464,0.005445,0.000981,21.98,96,77,-19

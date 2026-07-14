@@ -1,0 +1,162 @@
+{
+  "anchors_hs": [
+    300000,
+    400000
+  ],
+  "created_utc": "2026-07-14T00:00:00+00:00",
+  "declared_inputs": [
+    {
+      "bytes": 159081,
+      "path": "data/canonical/cicero_credit_records.csv",
+      "role": "declared_source_input",
+      "sha256": "068aa4c768d66f2102196f358f1c6d2944242ba0a099cf4245b7ea5653a67eb3"
+    },
+    {
+      "bytes": 72720,
+      "path": "data/exposure_groups/reviewed_record_decisions.csv",
+      "role": "declared_source_input",
+      "sha256": "9ecd344913a47f3b9e759dc03b23c6c8183965ac0cae9b9a09b778463aa7ac46"
+    },
+    {
+      "bytes": 1270,
+      "path": "data/exposure_groups/reviewed_overrides.csv",
+      "role": "declared_source_input",
+      "sha256": "8017247438f237b0ec55522cbe05ffb5e28cebabbbfdfd825742fc4c1180b7cb"
+    },
+    {
+      "bytes": 18783,
+      "path": "data/amounts/amount_values.csv",
+      "role": "declared_source_input",
+      "sha256": "c293ed3a75051a6489b3fca23ace9be2b9639b0e508962285610605974dec2df"
+    },
+    {
+      "bytes": 1875,
+      "path": "config/objectives.yml",
+      "role": "declared_source_input",
+      "sha256": "2237a84ec4fe96a0c3e229c703a8355b11f6895a6c8e913cfcff63ebaa3590c0"
+    },
+    {
+      "bytes": 410,
+      "path": "config/calculation_parameters.json",
+      "role": "declared_source_input",
+      "sha256": "51ebf30f6ddd674e601799160d7f9d17dcafa29f572bde50c0f4d4327ec37f1c"
+    },
+    {
+      "bytes": 1050,
+      "path": "config/o56_borrower_components.csv",
+      "role": "declared_source_input",
+      "sha256": "27f2b482adbd2f9367111e61985e4ad32f38cf72e136cf280c8194083472450e"
+    }
+  ],
+  "generated_calculation_inputs": [
+    {
+      "bytes": 42542,
+      "path": "results/official/objective_05_06/recalculation_v5/typed/exposure_member_authority.csv",
+      "role": "members",
+      "sha256": "780a2eab89694b9a5df6be962b8cb7332329bbd75d01f6232ca026650dbcf8c2"
+    },
+    {
+      "bytes": 17689,
+      "path": "results/official/objective_05_06/recalculation_v5/typed/exposure_amount_authority.csv",
+      "role": "amounts",
+      "sha256": "f44970cc8d112b69c6d4322256e0331e4b244a3ab5a79be17f12146c4fa53776"
+    },
+    {
+      "bytes": 17898,
+      "path": "results/official/objective_05_06/recalculation_v5/typed/actor_occurrence_authority.csv",
+      "role": "occurrences",
+      "sha256": "26cf8a86c56e2eed154602306a80462172192501c5345605d37f04c545645b5a"
+    },
+    {
+      "bytes": 3825,
+      "path": "results/official/objective_05_06/recalculation_v5/typed/actor_alias_authority.csv",
+      "role": "aliases",
+      "sha256": "982daaea54a8463cc5124b8f9e9a32ec808b1a48a24be552e391293624a0ebde"
+    },
+    {
+      "bytes": 25681,
+      "path": "results/official/objective_05_06/recalculation_v5/typed/relation_authority.csv",
+      "role": "relations",
+      "sha256": "dad61a631d7d4470fe0e2dbbe003a4e72521cf6b10b7bbea5a31ff6baa73041f"
+    },
+    {
+      "bytes": 8305,
+      "path": "results/official/objective_05_06/recalculation_v5/typed/paper_exposure_crosswalk.csv",
+      "role": "paper_crosswalk",
+      "sha256": "31ddcbd3a9fa062fd756dc09d9f4c21cf4bda29ce72c3487a2bc86d048f74b04"
+    },
+    {
+      "bytes": 2607,
+      "path": "results/official/objective_05_06/recalculation_v5/intermediate/o5_t4_component_inputs.csv",
+      "role": "t4_inputs",
+      "sha256": "6114893b66851bdb856366d08156a159a6ab48197e1fa9d39f30bf0b3f1408d8"
+    },
+    {
+      "bytes": 397,
+      "path": "results/official/objective_05_06/recalculation_v5/intermediate/calibration_exact_points.csv",
+      "role": "calibration_points",
+      "sha256": "5478ce00bd982e7a98d6aa3b06b5d109faf9566efe6132a62b532ed55a953689"
+    },
+    {
+      "bytes": 687678,
+      "path": "results/official/objective_05_06/recalculation_v5/intermediate/o5_t5_proposal_provenance.csv",
+      "role": "proposals",
+      "sha256": "c5518e04be72a631a8954002f03b5f31928bc9bcc6bb449103af67a3b05c4037"
+    },
+    {
+      "bytes": 116858,
+      "path": "results/official/objective_05_06/recalculation_v5/intermediate/o5_t5_normalized_dyads.csv",
+      "role": "dyads",
+      "sha256": "3e23695f48ba3779be708ead99027c93a0943d3553040afb8dba686b1ecd8a8e"
+    },
+    {
+      "bytes": 2153,
+      "path": "results/official/objective_05_06/recalculation_v5/intermediate/u_visibility_actor_statistics.csv",
+      "role": "visibility",
+      "sha256": "deb1f4e50ce889d488372773bcf9dfc65546fbedfef4a5a31dc6d406e14a3d7b"
+    },
+    {
+      "bytes": 424,
+      "path": "results/official/objective_05_06/recalculation_v5/intermediate/u_visibility_actor_ids.csv",
+      "role": "visibility_ids",
+      "sha256": "c06096e82ede5739ef25d11c5db1b0671367781fb1a5ba7b6468c62b4a8ccdb0"
+    },
+    {
+      "bytes": 6620,
+      "path": "results/official/objective_05_06/recalculation_v5/intermediate/o6_actor_classes.csv",
+      "role": "o6_actors",
+      "sha256": "4dea4ad0cf99e7ac065f9a5580138d3f607348f33bfb4cf724320012214c4c55"
+    },
+    {
+      "bytes": 5179,
+      "path": "results/official/objective_05_06/recalculation_v5/intermediate/o6_observed_relations.csv",
+      "role": "o6_observed",
+      "sha256": "16bf525a98c31767088d7e492e006ca4715e7e8d0c0b7867244a9746ba48699c"
+    },
+    {
+      "bytes": 12751,
+      "path": "results/official/objective_05_06/recalculation_v5/intermediate/o6_internal_candidate_expected_incidence.csv",
+      "role": "o6_internal",
+      "sha256": "7f2d7b26fbf8e52db2e7e21e3cb4753eacc2330fe6f3fd70c73d3cd142106971"
+    }
+  ],
+  "git_commit": "release-tag-recorded-by-git",
+  "k_calibration_policy": "data_selected_leave_one_out_over_integer_k_5_to_50_with_fold_training_record_count_n",
+  "manifest_type": "preflight_without_selected_k",
+  "max_h_visibility": "13.836312685594",
+  "method_ids": [
+    "o5_t5_strict_45_44_typed_bridge_expected_value_v3",
+    "o6_45_44_current_visibility_tertiles_v1",
+    "o6w_t5_strict_45_44_post_imputation_incidence_typed_relations_v2"
+  ],
+  "o56_membership_fingerprint": "07ac3474806651addf00ad306efeea1fe89dc606bce8a41bc01f205b0e927d4c",
+  "repair_version": "postcalc_provenance_repair_2026_07_14",
+  "selected_k_present": false,
+  "static_preflight_checks": {
+    "bytes": 4149,
+    "path": "results/official/objective_05_06/recalculation_v5/audits/static_preflight_checks.csv",
+    "role": "blocking_static_preflight",
+    "sha256": "6c4cfd79059a5bc96c0e551a1c47687053deeee40552c3c50429d43ad010710f"
+  },
+  "u_visibility_fingerprint": "5d8f56aa526eca848d3c73533d69915cff0c02b873499c962f6db05f760f6bb3"
+}

@@ -1,0 +1,5 @@
+variant_name,description,node_count,edge_count,record_count,component_count,largest_component_node_count,edges_per_record,largest_component_share,edge_count_vs_direct_ratio,largest_component_vs_direct_ratio,filter_recipe
+direct_borrower_lender_graph,Direct borrower-lender edges only.,110,95,86,26,54,1.105,0.491,1.000,1.000,layer == direct_financial
+third_party_context_graph,Third-party context edges only.,126,204,80,9,98,2.550,0.778,2.147,1.815,layer == third_party_context
+combined_transaction_graph,All included transaction-safe actor edges.,152,299,110,13,119,2.718,0.783,3.147,2.204,all actor_edges rows
+cicero_removed_graph,All edges with Cicero removed.,140,172,82,23,73,2.098,0.521,1.811,1.352,source_name != Cicero and target_name != Cicero

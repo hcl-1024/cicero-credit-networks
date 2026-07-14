@@ -1,0 +1,122 @@
+actor_type,mechanism_type,analysis_loan_type,scope_type,edge_count,direct_edge_count,third_party_context_edge_count,actor_count,record_count,top_actors,date_periods,confidence_values
+civic_body,account/nomina,account/nomina claim,public,5,1,4,1,1,Salamis (5),ciceronian_period,high
+civic_body,account/nomina,debt repayment,public,3,1,2,1,1,Arpinum (3),ciceronian_period,high
+civic_body,ambiguous,ambiguous financial obligation,public,2,1,1,1,1,Sardis (2),ciceronian_period,medium
+civic_body,political/civic finance,credit arrangement,public,2,1,1,1,1,cities in Asia (2),ciceronian_period,high
+civic_body,political/civic finance,interest/usury,public,1,0,1,1,1,multiple provincial communities (1),ciceronian_period,medium
+civic_body,recommendation,ambiguous financial obligation,civic,2,1,1,1,1,city of Dyrrhachium (2),ciceronian_period,low
+civic_body,recommendation,ambiguous financial obligation,public,2,1,1,1,1,city of Sicyon (2),ciceronian_period,medium
+civic_body,refinancing/versura,refinancing/versura,comparative,1,1,0,1,1,Athens (1),ciceronian_period,high
+civic_body,repayment pressure,debt repayment,public,3,1,2,1,1,Nicaea (3),ciceronian_period,high
+civic_body,surety,interest/usury,public,3,1,2,1,1,Greek provincial communities (3),ciceronian_period,medium
+civic_body,surety,debt repayment,public,3,1,2,1,1,city of Byllis (3),ciceronian_period,high
+collective_group,account/nomina,account/nomina claim,household,6,2,4,2,2,Cluvian coheirs (3); Tullia's creditors (3),ciceronian_period,high; low
+collective_group,ambiguous,ambiguous financial obligation,ambiguous,3,2,1,1,2,amici (3),ciceronian_period,low
+collective_group,ambiguous,ambiguous financial obligation,comparative,1,1,0,1,1,creditores (1),ciceronian_period,medium
+collective_group,ambiguous,credit arrangement,comparative,1,1,0,1,1,his amici (1),ciceronian_period,medium
+collective_group,political/civic finance,personal loan,comparative,9,4,5,3,2,borrowers under Verres' scheme (4); Sicilian tax company (3); friends of Cato (2),ciceronian_period; undated,high
+collective_group,political/civic finance,ambiguous financial obligation,public,1,0,1,1,1,Brutus Albinus friends (1),ciceronian_period,medium
+collective_group,recommendation,debt repayment,public,1,0,1,1,1,Cluvius procurators (1),ciceronian_period,high
+collective_group,repayment pressure,debt repayment,public,4,0,4,2,2,Cluvius procurators (2); procuratores (2),ciceronian_period,high
+collective_group,repayment pressure,personal loan,comparative,1,1,0,1,1,Crassus' amici (1),undated,medium
+collective_group,surety,interest/usury,public,3,1,2,1,1,publicani (3),ciceronian_period,medium
+collective_group,surety,surety/guarantee,comparative,2,1,1,1,1,Antony creditors (2),ciceronian_period,high
+estate,account/nomina,surety/guarantee,public,1,1,0,1,1,Scapula estate (1),ciceronian_period,low
+family_or_household,account/nomina,account/nomina claim,household,3,1,2,2,2,Tullia (2); Terentia (1),ciceronian_period,low; medium
+family_or_household,account/nomina,debt repayment,household,2,0,2,1,1,Terentia (2),ciceronian_period,medium
+family_or_household,ambiguous,ambiguous financial obligation,ambiguous,5,1,4,1,2,Quintus Cicero (5),ciceronian_period,low
+family_or_household,ambiguous,ambiguous financial obligation,household,2,0,2,1,1,Tullia (2),ciceronian_period,low
+family_or_household,direct loan,personal loan,private,1,0,1,1,1,Quintus Cicero (1),ciceronian_period,high
+family_or_household,political/civic finance,ambiguous financial obligation,public,2,0,2,1,1,Quintus Cicero (2),ciceronian_period,low
+family_or_household,political/civic finance,ambiguous financial obligation,ambiguous,2,1,1,1,1,Quintus Cicero (2),ciceronian_period,low
+family_or_household,refinancing/versura,refinancing/versura,private,7,1,6,1,1,Quintus Cicero (7),ciceronian_period,high
+family_or_household,refinancing/versura,refinancing/versura,household,1,0,1,1,1,Terentia (1),ciceronian_period,high
+family_or_household,repayment pressure,debt repayment,political,2,1,1,1,1,Quintus Cicero (2),ciceronian_period,high
+family_or_household,repayment pressure,debt repayment,household,2,0,2,1,1,Terentia (2),ciceronian_period,medium
+family_or_household,surety,debt repayment,private,3,2,1,1,1,Quintus Cicero (3),ciceronian_period,high
+family_or_household,surety,ambiguous financial obligation,household,2,0,2,2,1,Terentia (1); Tullia (1),ciceronian_period,low
+freedman_or_agent,account/nomina,account/nomina claim,household,4,0,4,1,2,Tiro (4),ciceronian_period,high
+freedman_or_agent,account/nomina,account/nomina claim,private,3,2,1,2,2,Philotimus (2); Philogenes (1),ciceronian_period,medium
+freedman_or_agent,account/nomina,personal loan,household,2,1,1,1,1,Tiro (2),ciceronian_period,high
+freedman_or_agent,account/nomina,account/nomina claim,public,2,1,1,1,1,Philotimus (2),ciceronian_period,medium
+freedman_or_agent,account/nomina,credit arrangement,household,2,1,1,1,1,Tiro (2),undated,medium
+freedman_or_agent,account/nomina,debt repayment,public,2,0,2,1,1,Eros (2),ciceronian_period,high
+freedman_or_agent,account/nomina,credit arrangement,ambiguous,2,0,2,1,1,Eros (2),ciceronian_period,medium
+freedman_or_agent,account/nomina,debt repayment,private,2,0,2,1,1,Eros (2),ciceronian_period,high
+freedman_or_agent,account/nomina,debt repayment,household,2,0,2,1,1,Tiro (2),ciceronian_period,high
+freedman_or_agent,account/nomina,personal loan,public,1,0,1,1,1,Tiro (1),ciceronian_period,high
+freedman_or_agent,refinancing/versura,refinancing/versura,private,4,0,4,2,2,Eros (2); Philotimus (2),ciceronian_period,high; medium
+freedman_or_agent,refinancing/versura,refinancing/versura,household,1,0,1,1,1,Tiro (1),ciceronian_period,high
+individual,account/nomina,account/nomina claim,household,29,9,20,8,5,Cicero (12); Atticus (4); Caerellia (4); Aurelius (2); Ofillius (2),ciceronian_period,high; low; medium
+individual,account/nomina,account/nomina claim,private,23,10,13,7,6,Cicero (9); Atticus (5); Patulcius (2); Publilius (2); Balbus (2),ciceronian_period,high; medium
+individual,account/nomina,account/nomina claim,public,13,2,11,4,2,Brutus (5); Cicero (4); Appius Claudius (2); Camillus (2),ciceronian_period,high; medium
+individual,account/nomina,credit arrangement,ambiguous,10,2,8,4,2,Cicero (4); Atticus (3); Xeno (2); Caelius (1),ciceronian_period,medium
+individual,account/nomina,ambiguous financial obligation,public,8,0,8,3,1,Cicero (4); Balbus (2); Oppius (2),ciceronian_period,medium
+individual,account/nomina,debt repayment,household,6,2,4,4,2,Flaminius (2); Cicero (2); Atticus (1); Camillus (1),ciceronian_period,high; medium
+individual,account/nomina,debt repayment,public,5,1,4,2,1,Cicero (3); Atticus (2),ciceronian_period,high
+individual,account/nomina,personal loan,household,4,1,3,2,1,Atticus (2); Curius (2),ciceronian_period,high
+individual,account/nomina,debt repayment,private,4,2,2,2,1,Cicero (2); Funisulanus (2),ciceronian_period,high
+individual,account/nomina,account/nomina claim,civic,3,0,3,2,1,Caerellia (2); Cicero (1),ciceronian_period,medium
+individual,account/nomina,credit arrangement,private,2,0,2,2,1,Atticus (1); Cicero (1),ciceronian_period,medium
+individual,account/nomina,surety/guarantee,household,2,0,2,2,1,Atticus (1); Cicero (1),ciceronian_period,high
+individual,account/nomina,credit arrangement,household,2,1,1,1,1,Curius (2),undated,medium
+individual,account/nomina,account/nomina claim,comparative,2,0,2,2,1,Verres (1); Q. Caecilius Dio (1),ciceronian_period,high
+individual,account/nomina,surety/guarantee,public,1,1,0,1,1,Cicero (1),ciceronian_period,low
+individual,account/nomina,personal loan,public,1,0,1,1,1,Cicero (1),ciceronian_period,high
+individual,ambiguous,credit arrangement,private,19,13,6,7,3,Cicero (8); Silius (3); Hermogenes (3); Faberius (2); Caecilius (1),ciceronian_period,high; medium
+individual,ambiguous,ambiguous financial obligation,ambiguous,18,7,11,6,5,Cicero (7); Atticus (4); Castricius (3); Philargyrus (2); Clodius Hermogenes (1),ciceronian_period,low
+individual,ambiguous,ambiguous financial obligation,household,4,2,2,2,1,Cicero (2); Atticus (2),ciceronian_period,low
+individual,ambiguous,ambiguous financial obligation,public,4,1,3,2,1,Cicero (2); M. Anneius (2),ciceronian_period,medium
+individual,ambiguous,ambiguous financial obligation,civic,1,1,0,1,1,Cicero (1),ciceronian_period,low
+individual,ambiguous,ambiguous financial obligation,comparative,1,1,0,1,1,L. Trebellius (1),ciceronian_period,medium
+individual,ambiguous,credit arrangement,comparative,1,1,0,1,1,Ptolemy XII (1),ciceronian_period,medium
+individual,direct loan,personal loan,private,9,6,3,4,4,Cicero (5); Atticus (2); Crassus (1); Pompey (1),ciceronian_period,high; medium
+individual,direct loan,personal loan,comparative,4,4,0,4,2,Caelius (1); Clodia (1); Volteius Mena (1); Marcius Philippus (1),ciceronian_period; post_ciceronian_bce_comparative,high
+individual,direct loan,ambiguous financial obligation,public,2,2,0,2,1,Caesar (1); Pompey (1),ciceronian_period,medium
+individual,direct loan,personal loan,civic,2,2,0,2,1,Cicero (1); Caelius (1),ciceronian_period,high
+individual,direct loan,interest/usury,comparative,2,2,0,2,1,Q. Considius' debtors (1); Q. Considius (1),ciceronian_period,medium
+individual,political/civic finance,personal loan,comparative,10,4,6,5,3,L. Carpinatius (3); Verres (3); Cato the Younger (2); Pliny (1); Pliny's mother-in-law (1),ciceronian_period; imperial_comparative; undated,high
+individual,political/civic finance,ambiguous financial obligation,ambiguous,6,3,3,3,2,Cicero (3); Atticus (2); P. Sulla (1),ciceronian_period,low
+individual,political/civic finance,ambiguous financial obligation,comparative,4,4,0,3,2,Caesar (2); C. Scribonius Curio (1); L. Aemilius Paullus (1),ciceronian_period,medium
+individual,political/civic finance,credit arrangement,public,4,3,1,3,2,Brutus (2); Cato the Younger (1); young Lucullus (1),ciceronian_period,high
+individual,political/civic finance,ambiguous financial obligation,public,3,0,3,3,2,Brutus Albinus (1); Caesar (1); Pompey (1),ciceronian_period,low; medium
+individual,political/civic finance,credit arrangement,comparative,2,2,0,2,1,Damasippus (1); faeneratores at the Ianus medius (1),undated,medium
+individual,political/civic finance,interest/usury,public,1,0,1,1,1,Cicero (1),ciceronian_period,medium
+individual,recommendation,ambiguous financial obligation,ambiguous,10,2,8,4,1,Buthrotum (3); Plancus (3); Ateius Capito (2); Cicero (2),ciceronian_period,low
+individual,recommendation,debt repayment,private,10,2,8,4,1,L. Titius Strabo (3); P. Cornelius (3); Brutus (2); Cicero (2),ciceronian_period,high
+individual,recommendation,ambiguous financial obligation,public,9,1,8,4,3,Cicero (4); C. Octavius (2); M. Laenius (2); Silius (1),ciceronian_period,medium
+individual,recommendation,ambiguous financial obligation,civic,4,1,3,2,1,Cicero (2); C. Flavius (2),ciceronian_period,low
+individual,recommendation,debt repayment,public,1,0,1,1,1,Atticus (1),ciceronian_period,high
+individual,refinancing/versura,refinancing/versura,private,39,9,30,10,5,Cicero (10); Atticus (7); Egnatius (7); Oppius (3); Dolabella (2),ciceronian_period,high; medium
+individual,refinancing/versura,personal loan,comparative,6,2,4,3,1,Fulvia (2); Atticus (2); Marc Antony (2),ciceronian_period,high
+individual,refinancing/versura,refinancing/versura,household,2,0,2,2,2,L. Tullius Montanus (1); Cicero (1),ciceronian_period,high
+individual,refinancing/versura,refinancing/versura,comparative,1,1,0,1,1,Atticus (1),ciceronian_period,high
+individual,repayment pressure,debt repayment,private,36,10,26,12,4,Cicero (5); Caecilius (5); A. Caninius Satyrus (4); P. Varius (4); L. Lucullus (3),ciceronian_period,high; medium
+individual,repayment pressure,debt repayment,public,16,5,11,7,4,Cicero (3); young T. Pinnius (3); Philocles (3); Minucius Thermus (2); Mylasa and Alabanda (2),ciceronian_period,high
+individual,repayment pressure,debt repayment,household,8,2,6,3,1,Cicero (3); P. Sallustius (3); Cn. Sallustius (2),ciceronian_period,medium
+individual,repayment pressure,credit arrangement,private,6,2,4,3,1,Cocceius (2); Cicero (2); Varro (2),ciceronian_period,medium
+individual,repayment pressure,debt repayment,comparative,6,2,4,3,1,P. Quinctius (2); Scapula heirs (2); Sex. Naevius (2),ciceronian_period,high
+individual,repayment pressure,personal loan,private,6,2,4,3,1,Q. Axius (2); Cicero (2); Q. Axius' son (2),ciceronian_period,high
+individual,repayment pressure,debt repayment,political,2,1,1,1,1,Atticus (2),ciceronian_period,high
+individual,repayment pressure,personal loan,comparative,1,1,0,1,1,Crassus (1),undated,medium
+individual,surety,surety/guarantee,private,22,4,18,10,3,Cornificius (4); Iunius (4); Appuleius (2); Cicero (2); Flaminius (2),ciceronian_period,high; medium
+individual,surety,surety/guarantee,comparative,20,6,14,10,4,Heraclides (3); Hermippus (3); C. Scribonius Curio (2); Marc Antony (2); D. Iunius Brutus (2),ciceronian_period,high
+individual,surety,surety/guarantee,ambiguous,8,2,6,4,2,Cicero (3); Egnatius (2); Scribonius Libo (2); P. Magius Chilo (1),ciceronian_period,low; medium
+individual,surety,debt repayment,private,7,2,5,3,1,Cicero (3); Caepio (2); M. Antonius (2),ciceronian_period,high
+individual,surety,debt repayment,public,7,1,6,3,1,L. Lucceius (3); Cicero (2); L. Culleolus (2),ciceronian_period,high
+individual,surety,interest/usury,public,4,0,4,2,1,Cicero (2); Servilius (2),ciceronian_period,medium
+individual,surety,ambiguous financial obligation,public,4,0,4,3,1,P. Valerius (2); M. Anneius (1); Q. Paconius Lepta (1),ciceronian_period,medium
+individual,surety,surety/guarantee,public,2,0,2,2,1,Cicero (1); L. Mescinius (1),ciceronian_period,medium
+individual,surety,ambiguous financial obligation,ambiguous,2,2,0,2,1,Cicero (1); Titus Pomponius (1),ciceronian_period,low
+individual,surety,credit arrangement,comparative,2,0,2,2,1,P. Sulla (1); P. Sittius (1),ciceronian_period,medium
+individual,surety,ambiguous financial obligation,household,2,0,2,1,1,Cicero (2),ciceronian_period,low
+professional_financier,account/nomina,account/nomina claim,public,4,0,4,2,1,Matinius (2); Scaptius (2),ciceronian_period,high
+professional_financier,ambiguous,ambiguous financial obligation,civic,1,1,0,1,1,C. Vestorius (1),ciceronian_period,low
+professional_financier,ambiguous,credit arrangement,private,1,1,0,1,1,Selicius (1),ciceronian_period,medium
+professional_financier,recommendation,debt repayment,public,2,0,2,1,1,Cluvius (2),ciceronian_period,high
+professional_financier,recommendation,ambiguous financial obligation,public,1,0,1,1,1,Cluvius (1),ciceronian_period,medium
+professional_financier,repayment pressure,debt repayment,public,5,2,3,1,2,Cluvius (5),ciceronian_period,high
+public_body,account/nomina,account/nomina claim,civic,1,0,1,1,1,provincial governor (1),ciceronian_period,medium
+public_body,political/civic finance,personal loan,comparative,3,0,3,1,1,Roman state grain funds (3),ciceronian_period,high
+public_body,political/civic finance,credit arrangement,public,2,0,2,1,1,Senate (2),ciceronian_period,high
+public_body,surety,surety/guarantee,comparative,2,1,1,1,1,Roman state (2),ciceronian_period,high

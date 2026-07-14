@@ -1,0 +1,42 @@
+check_id,status,detail,value
+proposal_hash_unique,PASS,Full proposal hashes are unique and row-order independent.,876
+atomic_two_leg_complete,PASS,Every shared-neighbor proposal has two distinct support legs.,779
+leg_specific_evidence_complete,PASS,"Both bridge legs carry source, citation, date, scope, authorization, authority, and reason.",779
+leg_specific_evidence_matches_authority,PASS,Every copied leg field agrees exactly with its typed relation authority.,
+leg_neighbor_resolution,PASS,"Each support relation contains its endpoint and neighbor occurrences, and both neighbor occurrences resolve to the recorded stable neighbor.",
+shared_neighbor_distinct_from_endpoints,PASS,The shared neighbor differs from both candidate endpoints.,
+exact_leg_status,PASS,"Each leg status is exactly reproduced from its date, scope, and basis authorization.",
+exact_mixed_leg_precedence,PASS,Every atomic proposal follows the frozen mixed-leg precedence.,
+conjunctive_leg_validity,PASS,Atomic validity requires two valid legs.,
+proposal_to_dyad_reconciliation,PASS,Every proposal maps to one dyad.,
+three_structural_channels,PASS,All three controlled structural channels produced raw proposals.,"{'financial_shared_neighbor': 768, 'within_component': 97, 'documentary_shared_neighbor': 11}"
+one_terminal_status,PASS,Every dyad has one terminal status.,412
+authorizing_occurrence_actor_alignment,PASS,Authorizing A/B occurrences resolve exactly to normalized dyad actors A/B.,248
+selected_endpoint_decisions_complete,PASS,Every selected dyad carries both endpoint authorities and reasons.,248
+survivor_proposal_local_provenance_complete,PASS,"Every survivor retains its proposal, aligned occurrences, and both endpoint decisions.",199
+nonzero_frontier,PASS,Raw deduplicated frontier is non-zero.,412
+nonzero_survivors,PASS,Surviving candidate set is non-zero.,199
+nonzero_expected_mass,PASS,Expected edge count is non-zero.,97.39988241104
+visibility_exact_reconstruction,PASS,U_visibility exactly reconstructs from fully endpoint-authorized valid proposals before anti-joins.,5d8f56aa526eca848d3c73533d69915cff0c02b873499c962f6db05f760f6bb3
+survivors_in_visibility,PASS,All survivor endpoints belong to U_visibility.,
+visibility_complete_finite,PASS,U_visibility statistics are complete and finite.,29
+visibility_probability_bounds,PASS,"All D and missingness values lie in [0,1].",
+dyad_probability_bounds,PASS,"All dyad probabilities lie in [0,1].",
+survivor_probability_formula,PASS,Every survivor probability equals m_a times m_b.,
+excluded_dyad_zero_probability,PASS,Every excluded dyad has zero live probability.,
+o6_actors_in_visibility,PASS,Every O6 actor belongs to U_visibility.,29
+o6_population_gate,PASS,At least one central and three non-central actors.,"{'low': 6, 'central': 2, 'high': 17, 'medium': 4}"
+o6_one_class_per_actor,PASS,Exactly one class row per O6 actor.,
+o6_all_classes_positive,PASS,All four O6 classes have positive population.,"{'low': 6, 'central': 2, 'high': 17, 'medium': 4}"
+o6_authority_gate,PASS,No unclassified actor or unauthorized observed relation enters O6.,43
+o6_positive_internal_expected_mass,PASS,Internal imputed-edge expected incidence is positive.,97.39988241104
+o6_central_normalization_gate,PASS,Central incidence and rate are finite and positive.,16.161404304454
+o6_finite_class_arithmetic,PASS,Every O6 O_c/M_c/I_c/r_c/w_c value is finite and non-negative.,
+o6_modeled_incidence_reconciliation_preflight,PASS,O6 modeled class incidence equals twice internal expected edge mass.,194.79976482208
+o6_effective_population_gate,PASS,O6 N_eff is finite and positive.,17.374713207607
+publilius_400k,PASS,"Publilius is one exact 400,000-HS stock amount; payment and inferred remainder are excluded.",
+records_28_34_separate,PASS,Records 28 and 34 remain separate.,
+strict_exclusions,PASS,"ATT-PILOT-0037, records 28/34, and political/context records do not enter strict families.",
+o56_membership_unique,PASS,Reviewed O5-6 components have non-duplicated member sets.,11
+o56_all_high_confidence,PASS,Every O5-6 member remains high confidence.,
+fixed_anchors,PASS,"Fixed 300,000/400,000 anchors are unchanged.",

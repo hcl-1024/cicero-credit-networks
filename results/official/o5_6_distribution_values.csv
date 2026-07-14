@@ -1,0 +1,7 @@
+model,parameter,cicero_position,senators_600_mean_hs
+lognormal,sigma=1.0,p50,3637491303
+lognormal,sigma=1.0,p75,1852997303
+lognormal,sigma=1.0,p90,1009790286
+truncated_pareto,alpha=1.585;cap=50000000,p50,3236738926
+truncated_pareto,alpha=1.585;cap=50000000,p75,2176817519
+truncated_pareto,alpha=1.585;cap=50000000,p90,1270518917

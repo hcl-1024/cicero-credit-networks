@@ -1,0 +1,16 @@
+{
+  "proposal_id": "00000000-0000-4000-8000-000000000001",
+  "proposal_type": "new_record",
+  "ancient_source_citation": "Att. 12.25",
+  "source_url_or_edition": "Give a stable edition or source URL",
+  "date": "45 BCE",
+  "borrower_proposed": "Cicero",
+  "lender_proposed": "Silius",
+  "third_parties_proposed": ["Hermogenes"],
+  "latin_evidence": "Short relevant passage",
+  "english_interpretation": "Contributor's concise interpretation",
+  "amount_as_written": "HS DC",
+  "confidence_proposed": "high",
+  "relationship_to_existing_records": ["ATT-PILOT-0011"],
+  "contributor_note": "Explain whether this is new evidence or another attestation."
+}

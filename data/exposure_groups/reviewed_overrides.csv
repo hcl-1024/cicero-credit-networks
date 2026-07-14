@@ -1,0 +1,11 @@
+record_id,action,survivor_record_id,exposure_group_id,tenure_months_override,stock_rule,human_review_status,notes
+ATT-PILOT-0008,merge,ATT-PILOT-0005,EG-CLEAN-0045,,inherit_survivor,accepted,Do not count as a separate exposure.
+VRB-STAGED-0063,merge,ATT-PILOT-0005,EG-CLEAN-0045,,inherit_survivor,accepted,Do not count as a separate exposure.
+VRB-STAGED-0034,merge,VRB-STAGED-0020,EG-CLEAN-0099,,inherit_survivor,accepted,Do not count as a separate exposure.
+VRB-STAGED-0046,merge,VRB-STAGED-0040,EG-CLEAN-0075,,inherit_survivor,accepted,Do not count as a separate exposure.
+VRB-STAGED-0087,merge,VRB-STAGED-0081,EG-CLEAN-0114,,inherit_survivor,accepted,Do not count as a separate exposure.
+VRB-STAGED-0101,merge,VRB-STAGED-0048,EG-CLEAN-0093,,inherit_survivor,accepted,Do not count as a separate exposure.
+ATT-PILOT-0015,retire,,,,exclude,accepted,No discrete loan record.
+ATT-PILOT-0033,tenure_override,,,14,unchanged_pending_recalculation,accepted,Human correction from 43 to 14 months.
+VRB-STAGED-0027,exclude_exposure_group,,,,context_only,accepted,Retain canonical provenance but no live exposure group.
+VRB-STAGED-0056,retain_distinct,,unchanged,,unchanged_pending_recalculation,accepted_user_override,Earlier duplicate/delete annotation was mistaken.

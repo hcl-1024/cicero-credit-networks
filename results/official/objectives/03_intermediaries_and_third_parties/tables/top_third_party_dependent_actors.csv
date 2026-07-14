@@ -1,0 +1,41 @@
+node_id,actor_name,actor_type,record_count,direct_record_count,third_party_record_count,weighted_degree,direct_edge_degree,third_party_context_edge_degree,total_direct_plus_context_degree,third_party_dependence_ratio,third_party_to_direct_degree_ratio,borrower_count,lender_count,third_party_count,confidence_values,episode_groups
+actor_eros,Eros,freedman_or_agent,4,0,4,8,0,8,8,1.000,8.000,0,0,4,high; medium,Att. 16.6 Cluvian-Publilius-Terentia cluster; Other/private credit; Philotimus/Philogenes accounts
+actor_tullia,Tullia,family_or_household,3,0,3,5,0,5,5,1.000,5.000,0,0,3,low,Other/private credit
+actor_verres,Verres,individual,2,0,2,5,0,5,5,1.000,5.000,0,0,2,high,Other/private credit
+actor_balbus,Balbus,individual,2,0,2,4,0,4,4,1.000,4.000,0,0,2,medium,Dolabella debt/account thread; Silius/Faberius garden-finance thread
+actor_cluvius_procurators,Cluvius procurators,collective_group,2,0,2,4,0,4,4,1.000,4.000,0,0,2,high,Other/private credit
+actor_loan_terms_unverified,loan terms unverified,non_actor_placeholder,2,0,2,4,0,4,4,1.000,4.000,0,0,2,medium,Caelius/Caesar obligation
+actor_hermippus,Hermippus,individual,1,0,1,3,0,3,3,1.000,3.000,0,0,1,high,Other/private credit
+actor_hermogenes,Hermogenes,individual,1,0,1,3,0,3,3,1.000,3.000,0,0,1,high,Silius/Faberius garden-finance thread
+actor_l_lucullus,L. Lucullus,individual,1,0,1,3,0,3,3,1.000,3.000,0,0,1,medium,Other/private credit
+actor_l_pontius,L. Pontius,individual,1,0,1,3,0,3,3,1.000,3.000,0,0,1,medium,Other/private credit
+actor_p_scipio,P. Scipio,individual,1,0,1,3,0,3,3,1.000,3.000,0,0,1,medium,Other/private credit
+actor_q_paconius_lepta,Q. Paconius Lepta,individual,2,0,2,3,0,3,3,1.000,3.000,0,0,2,high; medium,Caelius/Caesar obligation; Other/private credit
+actor_roman_state_grain_funds,Roman state grain funds,public_body,1,0,1,3,0,3,3,1.000,3.000,0,0,1,high,Other/private credit
+actor_appius_claudius,Appius Claudius,individual,1,0,1,2,0,2,2,1.000,2.000,0,0,1,high,Other/private credit
+actor_appuleius,Appuleius,individual,1,0,1,2,0,2,2,1.000,2.000,0,0,1,medium,Cornificius surety
+actor_ateius_capito,Ateius Capito,individual,1,0,1,2,0,2,2,1.000,2.000,0,0,1,low,Montanus/Flaminius surety thread
+actor_cn_sallustius,Cn. Sallustius,individual,1,0,1,2,0,2,2,1.000,2.000,0,0,1,medium,Sallustius settlement
+actor_d_iunius_brutus,D. Iunius Brutus,individual,1,0,1,2,0,2,2,1.000,2.000,0,0,1,high,Other/private credit
+actor_l_culleolus,L. Culleolus,individual,1,0,1,2,0,2,2,1.000,2.000,0,0,1,high,Other/private credit
+actor_l_ligus,L. Ligus,individual,1,0,1,2,0,2,2,1.000,2.000,0,0,1,high,Quintus debt thread
+actor_m_laenius,M. Laenius,individual,1,1,0,2,0,2,2,1.000,2.000,0,1,0,medium,Silius/Faberius garden-finance thread
+actor_matinius,Matinius,professional_financier,1,0,1,2,0,2,2,1.000,2.000,0,0,1,high,Other/private credit
+actor_meton,Meton,individual,1,0,1,2,0,2,2,1.000,2.000,0,0,1,high,Silius/Faberius garden-finance thread
+actor_minucius_thermus,Minucius Thermus,individual,1,0,1,2,0,2,2,1.000,2.000,0,0,1,high,Other/private credit
+actor_pomponia,Pomponia,individual,1,0,1,2,0,2,2,1.000,2.000,0,0,1,high,Quintus debt thread
+actor_q_titinius,Q. Titinius,individual,1,0,1,2,0,2,2,1.000,2.000,0,0,1,high,Quintus debt thread
+actor_scaptius,Scaptius,professional_financier,1,0,1,2,0,2,2,1.000,2.000,0,0,1,high,Other/private credit
+actor_senate,Senate,public_body,1,0,1,2,0,2,2,1.000,2.000,0,0,1,high,Other/private credit
+actor_servilius,Servilius,individual,1,0,1,2,0,2,2,1.000,2.000,0,0,1,medium,Other/private credit
+actor_sex_naevius,Sex. Naevius,individual,1,0,1,2,0,2,2,1.000,2.000,0,0,1,high,Other/private credit
+actor_varro,Varro,individual,1,0,1,2,0,2,2,1.000,2.000,0,0,1,medium,Other/private credit
+actor_xeno,Xeno,individual,1,0,1,2,0,2,2,1.000,2.000,0,0,1,medium,Other/private credit
+actor_doctor,doctor,non_actor_placeholder,1,0,1,2,0,2,2,1.000,2.000,0,0,1,medium,Tiro/domestic accounts
+actor_political_payment_neutrality_purchase,political payment/neutrality purchase,non_actor_placeholder,1,0,1,2,0,2,2,1.000,2.000,0,0,1,medium,Caelius/Caesar obligation
+actor_possible_political_payment_bribe,possible political payment/bribe,non_actor_placeholder,1,0,1,2,0,2,2,1.000,2.000,0,0,1,medium,Caelius/Caesar obligation
+actor_procuratores,procuratores,collective_group,1,0,1,2,0,2,2,1.000,2.000,0,0,1,high,Other/private credit
+actor_silver_bowl_gift_like_aid,silver bowl gift-like aid,non_actor_placeholder,1,0,1,2,0,2,2,1.000,2.000,0,0,1,medium,Other/private credit
+actor_unnamed_deposit_holder,unnamed deposit-holder,non_actor_placeholder,1,0,1,2,0,2,2,1.000,2.000,0,0,1,high,Other/private credit
+actor_brutus_albinus,Brutus Albinus,individual,1,0,1,1,0,1,1,1.000,1.000,0,0,1,medium,Other/private credit
+actor_brutus_albinus_friends,Brutus Albinus friends,collective_group,1,1,0,1,0,1,1,1.000,1.000,1,0,0,medium,Other/private credit

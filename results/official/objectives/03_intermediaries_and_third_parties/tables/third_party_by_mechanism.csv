@@ -1,0 +1,9 @@
+mechanism_type,edge_count,direct_edge_count,third_party_context_edge_count,third_party_edge_share,scope_values,record_count_sum_across_scopes,top_actor_examples
+account/nomina,83,21,62,0.747,ambiguous; civic; comparative; household; private; public,28,Cicero (47); Atticus (20); Tiro (12); Caerellia (6); Eros (6); Brutus (5); Salamis (5); Curius (4)
+repayment pressure,49,15,34,0.694,comparative; household; political; private; public,14,Cicero (15); Caecilius (5); Cluvius (5); Atticus (4); A. Caninius Satyrus (4); P. Varius (4); Nicaea (3); P. Sallustius (3)
+surety,49,12,37,0.755,ambiguous; comparative; household; private; public,17,Cicero (16); Cornificius (4); Iunius (4); Greek provincial communities (3); L. Lucceius (3); Quintus Cicero (3); city of Byllis (3); publicani (3)
+ambiguous,32,17,15,0.469,ambiguous; civic; comparative; household; private; public,13,Cicero (20); Atticus (6); Quintus Cicero (5); Castricius (3); Silius (3); amici (3); Hermogenes (3); Philargyrus (2)
+refinancing/versura,31,7,24,0.774,comparative; household; private,9,Cicero (11); Atticus (10); Egnatius (7); Quintus Cicero (7); Oppius (3); Dolabella (2); Hortensius (2); Eros (2)
+political/civic finance,26,11,15,0.577,ambiguous; comparative; public,13,Quintus Cicero (4); Cicero (4); borrowers under Verres' scheme (4); Caesar (3); Cato the Younger (3); Roman state grain funds (3); L. Carpinatius (3); Sicilian tax company (3)
+recommendation,21,4,17,0.810,ambiguous; civic; private; public,7,Cicero (10); Buthrotum (3); Plancus (3); Cluvius (3); L. Titius Strabo (3); P. Cornelius (3); Ateius Capito (2); Brutus (2)
+direct loan,10,8,2,0.200,civic; comparative; private; public,9,Cicero (6); Caelius (2); Pompey (2); Atticus (2); Clodia (1); Caesar (1); Crassus (1); Q. Considius' debtors (1)

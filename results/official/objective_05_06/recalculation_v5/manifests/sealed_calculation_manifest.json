@@ -1,0 +1,125 @@
+{
+  "allowlisted_calculation_inputs": [
+    {
+      "bytes": 42542,
+      "path": "results/official/objective_05_06/recalculation_v5/typed/exposure_member_authority.csv",
+      "role": "members",
+      "sha256": "780a2eab89694b9a5df6be962b8cb7332329bbd75d01f6232ca026650dbcf8c2"
+    },
+    {
+      "bytes": 17689,
+      "path": "results/official/objective_05_06/recalculation_v5/typed/exposure_amount_authority.csv",
+      "role": "amounts",
+      "sha256": "f44970cc8d112b69c6d4322256e0331e4b244a3ab5a79be17f12146c4fa53776"
+    },
+    {
+      "bytes": 17898,
+      "path": "results/official/objective_05_06/recalculation_v5/typed/actor_occurrence_authority.csv",
+      "role": "occurrences",
+      "sha256": "26cf8a86c56e2eed154602306a80462172192501c5345605d37f04c545645b5a"
+    },
+    {
+      "bytes": 3825,
+      "path": "results/official/objective_05_06/recalculation_v5/typed/actor_alias_authority.csv",
+      "role": "aliases",
+      "sha256": "982daaea54a8463cc5124b8f9e9a32ec808b1a48a24be552e391293624a0ebde"
+    },
+    {
+      "bytes": 25681,
+      "path": "results/official/objective_05_06/recalculation_v5/typed/relation_authority.csv",
+      "role": "relations",
+      "sha256": "dad61a631d7d4470fe0e2dbbe003a4e72521cf6b10b7bbea5a31ff6baa73041f"
+    },
+    {
+      "bytes": 8305,
+      "path": "results/official/objective_05_06/recalculation_v5/typed/paper_exposure_crosswalk.csv",
+      "role": "paper_crosswalk",
+      "sha256": "31ddcbd3a9fa062fd756dc09d9f4c21cf4bda29ce72c3487a2bc86d048f74b04"
+    },
+    {
+      "bytes": 2607,
+      "path": "results/official/objective_05_06/recalculation_v5/intermediate/o5_t4_component_inputs.csv",
+      "role": "t4_inputs",
+      "sha256": "6114893b66851bdb856366d08156a159a6ab48197e1fa9d39f30bf0b3f1408d8"
+    },
+    {
+      "bytes": 397,
+      "path": "results/official/objective_05_06/recalculation_v5/intermediate/calibration_exact_points.csv",
+      "role": "calibration_points",
+      "sha256": "5478ce00bd982e7a98d6aa3b06b5d109faf9566efe6132a62b532ed55a953689"
+    },
+    {
+      "bytes": 687678,
+      "path": "results/official/objective_05_06/recalculation_v5/intermediate/o5_t5_proposal_provenance.csv",
+      "role": "proposals",
+      "sha256": "c5518e04be72a631a8954002f03b5f31928bc9bcc6bb449103af67a3b05c4037"
+    },
+    {
+      "bytes": 116858,
+      "path": "results/official/objective_05_06/recalculation_v5/intermediate/o5_t5_normalized_dyads.csv",
+      "role": "dyads",
+      "sha256": "3e23695f48ba3779be708ead99027c93a0943d3553040afb8dba686b1ecd8a8e"
+    },
+    {
+      "bytes": 2153,
+      "path": "results/official/objective_05_06/recalculation_v5/intermediate/u_visibility_actor_statistics.csv",
+      "role": "visibility",
+      "sha256": "deb1f4e50ce889d488372773bcf9dfc65546fbedfef4a5a31dc6d406e14a3d7b"
+    },
+    {
+      "bytes": 424,
+      "path": "results/official/objective_05_06/recalculation_v5/intermediate/u_visibility_actor_ids.csv",
+      "role": "visibility_ids",
+      "sha256": "c06096e82ede5739ef25d11c5db1b0671367781fb1a5ba7b6468c62b4a8ccdb0"
+    },
+    {
+      "bytes": 6620,
+      "path": "results/official/objective_05_06/recalculation_v5/intermediate/o6_actor_classes.csv",
+      "role": "o6_actors",
+      "sha256": "4dea4ad0cf99e7ac065f9a5580138d3f607348f33bfb4cf724320012214c4c55"
+    },
+    {
+      "bytes": 5179,
+      "path": "results/official/objective_05_06/recalculation_v5/intermediate/o6_observed_relations.csv",
+      "role": "o6_observed",
+      "sha256": "16bf525a98c31767088d7e492e006ca4715e7e8d0c0b7867244a9746ba48699c"
+    },
+    {
+      "bytes": 12751,
+      "path": "results/official/objective_05_06/recalculation_v5/intermediate/o6_internal_candidate_expected_incidence.csv",
+      "role": "o6_internal",
+      "sha256": "7f2d7b26fbf8e52db2e7e21e3cb4753eacc2330fe6f3fd70c73d3cd142106971"
+    }
+  ],
+  "anchors_hs": [
+    300000,
+    400000
+  ],
+  "calibration_folds": {
+    "bytes": 7933,
+    "path": "results/official/objective_05_06/recalculation_v5/calibration/k_leave_one_out_folds.csv",
+    "role": "calibration_folds",
+    "sha256": "26d4018df2a7a1c5706e3a61bd13ee023df423fd6f3de47d300ca8d54be29f40"
+  },
+  "calibration_input_fingerprint": "7fc2481efcfbf24aeb6c911cb0b5efe038f1e249dcd76869f9fcb3e278ea3253",
+  "calibration_scores": {
+    "bytes": 957,
+    "path": "results/official/objective_05_06/recalculation_v5/calibration/k_scores.csv",
+    "role": "calibration_scores",
+    "sha256": "125a9d6eccdabcce6d90cd02d92e525685df1990de8a24d45c23b477502c6f0f"
+  },
+  "created_utc": "2026-07-14T00:00:00+00:00",
+  "git_commit": "release-tag-recorded-by-git",
+  "k_calibration_domain": {
+    "maximum": 50,
+    "minimum": 5,
+    "selection": "minimum_equal_weight_mean_absolute_natural_log_error; ties within 1e-12 choose lower k"
+  },
+  "manifest_type": "sealed_calculation_manifest",
+  "max_h_visibility": "13.836312685594",
+  "preflight_manifest_sha256": "02d0a19dd09985bedf360ff55f2382fbf6c5625ff8466d0531ffa813781795c9",
+  "repair_version": "postcalc_provenance_repair_2026_07_14",
+  "selected_k": 5,
+  "selected_k_count": 1,
+  "u_visibility_fingerprint": "5d8f56aa526eca848d3c73533d69915cff0c02b873499c962f6db05f760f6bb3"
+}

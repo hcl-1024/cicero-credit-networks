@@ -1,0 +1,5 @@
+/data/canonical/ @OWNER
+/data/exposure_groups/ @OWNER
+/config/ @OWNER
+/results/official/ @OWNER
+/validation/ @OWNER

@@ -1,0 +1,44 @@
+collection,source_type,local_file,url,status
+Atticus,Latin,sources/raw/atticus_att1.shtml,https://www.thelatinlibrary.com/cicero/att1.shtml,exists
+Atticus,Latin,sources/raw/atticus_att2.shtml,https://www.thelatinlibrary.com/cicero/att2.shtml,exists
+Atticus,Latin,sources/raw/atticus_att3.shtml,https://www.thelatinlibrary.com/cicero/att3.shtml,exists
+Atticus,Latin,sources/raw/atticus_att4.shtml,https://www.thelatinlibrary.com/cicero/att4.shtml,exists
+Atticus,Latin,sources/raw/atticus_att5.shtml,https://www.thelatinlibrary.com/cicero/att5.shtml,exists
+Atticus,Latin,sources/raw/atticus_att6.shtml,https://www.thelatinlibrary.com/cicero/att6.shtml,exists
+Atticus,Latin,sources/raw/atticus_att7.shtml,https://www.thelatinlibrary.com/cicero/att7.shtml,exists
+Atticus,Latin,sources/raw/atticus_att8.shtml,https://www.thelatinlibrary.com/cicero/att8.shtml,exists
+Atticus,Latin,sources/raw/atticus_att9.shtml,https://www.thelatinlibrary.com/cicero/att9.shtml,exists
+Atticus,Latin,sources/raw/atticus_att10.shtml,https://www.thelatinlibrary.com/cicero/att10.shtml,exists
+Atticus,Latin,sources/raw/atticus_att11.shtml,https://www.thelatinlibrary.com/cicero/att11.shtml,exists
+Atticus,Latin,sources/raw/atticus_att12.shtml,https://www.thelatinlibrary.com/cicero/att12.shtml,fetched
+Atticus,Latin,sources/raw/atticus_att13.shtml,https://www.thelatinlibrary.com/cicero/att13.shtml,fetched
+Atticus,Latin,sources/raw/atticus_att14.shtml,https://www.thelatinlibrary.com/cicero/att14.shtml,fetched
+Atticus,Latin,sources/raw/atticus_att15.shtml,https://www.thelatinlibrary.com/cicero/att15.shtml,fetched
+Atticus,Latin,sources/raw/atticus_att16.shtml,https://www.thelatinlibrary.com/cicero/att16.shtml,fetched
+Familiares,Latin,sources/raw/familiares_fam1.shtml,https://www.thelatinlibrary.com/cicero/fam1.shtml,fetched
+Familiares,Latin,sources/raw/familiares_fam2.shtml,https://www.thelatinlibrary.com/cicero/fam2.shtml,fetched
+Familiares,Latin,sources/raw/familiares_fam3.shtml,https://www.thelatinlibrary.com/cicero/fam3.shtml,fetched
+Familiares,Latin,sources/raw/familiares_fam4.shtml,https://www.thelatinlibrary.com/cicero/fam4.shtml,fetched
+Familiares,Latin,sources/raw/familiares_fam5.shtml,https://www.thelatinlibrary.com/cicero/fam5.shtml,fetched
+Familiares,Latin,sources/raw/familiares_fam6.shtml,https://www.thelatinlibrary.com/cicero/fam6.shtml,fetched
+Familiares,Latin,sources/raw/familiares_fam7.shtml,https://www.thelatinlibrary.com/cicero/fam7.shtml,fetched
+Familiares,Latin,sources/raw/familiares_fam8.shtml,https://www.thelatinlibrary.com/cicero/fam8.shtml,fetched
+Familiares,Latin,sources/raw/familiares_fam9.shtml,https://www.thelatinlibrary.com/cicero/fam9.shtml,fetched
+Familiares,Latin,sources/raw/familiares_fam10.shtml,https://www.thelatinlibrary.com/cicero/fam10.shtml,fetched
+Familiares,Latin,sources/raw/familiares_fam11.shtml,https://www.thelatinlibrary.com/cicero/fam11.shtml,fetched
+Familiares,Latin,sources/raw/familiares_fam12.shtml,https://www.thelatinlibrary.com/cicero/fam12.shtml,fetched
+Familiares,Latin,sources/raw/familiares_fam13.shtml,https://www.thelatinlibrary.com/cicero/fam13.shtml,fetched
+Familiares,Latin,sources/raw/familiares_fam14.shtml,https://www.thelatinlibrary.com/cicero/fam14.shtml,fetched
+Familiares,Latin,sources/raw/familiares_fam15.shtml,https://www.thelatinlibrary.com/cicero/fam15.shtml,fetched
+Familiares,Latin,sources/raw/familiares_fam16.shtml,https://www.thelatinlibrary.com/cicero/fam16.shtml,fetched
+Quintum,Latin,sources/raw/quintum_fratrem1.shtml,https://www.thelatinlibrary.com/cicero/fratrem1.shtml,fetched
+Quintum,Latin,sources/raw/quintum_fratrem2.shtml,https://www.thelatinlibrary.com/cicero/fratrem2.shtml,fetched
+Quintum,Latin,sources/raw/quintum_fratrem3.shtml,https://www.thelatinlibrary.com/cicero/fratrem3.shtml,fetched
+Brutum,Latin,sources/raw/brutum_adbrutum1.shtml,https://www.thelatinlibrary.com/cicero/adbrutum1.shtml,fetched
+Brutum,Latin,sources/raw/brutum_adbrutum2.shtml,https://www.thelatinlibrary.com/cicero/adbrutum2.shtml,fetched
+Atticus,English OCR,sources/raw/atticus_winstedt_vol1_ocr.txt,https://archive.org/stream/letterstoatticus01ciceuoft/letterstoatticus01ciceuoft_djvu.txt,exists
+Atticus,English OCR,sources/raw/atticus_winstedt_vol2_ocr.txt,https://archive.org/stream/letterstoatticus02ciceuoft/letterstoatticus02ciceuoft_djvu.txt,exists
+Atticus,English OCR,sources/raw/atticus_winstedt_vol3_ocr.txt,https://archive.org/stream/letterstoatticuswins03ciceuoft/letterstoatticuswins03ciceuoft_djvu.txt,exists
+Familiares,English OCR,sources/raw/familiares_glynn_williams_vol1_ocr.txt,https://archive.org/stream/letterstohisfrie01ciceuoft/letterstohisfrie01ciceuoft_djvu.txt,fetched
+Familiares,English OCR,sources/raw/familiares_glynn_williams_vol2_ocr.txt,https://archive.org/stream/letterstohisfrie02ciceuoft/letterstohisfrie02ciceuoft_djvu.txt,fetched
+Multiple,English OCR,sources/raw/familiares_quintus_brutus_glynn_williams_vol3_ocr.txt,https://archive.org/stream/letterstohisfrie03ciceuoft/letterstohisfrie03ciceuoft_djvu.txt,fetched

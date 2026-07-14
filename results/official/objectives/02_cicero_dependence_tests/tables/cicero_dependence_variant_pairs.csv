@@ -1,0 +1,2 @@
+variant_pair_id,included_variant,removed_variant,comparison_scope,interpretive_use,included_node_count,removed_node_count,included_edge_count,removed_edge_count,included_record_count,removed_record_count
+ciceronian_period_vs_cicero_removed,ciceronian_period_graph,ciceronian_period_cicero_removed_graph,100-40 BCE Ciceronian-period transaction-safe actor edges,Main same-scope source-vantage stress test; use to identify actors and components whose prominence depends on Cicero as an archival hub within the selected Ciceronian-period graph.,144,132,291,164,104,76

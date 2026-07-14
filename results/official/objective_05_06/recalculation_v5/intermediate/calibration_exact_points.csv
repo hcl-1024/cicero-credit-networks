@@ -1,0 +1,4 @@
+exposure_group_id,member_record_ids,amount_hs,amount_semantics,eligibility_reason
+EG-CLEAN-0025,ATT-PILOT-0014,200000,debt_principal,positive_exact_private_stock_exposure
+EG-CLEAN-0118,ATT-PILOT-0018,25000,consolidated_loan_balance,positive_exact_private_stock_exposure
+O5EG-0015,ATT-PILOT-0030;ATT-PILOT-0035,400000,residual_balance_before_immediate_payment,positive_exact_private_stock_exposure

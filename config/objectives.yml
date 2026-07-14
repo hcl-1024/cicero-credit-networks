@@ -1,0 +1,31 @@
+schema_version: 1
+objectives:
+  O1:
+    label: Actor centrality by social role
+    question: Which types of people occupy important positions in the documented credit network?
+    principal_outputs: actor centrality and actor-type summaries
+  O2:
+    label: Dependence on Cicero's archive
+    question: How much do network results change when Cicero is removed as actor and archival vantage point?
+    principal_outputs: with-and-without-Cicero centrality and component comparisons
+  O3:
+    label: Intermediaries and third parties
+    question: How often does credit depend on agents, friends, sureties, recommenders, or account managers?
+    principal_outputs: direct and third-party graph comparisons
+  O4:
+    label: Credit mechanisms and financial pressure
+    question: Which records show refinancing, repayment pressure, surety, delegated claims, account transfers, or liquidity stress?
+    principal_outputs: record-level pressure classifications and refinancing chains
+  O5:
+    label: Active private-credit stock in Cicero's community
+    question: How much private-credit stock is visible or modeled within the documented Cicero-centered community?
+    principal_outputs: reviewed register baseline and controlled missing-edge calculation
+  O6:
+    label: Wider Roman-elite comparison
+    question: How does a selected O5 handoff scale to a transparent 600-senator comparison population?
+    principal_outputs: class-weighted whole-O5 extrapolation
+  O5-6:
+    label: Cicero borrower-side distribution route
+    question: What wider comparison follows when Cicero's high-confidence 45-44 BCE borrower stock is assigned an illustrative position in a positive-stock distribution?
+    principal_outputs: lognormal, truncated-Pareto, and participation sensitivities
+    note: This is a separate route connecting O5 evidence to O6 comparisons, not a seventh objective.

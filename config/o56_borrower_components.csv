@@ -1,0 +1,10 @@
+component_id,member_record_ids,amount_treatment,fixed_amount_hs,active_fraction,review_status,public_basis
+O56-45-ATT-12-22-12-25-GARDEN,ATT-PILOT-0011;ATT-PILOT-0012,fixed,1200000,1,approved,Two distinct 600000-HS funding clauses
+O56-45-ATT-12-51-CAERELLIA,ATT-PILOT-0026,imputed,,1,approved,High-confidence private-stock pair
+O56-44-ATT-16-2-HORTENSIUS,ATT-PILOT-0029,imputed,,1,approved,High-confidence private-stock pair
+O56-44-ATT-16-2-16-6-PUBLILIUS,ATT-PILOT-0030;ATT-PILOT-0035,fixed,400000,1,approved,Source-attested residual balance
+O56-44-ATT-15-15-UNSPECIFIED-LENDER,ATT-PILOT-0013,imputed,,0.5,approved,Six-month active tenure
+O56-44-ATT-15-20-REFINANCING,ATT-PILOT-0014,fixed,200000,0.4166666666666667,approved,Five-month versura
+O56-44-ATT-16-6-CLUVIAN-COHEIRS,ATT-PILOT-0017,imputed,,1,approved,High-confidence private-stock pair
+O56-44-ATT-16-6-TERENTIA-SECURITY,ATT-PILOT-0036,imputed,,1,approved,High-confidence secured obligation
+O56-44-FAM-16-24-OFILLIUS-AURELIUS,FAM-PILOT-0004,imputed,,1,approved,High-confidence account claim

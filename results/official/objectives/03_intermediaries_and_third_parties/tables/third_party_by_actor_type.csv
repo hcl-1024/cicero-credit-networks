@@ -1,0 +1,10 @@
+actor_type,node_count,weighted_degree,direct_edge_degree,third_party_context_edge_degree,total_direct_plus_context_degree,third_party_dependence_ratio,third_party_to_direct_degree_ratio,top_nodes
+individual,111,482,155,327,482,0.678,2.110,Cicero (133); Atticus (46); Caesar (11); Brutus (9); Egnatius (9); Caecilius (6); Caerellia (6); Dolabella (6); Faberius (6); Silius (6)
+family_or_household,3,35,7,28,35,0.800,4.000,Quintus Cicero (22); Terentia (8); Tullia (5)
+collective_group,14,33,13,20,33,0.606,1.538,Cluvius procurators (4); borrowers under Verres' scheme (4); Cluvian coheirs (3); Sicilian tax company (3); Tullia's creditors (3); amici (3); publicani (3); Antony creditors (2); friends of Cato (2); procuratores (2)
+non_actor_placeholder,14,33,9,24,33,0.727,2.667,loan terms unverified (4); unknown creditor (4); investment debtors or cities (3); state or public contract (3); doctor (2); political payment/neutrality purchase (2); possible political payment/bribe (2); silver bowl gift-like aid (2); tax/credit claimants not individually named (2); unclear expected from Marcellus (2)
+civic_body,11,29,11,18,29,0.621,1.636,Salamis (5); Arpinum (4); Greek provincial communities (3); Nicaea (3); city of Byllis (3); Sardis (2); cities in Asia (2); city of Dyrrhachium (2); city of Sicyon (2); multiple provincial communities (2)
+freedman_or_agent,4,29,5,24,29,0.828,4.800,Tiro (14); Eros (8); Philotimus (6); Philogenes (1)
+professional_financier,5,16,6,10,16,0.625,1.667,Cluvius (10); Matinius (2); Scaptius (2); C. Vestorius (1); Selicius (1)
+public_body,4,8,1,7,8,0.875,7.000,Roman state grain funds (3); Roman state (2); Senate (2); provincial governor (1)
+estate,1,1,1,0,1,0.000,0.000,Scapula estate (1)

@@ -1,0 +1,6 @@
+value_id,public_label,value,unit,calculation_window,method_release
+O5-T4,Reviewed register baseline,6295833.333333,HS,45-44 BCE,recalculation_v5
+O5-T5-missing-edge-increment,Controlled missing-edge increment,35307457.374002,HS,45-44 BCE,recalculation_v5
+O5-T5,Graph-respecting Cicero-community stock,41603290.707335,HS,45-44 BCE,recalculation_v5
+O5-6,Cicero borrower-side calibration,3677083.333333,HS,45-44 BCE,recalculation_v5
+O6W-T5A,Weighted 600-senator comparison,1436684112,HS,45-44 BCE,recalculation_v5

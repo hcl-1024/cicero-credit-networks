@@ -1,0 +1,23 @@
+field,description
+record_id,Stable project identifier for each extracted record.
+collection,Cicero letter collection, e.g. Atticus.
+book,Book number where applicable.
+letter,Letter number within book/source.
+source_letter_id,Normalized reference, e.g. Att. 1.12.
+date,Date as given by source or later editorial convention.
+sender,Sender of the letter.
+recipient,Recipient of the letter.
+borrower,Person or group borrowing/owing money.
+lender,Person or group lending/being owed money.
+third_parties,Agents guarantors sureties intermediaries or other relevant parties.
+amount,Amount mentioned in the source.
+currency_or_unit,Currency or unit such as HS sestertii denarii talents.
+interest_or_terms,Interest rate due date repayment terms security collateral or other terms.
+status,Controlled value: requested promised advanced owed repaid overdue disputed guaranteed transferred unclear.
+loan_type,Controlled value: personal loan debt repayment surety/guarantee credit arrangement interest/usury ambiguous financial obligation exclude.
+latin_evidence,Short Latin phrase or sentence supporting the extraction.
+english_evidence,Short English phrase or translation note supporting interpretation.
+interpretive_note,Brief explanation of the extraction or ambiguity.
+confidence,high medium low exclude.
+source_url_or_edition,Source URL or bibliographic edition.
+review_status,candidate reviewed accepted rejected needs_review.

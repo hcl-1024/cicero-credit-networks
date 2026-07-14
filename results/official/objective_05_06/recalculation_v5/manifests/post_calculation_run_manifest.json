@@ -1,0 +1,58 @@
+{
+  "calculated_outputs": [
+    {
+      "bytes": 3124,
+      "path": "results/official/objective_05_06/recalculation_v5/calculated/o5_t4_components.csv",
+      "role": "t4_components",
+      "sha256": "d6fa6142a9d935c90bfa92031f2f4fd7bbfad97c51f23dfd915e74979c99806c"
+    },
+    {
+      "bytes": 83652,
+      "path": "results/official/objective_05_06/recalculation_v5/calculated/o5_t5_surviving_candidates.csv",
+      "role": "t5_candidates",
+      "sha256": "5887df92d7ee2e93cdacd12d83c4259c482134b0a46bf7538fac110bc1220440"
+    },
+    {
+      "bytes": 868,
+      "path": "results/official/objective_05_06/recalculation_v5/calculated/o56_components.csv",
+      "role": "o56_components",
+      "sha256": "413522154fa19ff010e111e98ec04cd31a140ffd6f063248de0e72da0bca30a2"
+    },
+    {
+      "bytes": 329,
+      "path": "results/official/objective_05_06/recalculation_v5/calculated/o56_distribution_values.csv",
+      "role": "distribution_values",
+      "sha256": "b4e0270892d96829f63747d312c9f08bd92203cb69378d4a1f359809644cd938"
+    },
+    {
+      "bytes": 950,
+      "path": "results/official/objective_05_06/recalculation_v5/calculated/o6_class_incidence_and_weights.csv",
+      "role": "o6_classes",
+      "sha256": "0e9f35d32fca7590d6ec86a2954aba956978ffc34d2149ed3d43912053c13a56"
+    },
+    {
+      "bytes": 452,
+      "path": "results/official/objective_05_06/recalculation_v5/calculated/recalculated_values_summary.csv",
+      "role": "summary",
+      "sha256": "9e0f0c3bd9f1975e30a25d1fbc9f9617f6ac19674d0d6cb38b5d963aac3db638"
+    }
+  ],
+  "candidate_manifest_sha256": "3e23695f48ba3779be708ead99027c93a0943d3553040afb8dba686b1ecd8a8e",
+  "created_utc": "2026-07-14T00:00:00+00:00",
+  "git_commit": "release-tag-recorded-by-git",
+  "hierarchical_p50_hs": "362500",
+  "paper_hold": true,
+  "platform": "portable-python-standard-library",
+  "post_calculation_checks": {
+    "bytes": 877,
+    "path": "results/official/objective_05_06/recalculation_v5/audits/post_calculation_checks.csv",
+    "role": "post_calculation_checks",
+    "sha256": "9b2949019c302eb4411d29fcdb733145195d33601c388b72b38fa8539cfd6d1f"
+  },
+  "python": "3.13",
+  "repair_version": "postcalc_provenance_repair_2026_07_14",
+  "run_status": "public_release_reproduction",
+  "sealed_manifest_sha256": "db938d126b80602df693a049033ae37ca815df702dba0fc14ab3edce64f4f835",
+  "selected_k": 5,
+  "u_visibility_fingerprint": "5d8f56aa526eca848d3c73533d69915cff0c02b873499c962f6db05f760f6bb3"
+}

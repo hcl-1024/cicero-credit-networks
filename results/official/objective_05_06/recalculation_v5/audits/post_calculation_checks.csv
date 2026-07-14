@@ -1,0 +1,10 @@
+check_id,status,detail,value
+one_live_k,PASS,Exactly one selected_k is stored in the sealed manifest.,5
+data_derived_k_floor,PASS,Selected k is the data-derived leave-one-out winner in the user-authorized k=5..50 domain.,5
+same_k_all_families,PASS,"O5-T4, O5-T5, and O5-6 consumed the sealed k.",5
+fixed_anchors_unchanged,PASS,"300,000 and 400,000 HS anchors retained.",300000;400000
+o56_membership_high_confidence,PASS,Reviewed membership and high-confidence gate retained.,9
+distribution_specifications,PASS,Six fixed lognormal/Pareto derivatives produced.,6
+o6_modeled_incidence_reconciliation,PASS,O6 M_c reconciles to twice internal expected-edge mass.,97.39988241104
+o6_reasonableness_decade,PASS,O6W-T5A remains in the 10^9-HS decade.,1436684112
+paper_hold,PASS,"No paper, figure, or current headline registry was written by this build.",awaiting_post_calculation_audit

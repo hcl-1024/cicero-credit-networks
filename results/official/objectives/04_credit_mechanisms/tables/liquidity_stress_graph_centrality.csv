@@ -1,0 +1,486 @@
+variant_name,centrality_rank,node_id,canonical_name,weighted_degree,direct_edge_degree,context_edge_degree,component_size,pagerank,betweenness
+stress_records_graph,1,actor_cicero,Cicero,118,36,82,104,0.16273505979817363,0.5289497525375388
+stress_records_graph,2,actor_atticus,Atticus,45,8,37,104,0.0578333981866845,0.08806923356541672
+stress_records_graph,3,actor_quintus_cicero,Quintus Cicero,22,6,16,104,0.03022503189991889,0.05308139697452673
+stress_records_graph,4,actor_tiro,Tiro,13,2,11,104,0.017280353439624394,0.006412213740458013
+stress_records_graph,5,actor_brutus,Brutus,9,2,7,104,0.016305580255521385,0.04145625366999413
+stress_records_graph,6,actor_cluvius,Cluvius,8,2,6,104,0.014353831010731607,0.05830886670581327
+stress_records_graph,7,actor_egnatius,Egnatius,9,1,8,104,0.013092111354933511,0.016901546290859274
+stress_records_graph,8,actor_eros,Eros,8,0,8,104,0.011191306151334873,0.0009590917987864554
+stress_records_graph,9,actor_verres,Verres,4,0,4,6,0.010215134059660728,0.0005089058524173028
+stress_records_graph,10,actor_caecilius,Caecilius,5,2,3,6,0.010013332117854207,0.0001467997651203758
+stress_records_graph,11,actor_terentia,Terentia,7,1,6,104,0.00997671704070894,0.005689399658865299
+stress_records_graph,12,actor_borrowers_under_verres_scheme,borrowers under Verres' scheme,4,2,2,6,0.009626940487616954,0.00011743981209630063
+stress_records_graph,13,actor_caerellia,Caerellia,6,1,5,104,0.00948152809930344,0.012223527109023294
+stress_records_graph,14,actor_salamis,Salamis,5,1,4,104,0.009270228627782724,0.016911332941867294
+stress_records_graph,15,actor_heraclides,Heraclides,3,2,1,4,0.008945841392649267,5.871990604815032e-05
+stress_records_graph,16,actor_hermippus,Hermippus,3,0,3,4,0.008945841392649267,5.871990604815032e-05
+stress_records_graph,17,actor_faberius,Faberius,6,1,5,104,0.008549214469566326,0.0002935995302407516
+stress_records_graph,18,actor_plancus,Plancus,5,2,3,104,0.008408980844914439,0.009395464586304282
+stress_records_graph,19,actor_a_caninius_satyrus,A. Caninius Satyrus,4,1,3,6,0.008221472686214789,0.00011743981209630065
+stress_records_graph,20,actor_p_varius,P. Varius,4,1,3,6,0.008221472686214789,0.00011743981209630065
+stress_records_graph,21,actor_silius,Silius,5,1,4,104,0.008202801245495136,0.0002935995302407516
+stress_records_graph,22,actor_dolabella,Dolabella,6,3,3,104,0.008192040602315704,0.0008318653356821297
+stress_records_graph,23,actor_philotimus,Philotimus,6,2,4,104,0.008170424073525355,0.0003229594832648267
+stress_records_graph,24,actor_marc_antony,Marc Antony,4,1,3,104,0.008153446023883211,0.023722842043452732
+stress_records_graph,25,actor_cato_the_younger,Cato the Younger,2,1,1,2,0.007575757575757576,0.0
+stress_records_graph,26,actor_d_iunius_brutus,D. Iunius Brutus,2,0,2,3,0.007575757575757576,0.0
+stress_records_graph,27,actor_p_iunius,P. Iunius,2,1,1,3,0.007575757575757576,0.0
+stress_records_graph,28,actor_p_quinctius,P. Quinctius,2,1,1,3,0.007575757575757576,0.0
+stress_records_graph,29,actor_roman_state,Roman state,2,1,1,3,0.007575757575757576,0.0
+stress_records_graph,30,actor_scapula_heirs,Scapula heirs,2,1,1,3,0.007575757575757576,0.0
+stress_records_graph,31,actor_sex_naevius,Sex. Naevius,2,0,2,3,0.007575757575757576,0.0
+stress_records_graph,32,actor_friends_of_cato,friends of Cato,2,1,1,2,0.007575757575757576,0.0
+stress_records_graph,33,actor_brutus_albinus,Brutus Albinus,1,0,1,2,0.007575757575757576,0.0
+stress_records_graph,34,actor_brutus_albinus_friends,Brutus Albinus friends,1,0,1,2,0.007575757575757576,0.0
+stress_records_graph,35,actor_p_sittius,P. Sittius,1,0,1,2,0.007575757575757576,0.0
+stress_records_graph,36,actor_p_sulla,P. Sulla,1,0,1,2,0.007575757575757576,0.0
+stress_records_graph,37,actor_l_carpinatius,L. Carpinatius,3,1,2,6,0.007450637451932866,7.829320806420042e-05
+stress_records_graph,38,actor_sicilian_tax_company,Sicilian tax company,3,1,2,6,0.007450637451932866,7.829320806420042e-05
+stress_records_graph,39,actor_roman_state_grain_funds,Roman state grain funds,3,0,3,6,0.00740411637927134,3.914660403210021e-05
+stress_records_graph,40,actor_pompey,Pompey,3,0,3,104,0.007352439022463395,0.019542543970024893
+stress_records_graph,41,actor_cornificius,Cornificius,4,1,3,104,0.007078446166924831,0.005930710510863183
+stress_records_graph,42,actor_iunius,Iunius,4,1,3,104,0.007078446166924831,0.005930710510863183
+stress_records_graph,43,actor_tullia,Tullia,5,0,5,104,0.007048635018405824,0.0
+stress_records_graph,44,actor_oppius,Oppius,5,1,4,104,0.006902981214374377,0.0
+stress_records_graph,45,actor_l_lucullus,L. Lucullus,3,0,3,6,0.006332755988087224,2.935995302407516e-05
+stress_records_graph,46,actor_l_pontius,L. Pontius,3,0,3,6,0.006332755988087224,2.935995302407516e-05
+stress_records_graph,47,actor_p_scipio,P. Scipio,3,0,3,6,0.006332755988087224,2.935995302407516e-05
+stress_records_graph,48,actor_flaminius,Flaminius,4,1,3,104,0.006318690343080952,0.003574364566730983
+stress_records_graph,49,actor_m_anneius,M. Anneius,3,1,2,104,0.006263683444519025,0.015689399658865306
+stress_records_graph,50,actor_q_axius,Q. Axius,4,0,4,104,0.006259323632967156,0.00045018594636915245
+stress_records_graph,51,actor_philocles,Philocles,3,1,2,104,0.006228867368491839,5.871990604815032e-05
+stress_records_graph,52,actor_c_fufius,C. Fufius,2,1,1,4,0.006205673758865882,0.0
+stress_records_graph,53,actor_m_fufius,M. Fufius,2,1,1,4,0.006205673758865882,0.0
+stress_records_graph,54,actor_caesar,Caesar,3,1,2,104,0.006007740104179096,0.023722842043452732
+stress_records_graph,55,actor_crassus,Crassus,2,1,1,104,0.005956110691176321,0.011978860833822666
+stress_records_graph,56,actor_cluvius_procurators,Cluvius procurators,3,0,3,104,0.005951398752833483,0.0
+stress_records_graph,57,actor_camillus,Camillus,4,1,3,104,0.005889001425984506,6.263456645136034e-05
+stress_records_graph,58,actor_greek_provincial_communities,Greek provincial communities,3,1,2,104,0.005866680683482086,0.005930710510863183
+stress_records_graph,59,actor_l_lucceius,L. Lucceius,3,1,2,104,0.005866680683482086,0.005930710510863183
+stress_records_graph,60,actor_city_of_byllis,city of Byllis,3,1,2,104,0.005866680683482086,0.005930710510863183
+stress_records_graph,61,actor_publicani,publicani,3,1,2,104,0.005866680683482086,0.005930710510863183
+stress_records_graph,62,actor_balbus,Balbus,4,0,4,104,0.005813634927151392,0.0
+stress_records_graph,63,actor_curius,Curius,4,2,2,104,0.005618380035017249,0.0
+stress_records_graph,64,actor_buthrotum,Buthrotum,3,1,2,104,0.005489687729735689,0.005762380113525151
+stress_records_graph,65,actor_q_paconius_lepta,Q. Paconius Lepta,2,0,2,104,0.005439220291840816,0.0005284791544333529
+stress_records_graph,66,actor_l_titius_strabo,L. Titius Strabo,3,1,2,104,0.005370110518455583,0.0
+stress_records_graph,67,actor_p_cornelius,P. Cornelius,3,1,2,104,0.005370110518455583,0.0
+stress_records_graph,68,actor_p_valerius,P. Valerius,2,0,2,104,0.0052227425255012795,0.0044738976036685935
+stress_records_graph,69,actor_nicaea,Nicaea,3,1,2,104,0.005167093818563747,0.0
+stress_records_graph,70,actor_young_t_pinnius,young T. Pinnius,3,1,2,104,0.0051670938185637465,0.0
+stress_records_graph,71,actor_l_tullius_montanus,L. Tullius Montanus,3,1,2,104,0.005120070549620864,0.00015658641612840084
+stress_records_graph,72,actor_p_sallustius,P. Sallustius,3,1,2,104,0.005117450834245358,8.807985907222549e-05
+stress_records_graph,73,actor_antony_creditors,Antony creditors,2,1,1,104,0.004989514643558983,0.0
+stress_records_graph,74,actor_c_scribonius_curio,C. Scribonius Curio,2,0,2,104,0.004989514643558983,0.0
+stress_records_graph,75,actor_hermogenes,Hermogenes,3,0,3,104,0.004914222620836982,5.871990604815032e-05
+stress_records_graph,76,actor_senate,Senate,2,0,2,104,0.00465449591712642,0.0
+stress_records_graph,77,actor_cities_in_asia,cities in Asia,2,1,1,104,0.00465449591712642,0.0
+stress_records_graph,78,actor_mylasa_and_alabanda,Mylasa and Alabanda,2,1,1,104,0.004628623246834765,0.0
+stress_records_graph,79,actor_procuratores,procuratores,2,0,2,104,0.004628623246834765,0.0
+stress_records_graph,80,actor_tullia_s_creditors,Tullia's creditors,3,1,2,104,0.004599284283333462,0.0
+stress_records_graph,81,actor_arpinum,Arpinum,3,1,2,104,0.004590092608466921,0.0
+stress_records_graph,82,actor_cluvian_coheirs,Cluvian coheirs,3,1,2,104,0.004573260406066844,0.0
+stress_records_graph,83,actor_publilius,Publilius,3,2,1,104,0.004573260406066844,0.0
+stress_records_graph,84,actor_castricius,Castricius,3,1,2,104,0.004568801653305592,0.0
+stress_records_graph,85,actor_servilius,Servilius,2,0,2,104,0.00446081600519848,0.0
+stress_records_graph,86,actor_l_culleolus,L. Culleolus,2,0,2,104,0.004460816005198479,0.0
+stress_records_graph,87,actor_minucius_thermus,Minucius Thermus,2,0,2,104,0.004426304124587929,0.0
+stress_records_graph,88,actor_appius_claudius,Appius Claudius,2,0,2,104,0.004252274010705976,0.0
+stress_records_graph,89,actor_matinius,Matinius,2,0,2,104,0.004252274010705976,0.0
+stress_records_graph,90,actor_scaptius,Scaptius,2,0,2,104,0.004252274010705976,0.0
+stress_records_graph,91,actor_appuleius,Appuleius,2,0,2,104,0.004144703234459887,0.0
+stress_records_graph,92,actor_ateius_capito,Ateius Capito,2,0,2,104,0.004121301883294707,0.0
+stress_records_graph,93,actor_sardis,Sardis,2,1,1,104,0.004083317999747375,0.0
+stress_records_graph,94,actor_c_flavius,C. Flavius,2,1,1,104,0.004014969913679814,0.0
+stress_records_graph,95,actor_c_octavius,C. Octavius,2,1,1,104,0.004014969913679814,0.0
+stress_records_graph,96,actor_cocceius,Cocceius,2,1,1,104,0.004014969913679814,0.0
+stress_records_graph,97,actor_varro,Varro,2,0,2,104,0.004014969913679814,0.0
+stress_records_graph,98,actor_city_of_dyrrhachium,city of Dyrrhachium,2,1,1,104,0.004014969913679814,0.0
+stress_records_graph,99,actor_city_of_sicyon,city of Sicyon,2,1,1,104,0.004014969913679814,0.0
+stress_records_graph,100,actor_fulvia,Fulvia,2,1,1,104,0.003961379546193448,0.0
+stress_records_graph,101,actor_cn_sallustius,Cn. Sallustius,2,0,2,104,0.003758552102872581,0.0
+stress_records_graph,102,actor_m_laenius,M. Laenius,2,0,2,104,0.003703083910946762,0.0
+stress_records_graph,103,actor_crassus_amici,Crassus' amici,1,1,0,104,0.0036677107161340082,0.0
+stress_records_graph,104,actor_meton,Meton,2,0,2,104,0.0036518241804886532,0.0
+stress_records_graph,105,actor_q_axius_son,Q. Axius' son,2,1,1,104,0.0036387139721781427,0.0
+stress_records_graph,106,actor_scribonius_libo,Scribonius Libo,2,1,1,104,0.003545084883771912,0.0
+stress_records_graph,107,actor_l_ligus,L. Ligus,2,0,2,104,0.0035406261310106596,0.0
+stress_records_graph,108,actor_pomponia,Pomponia,2,0,2,104,0.0035406261310106596,0.0
+stress_records_graph,109,actor_q_titinius,Q. Titinius,2,0,2,104,0.0035406261310106596,0.0
+stress_records_graph,110,actor_funisulanus,Funisulanus,2,1,1,104,0.003497683979570055,0.0
+stress_records_graph,111,actor_hortensius,Hortensius,2,1,1,104,0.003497683979570055,0.0
+stress_records_graph,112,actor_caepio,Caepio,2,1,1,104,0.003476393024408725,0.0
+stress_records_graph,113,actor_m_antonius,M. Antonius,2,1,1,104,0.003476393024408725,0.0
+stress_records_graph,114,actor_amici,amici,2,1,1,104,0.003476393024408725,0.0
+stress_records_graph,115,actor_aurelius,Aurelius,2,1,1,104,0.0034384769633523885,0.0
+stress_records_graph,116,actor_ofillius,Ofillius,2,1,1,104,0.0034384769633523885,0.0
+stress_records_graph,117,actor_numerius_of_puteoli,Numerius of Puteoli,2,1,1,104,0.0034010163356636737,0.0
+stress_records_graph,118,actor_patulcius,Patulcius,2,1,1,104,0.0034010163356636737,0.0
+stress_records_graph,119,actor_philargyrus,Philargyrus,2,1,1,104,0.0034010163356636737,0.0
+stress_records_graph,120,actor_xeno,Xeno,2,0,2,104,0.0034010163356636737,0.0
+stress_records_graph,121,actor_q_caecilius_dio,Q. Caecilius Dio,1,0,1,6,0.003307079624130691,0.0
+stress_records_graph,122,actor_ser_sulpicius_galba,Ser. Sulpicius Galba,1,0,1,104,0.003219554704340118,0.0
+stress_records_graph,123,actor_provincial_governor,provincial governor,1,0,1,104,0.0024795801100854827,0.0
+stress_records_graph,124,actor_avianius,Avianius,1,1,0,104,0.002308607706766807,0.0
+stress_records_graph,125,actor_caelius,Caelius,1,0,1,104,0.002308607706766807,0.0
+stress_records_graph,126,actor_l_mescinius,L. Mescinius,1,0,1,104,0.002308607706766807,0.0
+stress_records_graph,127,actor_p_magius_chilo,P. Magius Chilo,1,0,1,104,0.002308607706766807,0.0
+stress_records_graph,128,actor_philogenes,Philogenes,1,1,0,104,0.002308607706766807,0.0
+stress_records_graph,129,actor_scapula_estate,Scapula estate,1,1,0,104,0.002308607706766807,0.0
+stress_records_graph,130,actor_titus_pomponius,Titus Pomponius,1,1,0,104,0.002308607706766807,0.0
+stress_records_graph,131,actor_multiple_provincial_communities,multiple provincial communities,1,0,1,104,0.002308607706766807,0.0
+stress_records_graph,132,actor_athens,Athens,1,1,0,104,0.002228772265260503,0.0
+high_stress_graph,1,actor_cicero,Cicero,10,3,7,16,0.12274764359138554,0.25238095238095243
+high_stress_graph,2,actor_atticus,Atticus,8,1,7,16,0.09610428174538754,0.15476190476190477
+high_stress_graph,3,actor_quintus_cicero,Quintus Cicero,7,1,6,16,0.0838576821660693,0.10952380952380954
+high_stress_graph,4,actor_egnatius,Egnatius,7,1,6,16,0.08385768216606929,0.10952380952380954
+high_stress_graph,5,actor_heraclides,Heraclides,3,2,1,4,0.05367504835592038,0.002380952380952381
+high_stress_graph,6,actor_hermippus,Hermippus,3,0,3,4,0.05367504835592038,0.002380952380952381
+high_stress_graph,7,actor_l_tullius_montanus,L. Tullius Montanus,1,0,1,2,0.045454545454545456,0.0
+high_stress_graph,8,actor_terentia,Terentia,1,0,1,2,0.045454545454545456,0.0
+high_stress_graph,9,actor_oppius,Oppius,3,1,2,16,0.03955827269603428,0.0071428571428571435
+high_stress_graph,10,actor_c_fufius,C. Fufius,2,1,1,4,0.03723404255317053,0.0
+high_stress_graph,11,actor_m_fufius,M. Fufius,2,1,1,4,0.03723404255317053,0.0
+high_stress_graph,12,actor_eros,Eros,2,0,2,16,0.030003011346933218,0.0
+high_stress_graph,13,actor_hortensius,Hortensius,2,1,1,16,0.030003011346933218,0.0
+high_stress_graph,14,actor_fulvia,Fulvia,2,1,1,16,0.029616107399132216,0.0
+high_stress_graph,15,actor_marc_antony,Marc Antony,2,0,2,16,0.029616107399132216,0.0
+high_stress_graph,16,actor_philotimus,Philotimus,2,0,2,16,0.028459908787854513,0.0
+high_stress_graph,17,actor_dolabella,Dolabella,2,1,1,16,0.027462811461012863,0.0
+high_stress_graph,18,actor_l_ligus,L. Ligus,2,0,2,16,0.027183618910563277,0.0
+high_stress_graph,19,actor_pomponia,Pomponia,2,0,2,16,0.027183618910563277,0.0
+high_stress_graph,20,actor_q_axius,Q. Axius,2,0,2,16,0.027183618910563277,0.0
+high_stress_graph,21,actor_q_titinius,Q. Titinius,2,0,2,16,0.027183618910563277,0.0
+high_stress_graph,22,actor_tiro,Tiro,1,0,1,16,0.01725173152453001,0.0
+refinancing_graph,1,actor_cicero,Cicero,11,4,7,17,0.12598751550237142,0.24458874458874458
+refinancing_graph,2,actor_atticus,Atticus,10,3,7,17,0.11457134874864106,0.20562770562770563
+refinancing_graph,3,actor_egnatius,Egnatius,7,1,6,17,0.07962534187059768,0.10822510822510822
+refinancing_graph,4,actor_quintus_cicero,Quintus Cicero,7,1,6,17,0.07962534187059768,0.10822510822510822
+refinancing_graph,5,actor_heraclides,Heraclides,3,2,1,4,0.051341350601259717,0.0021645021645021645
+refinancing_graph,6,actor_hermippus,Hermippus,3,0,3,4,0.051341350601259717,0.0021645021645021645
+refinancing_graph,7,actor_l_tullius_montanus,L. Tullius Montanus,1,0,1,2,0.043478260869565216,0.0
+refinancing_graph,8,actor_terentia,Terentia,1,0,1,2,0.043478260869565216,0.0
+refinancing_graph,9,actor_oppius,Oppius,3,1,2,17,0.03740974291567625,0.008658008658008658
+refinancing_graph,10,actor_c_fufius,C. Fufius,2,1,1,4,0.0356151711378707,0.0
+refinancing_graph,11,actor_m_fufius,M. Fufius,2,1,1,4,0.0356151711378707,0.0
+refinancing_graph,12,actor_fulvia,Fulvia,2,1,1,17,0.028278789172686197,0.0
+refinancing_graph,13,actor_marc_antony,Marc Antony,2,0,2,17,0.028278789172686197,0.0
+refinancing_graph,14,actor_eros,Eros,2,0,2,17,0.028273283575777297,0.0
+refinancing_graph,15,actor_hortensius,Hortensius,2,1,1,17,0.028273283575777297,0.0
+refinancing_graph,16,actor_philotimus,Philotimus,2,0,2,17,0.026856565215746725,0.0
+refinancing_graph,17,actor_dolabella,Dolabella,2,1,1,17,0.025995702698608188,0.0
+refinancing_graph,18,actor_l_ligus,L. Ligus,2,0,2,17,0.025859322158599943,0.0
+refinancing_graph,19,actor_pomponia,Pomponia,2,0,2,17,0.025859322158599943,0.0
+refinancing_graph,20,actor_q_axius,Q. Axius,2,0,2,17,0.025859322158599943,0.0
+refinancing_graph,21,actor_q_titinius,Q. Titinius,2,0,2,17,0.025859322158599943,0.0
+refinancing_graph,22,actor_athens,Athens,1,1,0,17,0.016260303773637828,0.0
+refinancing_graph,23,actor_tiro,Tiro,1,0,1,17,0.016257138055405143,0.0
+repayment_pressure_graph,1,actor_cicero,Cicero,35,13,22,39,0.1355965847908644,0.36752386518605096
+repayment_pressure_graph,2,actor_atticus,Atticus,12,1,11,39,0.04215319986552277,0.007597895967270602
+repayment_pressure_graph,3,actor_egnatius,Egnatius,9,1,8,39,0.03343260578779573,0.03263198909020066
+repayment_pressure_graph,4,actor_quintus_cicero,Quintus Cicero,9,2,7,39,0.03240436290177577,0.03000194817845314
+repayment_pressure_graph,5,actor_cluvius,Cluvius,5,2,3,6,0.029748120801396282,0.003798947983635301
+repayment_pressure_graph,6,actor_brutus,Brutus,5,1,4,39,0.022649584213074517,0.030683810637054353
+repayment_pressure_graph,7,actor_salamis,Salamis,5,1,4,39,0.022649584213074517,0.030683810637054353
+repayment_pressure_graph,8,actor_caecilius,Caecilius,5,2,3,6,0.022029330659279252,0.0007305669199298656
+repayment_pressure_graph,9,actor_heraclides,Heraclides,3,2,1,4,0.019680851063828383,0.0002922267679719462
+repayment_pressure_graph,10,actor_hermippus,Hermippus,3,0,3,4,0.019680851063828383,0.0002922267679719462
+repayment_pressure_graph,11,actor_philocles,Philocles,3,1,2,6,0.018415961350655034,0.0002922267679719462
+repayment_pressure_graph,12,actor_a_caninius_satyrus,A. Caninius Satyrus,4,1,3,6,0.018087239909672533,0.0005844535359438924
+repayment_pressure_graph,13,actor_p_varius,P. Varius,4,1,3,6,0.018087239909672533,0.0005844535359438924
+repayment_pressure_graph,14,actor_cornificius,Cornificius,4,1,3,39,0.01738335313468554,0.010520163646990063
+repayment_pressure_graph,15,actor_iunius,Iunius,4,1,3,39,0.01738335313468554,0.010520163646990063
+repayment_pressure_graph,16,actor_p_quinctius,P. Quinctius,2,1,1,3,0.016666666666666666,0.0
+repayment_pressure_graph,17,actor_scapula_heirs,Scapula heirs,2,1,1,3,0.016666666666666666,0.0
+repayment_pressure_graph,18,actor_sex_naevius,Sex. Naevius,2,0,2,3,0.016666666666666666,0.0
+repayment_pressure_graph,19,actor_crassus,Crassus,1,1,0,2,0.016666666666666666,0.0
+repayment_pressure_graph,20,actor_crassus_amici,Crassus' amici,1,1,0,2,0.016666666666666666,0.0
+repayment_pressure_graph,21,actor_dolabella,Dolabella,4,2,2,39,0.01597693926705305,0.0002922267679719462
+repayment_pressure_graph,22,actor_philotimus,Philotimus,4,2,2,39,0.015976939267053045,0.0002922267679719462
+repayment_pressure_graph,23,actor_q_axius,Q. Axius,4,0,4,39,0.015909910041580475,0.0014611338398597311
+repayment_pressure_graph,24,actor_terentia,Terentia,3,0,3,39,0.015836554665388813,0.021624780829924018
+repayment_pressure_graph,25,actor_p_sallustius,P. Sallustius,3,1,2,39,0.014486557109151444,0.0005844535359438924
+repayment_pressure_graph,26,actor_nicaea,Nicaea,3,1,2,39,0.014407481402847599,0.010520163646990063
+repayment_pressure_graph,27,actor_young_t_pinnius,young T. Pinnius,3,1,2,39,0.014407481402847599,0.010520163646990063
+repayment_pressure_graph,28,actor_l_lucullus,L. Lucullus,3,0,3,6,0.013932063173791892,0.0001461133839859731
+repayment_pressure_graph,29,actor_l_pontius,L. Pontius,3,0,3,6,0.013932063173791892,0.0001461133839859731
+repayment_pressure_graph,30,actor_p_scipio,P. Scipio,3,0,3,6,0.013932063173791892,0.0001461133839859731
+repayment_pressure_graph,31,actor_c_fufius,C. Fufius,2,1,1,4,0.013652482269504941,0.0
+repayment_pressure_graph,32,actor_m_fufius,M. Fufius,2,1,1,4,0.013652482269504941,0.0
+repayment_pressure_graph,33,actor_mylasa_and_alabanda,Mylasa and Alabanda,2,1,1,6,0.013142922671717419,0.0
+repayment_pressure_graph,34,actor_procuratores,procuratores,2,0,2,6,0.013142922671717419,0.0
+repayment_pressure_graph,35,actor_tullia_s_creditors,Tullia's creditors,3,1,2,39,0.012779871558445236,0.0002922267679719462
+repayment_pressure_graph,36,actor_cluvius_procurators,Cluvius procurators,2,0,2,6,0.01277503625225693,0.0
+repayment_pressure_graph,37,actor_minucius_thermus,Minucius Thermus,2,0,2,6,0.01277503625225693,0.0
+repayment_pressure_graph,38,actor_silius,Silius,2,0,2,39,0.010664239452727445,0.0
+repayment_pressure_graph,39,actor_appius_claudius,Appius Claudius,2,0,2,39,0.01020085869725882,0.0
+repayment_pressure_graph,40,actor_matinius,Matinius,2,0,2,39,0.01020085869725882,0.0
+repayment_pressure_graph,41,actor_scaptius,Scaptius,2,0,2,39,0.01020085869725882,0.0
+repayment_pressure_graph,42,actor_cocceius,Cocceius,2,1,1,39,0.01007488680198621,0.0
+repayment_pressure_graph,43,actor_flaminius,Flaminius,2,1,1,39,0.01007488680198621,0.0
+repayment_pressure_graph,44,actor_tiro,Tiro,2,0,2,39,0.01007488680198621,0.0
+repayment_pressure_graph,45,actor_varro,Varro,2,0,2,39,0.01007488680198621,0.0
+repayment_pressure_graph,46,actor_cn_sallustius,Cn. Sallustius,2,0,2,39,0.009897584424737007,0.0
+repayment_pressure_graph,47,actor_appuleius,Appuleius,2,0,2,39,0.009887925071368226,0.0
+repayment_pressure_graph,48,actor_tullia,Tullia,2,0,2,39,0.009414023518390834,0.0
+repayment_pressure_graph,49,actor_camillus,Camillus,2,0,2,39,0.009188159504836346,0.0
+repayment_pressure_graph,50,actor_faberius,Faberius,2,0,2,39,0.009188159504836346,0.0
+repayment_pressure_graph,51,actor_q_axius_son,Q. Axius' son,2,1,1,39,0.009173915792656662,0.0
+repayment_pressure_graph,52,actor_scribonius_libo,Scribonius Libo,2,1,1,39,0.008950583788265371,0.0
+repayment_pressure_graph,53,actor_numerius_of_puteoli,Numerius of Puteoli,2,1,1,39,0.008778911566677665,0.0
+repayment_pressure_graph,54,actor_l_ligus,L. Ligus,2,0,2,39,0.008717935919895075,0.0
+repayment_pressure_graph,55,actor_pomponia,Pomponia,2,0,2,39,0.008717935919895075,0.0
+repayment_pressure_graph,56,actor_q_titinius,Q. Titinius,2,0,2,39,0.008717935919895075,0.0
+repayment_pressure_graph,57,actor_l_tullius_montanus,L. Tullius Montanus,1,0,1,39,0.006987023817878841,0.0
+repayment_pressure_graph,58,actor_caelius,Caelius,1,0,1,39,0.005793059914124224,0.0
+repayment_pressure_graph,59,actor_caesar,Caesar,1,1,0,39,0.005793059914124224,0.0
+repayment_pressure_graph,60,actor_publilius,Publilius,1,1,0,39,0.005793059914124224,0.0
+stress_direct_only_graph,1,actor_cicero,Cicero,36,36,0,37,0.1636124260352101,0.17269076305220882
+stress_direct_only_graph,2,actor_atticus,Atticus,8,8,0,37,0.034798445328567365,0.061388410786001144
+stress_direct_only_graph,3,actor_quintus_cicero,Quintus Cicero,6,6,0,37,0.029236608066375444,0.03843947217441193
+stress_direct_only_graph,4,actor_brutus,Brutus,2,2,0,3,0.01716851255984638,0.00028686173264486515
+stress_direct_only_graph,5,actor_caecilius,Caecilius,2,2,0,3,0.01716851255984638,0.00028686173264486515
+stress_direct_only_graph,6,actor_cluvius,Cluvius,2,2,0,3,0.01716851255984638,0.00028686173264486515
+stress_direct_only_graph,7,actor_heraclides,Heraclides,2,2,0,3,0.01716851255984638,0.00028686173264486515
+stress_direct_only_graph,8,actor_plancus,Plancus,2,2,0,3,0.01716851255984638,0.00028686173264486515
+stress_direct_only_graph,9,actor_borrowers_under_verres_scheme,borrowers under Verres' scheme,2,2,0,3,0.01716851255984638,0.00028686173264486515
+stress_direct_only_graph,10,actor_dolabella,Dolabella,3,3,0,37,0.013359767854985317,0.0
+stress_direct_only_graph,11,actor_curius,Curius,2,2,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,12,actor_tiro,Tiro,2,2,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,13,actor_antony_creditors,Antony creditors,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,14,actor_c_flavius,C. Flavius,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,15,actor_c_octavius,C. Octavius,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,16,actor_camillus,Camillus,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,17,actor_cato_the_younger,Cato the Younger,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,18,actor_cornificius,Cornificius,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,19,actor_crassus,Crassus,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,20,actor_crassus_amici,Crassus' amici,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,21,actor_greek_provincial_communities,Greek provincial communities,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,22,actor_iunius,Iunius,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,23,actor_l_lucceius,L. Lucceius,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,24,actor_l_titius_strabo,L. Titius Strabo,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,25,actor_m_anneius,M. Anneius,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,26,actor_marc_antony,Marc Antony,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,27,actor_nicaea,Nicaea,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,28,actor_p_cornelius,P. Cornelius,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,29,actor_p_iunius,P. Iunius,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,30,actor_p_quinctius,P. Quinctius,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,31,actor_roman_state,Roman state,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,32,actor_sardis,Sardis,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,33,actor_scapula_heirs,Scapula heirs,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,34,actor_terentia,Terentia,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,35,actor_city_of_byllis,city of Byllis,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,36,actor_city_of_dyrrhachium,city of Dyrrhachium,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,37,actor_city_of_sicyon,city of Sicyon,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,38,actor_friends_of_cato,friends of Cato,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,39,actor_publicani,publicani,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,40,actor_young_t_pinnius,young T. Pinnius,1,1,0,2,0.011764705882352941,0.0
+stress_direct_only_graph,41,actor_philotimus,Philotimus,2,2,0,37,0.009494747197441191,0.0
+stress_direct_only_graph,42,actor_publilius,Publilius,2,2,0,37,0.009494747197441191,0.0
+stress_direct_only_graph,43,actor_a_caninius_satyrus,A. Caninius Satyrus,1,1,0,3,0.009062802543606217,0.0
+stress_direct_only_graph,44,actor_buthrotum,Buthrotum,1,1,0,3,0.009062802543606217,0.0
+stress_direct_only_graph,45,actor_c_fufius,C. Fufius,1,1,0,3,0.009062802543606217,0.0
+stress_direct_only_graph,46,actor_l_carpinatius,L. Carpinatius,1,1,0,3,0.009062802543606217,0.0
+stress_direct_only_graph,47,actor_l_tullius_montanus,L. Tullius Montanus,1,1,0,3,0.009062802543606217,0.0
+stress_direct_only_graph,48,actor_m_fufius,M. Fufius,1,1,0,3,0.009062802543606217,0.0
+stress_direct_only_graph,49,actor_mylasa_and_alabanda,Mylasa and Alabanda,1,1,0,3,0.009062802543606217,0.0
+stress_direct_only_graph,50,actor_p_varius,P. Varius,1,1,0,3,0.009062802543606217,0.0
+stress_direct_only_graph,51,actor_philocles,Philocles,1,1,0,3,0.009062802543606217,0.0
+stress_direct_only_graph,52,actor_salamis,Salamis,1,1,0,3,0.009062802543606217,0.0
+stress_direct_only_graph,53,actor_sicilian_tax_company,Sicilian tax company,1,1,0,3,0.009062802543606217,0.0
+stress_direct_only_graph,54,actor_cities_in_asia,cities in Asia,1,1,0,3,0.009062802543606217,0.0
+stress_direct_only_graph,55,actor_caepio,Caepio,1,1,0,37,0.005908507348618856,0.0
+stress_direct_only_graph,56,actor_castricius,Castricius,1,1,0,37,0.005908507348618856,0.0
+stress_direct_only_graph,57,actor_egnatius,Egnatius,1,1,0,37,0.005908507348618856,0.0
+stress_direct_only_graph,58,actor_m_antonius,M. Antonius,1,1,0,37,0.005908507348618856,0.0
+stress_direct_only_graph,59,actor_arpinum,Arpinum,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,60,actor_aurelius,Aurelius,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,61,actor_avianius,Avianius,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,62,actor_caerellia,Caerellia,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,63,actor_caesar,Caesar,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,64,actor_cluvian_coheirs,Cluvian coheirs,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,65,actor_cocceius,Cocceius,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,66,actor_faberius,Faberius,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,67,actor_flaminius,Flaminius,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,68,actor_funisulanus,Funisulanus,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,69,actor_hortensius,Hortensius,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,70,actor_numerius_of_puteoli,Numerius of Puteoli,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,71,actor_ofillius,Ofillius,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,72,actor_oppius,Oppius,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,73,actor_p_sallustius,P. Sallustius,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,74,actor_patulcius,Patulcius,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,75,actor_philargyrus,Philargyrus,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,76,actor_philogenes,Philogenes,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,77,actor_q_axius_son,Q. Axius' son,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,78,actor_scapula_estate,Scapula estate,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,79,actor_scribonius_libo,Scribonius Libo,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,80,actor_silius,Silius,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,81,actor_titus_pomponius,Titus Pomponius,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,82,actor_tullia_s_creditors,Tullia's creditors,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,83,actor_amici,amici,1,1,0,37,0.005629726539897067,0.0
+stress_direct_only_graph,84,actor_athens,Athens,1,1,0,37,0.0054600915375680615,0.0
+stress_direct_only_graph,85,actor_fulvia,Fulvia,1,1,0,37,0.0054600915375680615,0.0
+stress_context_graph,1,actor_cicero,Cicero,82,0,82,98,0.1487977437765021,0.4703705069124426
+stress_context_graph,2,actor_atticus,Atticus,37,0,37,98,0.06481855191477044,0.15242611367127495
+stress_context_graph,3,actor_quintus_cicero,Quintus Cicero,16,0,16,98,0.029610572820291226,0.085115821812596
+stress_context_graph,4,actor_tiro,Tiro,11,0,11,98,0.020608216672137643,0.03681075268817204
+stress_context_graph,5,actor_brutus,Brutus,7,0,7,98,0.015934748209112077,0.0427741935483871
+stress_context_graph,6,actor_egnatius,Egnatius,8,0,8,98,0.01564152223853004,0.03018064516129032
+stress_context_graph,7,actor_eros,Eros,8,0,8,98,0.015514778996484919,0.02775268817204301
+stress_context_graph,8,actor_hermippus,Hermippus,3,0,3,4,0.015227358215665756,0.00038709677419354843
+stress_context_graph,9,actor_cluvius,Cluvius,6,0,6,98,0.013484362381104072,0.06019354838709678
+stress_context_graph,10,actor_verres,Verres,4,0,4,6,0.013287906783311064,0.0007096774193548388
+stress_context_graph,11,actor_d_iunius_brutus,D. Iunius Brutus,2,0,2,3,0.011581933076086848,0.00012903225806451613
+stress_context_graph,12,actor_sex_naevius,Sex. Naevius,2,0,2,3,0.011581933076086848,0.00012903225806451613
+stress_context_graph,13,actor_terentia,Terentia,6,0,6,98,0.011530676630314811,0.019651612903225816
+stress_context_graph,14,actor_caerellia,Caerellia,5,0,5,98,0.010350825692827102,0.01303225806451613
+stress_context_graph,15,actor_roman_state_grain_funds,Roman state grain funds,3,0,3,6,0.00987595936886263,0.00019354838709677422
+stress_context_graph,16,actor_faberius,Faberius,5,0,5,98,0.009462092081577899,0.00260215053763441
+stress_context_graph,17,actor_salamis,Salamis,4,0,4,98,0.009214284644260355,0.01741935483870968
+stress_context_graph,18,actor_tullia,Tullia,5,0,5,98,0.009103322541043462,0.0031075268817204304
+stress_context_graph,19,actor_marc_antony,Marc Antony,3,0,3,98,0.009036818698450081,0.03664516129032258
+stress_context_graph,20,actor_silius,Silius,4,0,4,98,0.008828516194199238,0.00038709677419354843
+stress_context_graph,21,actor_q_axius,Q. Axius,4,0,4,98,0.008518406965928772,0.012682027649769587
+stress_context_graph,22,actor_pompey,Pompey,3,0,3,98,0.00841667105024141,0.020741628264208913
+stress_context_graph,23,actor_a_caninius_satyrus,A. Caninius Satyrus,3,0,3,6,0.007936507936507936,0.00012903225806451613
+stress_context_graph,24,actor_caecilius,Caecilius,3,0,3,6,0.007936507936507936,0.00012903225806451613
+stress_context_graph,25,actor_l_lucullus,L. Lucullus,3,0,3,6,0.007936507936507936,0.00012903225806451613
+stress_context_graph,26,actor_l_pontius,L. Pontius,3,0,3,6,0.007936507936507936,0.00012903225806451613
+stress_context_graph,27,actor_p_scipio,P. Scipio,3,0,3,6,0.007936507936507936,0.00012903225806451613
+stress_context_graph,28,actor_p_varius,P. Varius,3,0,3,6,0.007936507936507936,0.00012903225806451613
+stress_context_graph,29,actor_brutus_albinus,Brutus Albinus,1,0,1,2,0.007936507936507936,0.0
+stress_context_graph,30,actor_brutus_albinus_friends,Brutus Albinus friends,1,0,1,2,0.007936507936507936,0.0
+stress_context_graph,31,actor_cato_the_younger,Cato the Younger,1,0,1,2,0.007936507936507936,0.0
+stress_context_graph,32,actor_p_sittius,P. Sittius,1,0,1,2,0.007936507936507936,0.0
+stress_context_graph,33,actor_p_sulla,P. Sulla,1,0,1,2,0.007936507936507936,0.0
+stress_context_graph,34,actor_friends_of_cato,friends of Cato,1,0,1,2,0.007936507936507936,0.0
+stress_context_graph,35,actor_balbus,Balbus,4,0,4,98,0.00748324043336329,0.0018731182795698907
+stress_context_graph,36,actor_philotimus,Philotimus,4,0,4,98,0.007471251156740088,0.0005741935483870967
+stress_context_graph,37,actor_c_scribonius_curio,C. Scribonius Curio,2,0,2,98,0.007456459239797474,0.01238709677419355
+stress_context_graph,38,actor_cluvius_procurators,Cluvius procurators,3,0,3,98,0.007399512536686495,0.006129032258064516
+stress_context_graph,39,actor_oppius,Oppius,4,0,4,98,0.007352023396575985,0.0
+stress_context_graph,40,actor_plancus,Plancus,3,0,3,98,0.006873298936601647,0.010494623655913984
+stress_context_graph,41,actor_l_carpinatius,L. Carpinatius,2,0,2,6,0.006813485005666066,8.602150537634408e-05
+stress_context_graph,42,actor_sicilian_tax_company,Sicilian tax company,2,0,2,6,0.006813485005666066,8.602150537634408e-05
+stress_context_graph,43,actor_borrowers_under_verres_scheme,borrowers under Verres' scheme,2,0,2,6,0.006813485005666066,8.602150537634408e-05
+stress_context_graph,44,actor_cornificius,Cornificius,3,0,3,98,0.006806677926601733,0.006129032258064516
+stress_context_graph,45,actor_iunius,Iunius,3,0,3,98,0.006806677926601733,0.006129032258064516
+stress_context_graph,46,actor_flaminius,Flaminius,3,0,3,98,0.006742463898255828,0.0012301075268817204
+stress_context_graph,47,actor_senate,Senate,2,0,2,98,0.006477205375683458,0.01238709677419355
+stress_context_graph,48,actor_procuratores,procuratores,2,0,2,98,0.006438613785327932,0.01238709677419355
+stress_context_graph,49,actor_hermogenes,Hermogenes,3,0,3,98,0.0062175073607884535,0.003232258064516129
+stress_context_graph,50,actor_q_paconius_lepta,Q. Paconius Lepta,2,0,2,98,0.006151093411097388,0.0007741935483870969
+stress_context_graph,51,actor_p_iunius,P. Iunius,1,0,1,3,0.00611379536671848,0.0
+stress_context_graph,52,actor_p_quinctius,P. Quinctius,1,0,1,3,0.00611379536671848,0.0
+stress_context_graph,53,actor_roman_state,Roman state,1,0,1,3,0.00611379536671848,0.0
+stress_context_graph,54,actor_scapula_heirs,Scapula heirs,1,0,1,3,0.00611379536671848,0.0
+stress_context_graph,55,actor_p_valerius,P. Valerius,2,0,2,98,0.006060923213888002,0.004290629800307217
+stress_context_graph,56,actor_camillus,Camillus,3,0,3,98,0.005954045246619328,0.00011827956989247312
+stress_context_graph,57,actor_caesar,Caesar,2,0,2,98,0.005910672917922023,0.01238709677419355
+stress_context_graph,58,actor_dolabella,Dolabella,3,0,3,98,0.005878295102389533,0.0014731182795698927
+stress_context_graph,59,actor_varro,Varro,2,0,2,98,0.005862695476419224,0.01238709677419355
+stress_context_graph,60,actor_philocles,Philocles,2,0,2,98,0.0056199296329090005,6.451612903225807e-05
+stress_context_graph,61,actor_c_fufius,C. Fufius,1,0,1,4,0.005506224510121995,0.0
+stress_context_graph,62,actor_heraclides,Heraclides,1,0,1,4,0.005506224510121995,0.0
+stress_context_graph,63,actor_m_fufius,M. Fufius,1,0,1,4,0.005506224510121995,0.0
+stress_context_graph,64,actor_l_culleolus,L. Culleolus,2,0,2,98,0.00550048392686793,6.451612903225807e-05
+stress_context_graph,65,actor_servilius,Servilius,2,0,2,98,0.00550048392686793,6.451612903225807e-05
+stress_context_graph,66,actor_minucius_thermus,Minucius Thermus,2,0,2,98,0.005489228764508068,0.006129032258064516
+stress_context_graph,67,actor_m_anneius,M. Anneius,2,0,2,98,0.0053087850344006975,0.01564546850998464
+stress_context_graph,68,actor_ateius_capito,Ateius Capito,2,0,2,98,0.0052471574942647686,0.00010752688172043011
+stress_context_graph,69,actor_appius_claudius,Appius Claudius,2,0,2,98,0.005083445670602019,9.677419354838711e-05
+stress_context_graph,70,actor_matinius,Matinius,2,0,2,98,0.005083445670602019,9.677419354838711e-05
+stress_context_graph,71,actor_scaptius,Scaptius,2,0,2,98,0.005083445670602019,9.677419354838711e-05
+stress_context_graph,72,actor_greek_provincial_communities,Greek provincial communities,2,0,2,98,0.0050705978154440045,0.006129032258064516
+stress_context_graph,73,actor_l_lucceius,L. Lucceius,2,0,2,98,0.0050705978154440045,0.006129032258064516
+stress_context_graph,74,actor_city_of_byllis,city of Byllis,2,0,2,98,0.0050705978154440045,0.006129032258064516
+stress_context_graph,75,actor_publicani,publicani,2,0,2,98,0.0050705978154440045,0.006129032258064516
+stress_context_graph,76,actor_appuleius,Appuleius,2,0,2,98,0.005047593561933174,0.0
+stress_context_graph,77,actor_buthrotum,Buthrotum,2,0,2,98,0.004962934057570241,0.00592258064516129
+stress_context_graph,78,actor_p_sallustius,P. Sallustius,2,0,2,98,0.004864033716092605,0.00012903225806451613
+stress_context_graph,79,actor_cn_sallustius,Cn. Sallustius,2,0,2,98,0.004800106361321964,0.004449462365591397
+stress_context_graph,80,actor_l_tullius_montanus,L. Tullius Montanus,2,0,2,98,0.00473435352691782,0.00030107526881720427
+stress_context_graph,81,actor_l_titius_strabo,L. Titius Strabo,2,0,2,98,0.0046678258198161295,0.0
+stress_context_graph,82,actor_p_cornelius,P. Cornelius,2,0,2,98,0.0046678258198161295,0.0
+stress_context_graph,83,actor_m_laenius,M. Laenius,2,0,2,98,0.004608951775329257,0.0029225806451612904
+stress_context_graph,84,actor_nicaea,Nicaea,2,0,2,98,0.004608951775329257,0.0029225806451612904
+stress_context_graph,85,actor_young_t_pinnius,young T. Pinnius,2,0,2,98,0.004608951775329257,0.0029225806451612904
+stress_context_graph,86,actor_meton,Meton,2,0,2,98,0.004492532341087361,0.0
+stress_context_graph,87,actor_l_ligus,L. Ligus,2,0,2,98,0.004425449244675738,0.00029493087557603686
+stress_context_graph,88,actor_pomponia,Pomponia,2,0,2,98,0.004425449244675738,0.00029493087557603686
+stress_context_graph,89,actor_q_titinius,Q. Titinius,2,0,2,98,0.004425449244675738,0.00029493087557603686
+stress_context_graph,90,actor_antony_creditors,Antony creditors,1,0,1,98,0.004359471645000718,0.0
+stress_context_graph,91,actor_arpinum,Arpinum,2,0,2,98,0.004327996197510068,0.0
+stress_context_graph,92,actor_curius,Curius,2,0,2,98,0.0042720040363654534,0.0
+stress_context_graph,93,actor_tullia_s_creditors,Tullia's creditors,2,0,2,98,0.004227115782371497,0.0
+stress_context_graph,94,actor_castricius,Castricius,2,0,2,98,0.004221966797843071,0.0
+stress_context_graph,95,actor_cluvian_coheirs,Cluvian coheirs,2,0,2,98,0.004221966797843071,0.0
+stress_context_graph,96,actor_xeno,Xeno,2,0,2,98,0.004221966797843071,0.0
+stress_context_graph,97,actor_q_caecilius_dio,Q. Caecilius Dio,1,0,1,6,0.004014726449875722,0.0
+stress_context_graph,98,actor_cities_in_asia,cities in Asia,1,0,1,98,0.003943288157751769,0.0
+stress_context_graph,99,actor_mylasa_and_alabanda,Mylasa and Alabanda,1,0,1,98,0.003926888488289716,0.0
+stress_context_graph,100,actor_fulvia,Fulvia,1,0,1,98,0.0037509082176455317,0.0
+stress_context_graph,101,actor_crassus,Crassus,1,0,1,98,0.0037025124762293804,0.0
+stress_context_graph,102,actor_cocceius,Cocceius,1,0,1,98,0.0036821215646162596,0.0
+stress_context_graph,103,actor_ser_sulpicius_galba,Ser. Sulpicius Galba,1,0,1,98,0.003575200314826227,0.0
+stress_context_graph,104,actor_q_axius_son,Q. Axius' son,1,0,1,98,0.0030006377588691585,0.0
+stress_context_graph,105,actor_provincial_governor,provincial governor,1,0,1,98,0.0029501165934340146,0.0
+stress_context_graph,106,actor_scribonius_libo,Scribonius Libo,1,0,1,98,0.0028523877593418377,0.0
+stress_context_graph,107,actor_funisulanus,Funisulanus,1,0,1,98,0.0028389213377965337,0.0
+stress_context_graph,108,actor_hortensius,Hortensius,1,0,1,98,0.0028389213377965337,0.0
+stress_context_graph,109,actor_aurelius,Aurelius,1,0,1,98,0.00278292917665192,0.0
+stress_context_graph,110,actor_ofillius,Ofillius,1,0,1,98,0.00278292917665192,0.0
+stress_context_graph,111,actor_amici,amici,1,0,1,98,0.002763537675810091,0.0
+stress_context_graph,112,actor_c_flavius,C. Flavius,1,0,1,98,0.002732891938129537,0.0
+stress_context_graph,113,actor_c_octavius,C. Octavius,1,0,1,98,0.002732891938129537,0.0
+stress_context_graph,114,actor_caelius,Caelius,1,0,1,98,0.002732891938129537,0.0
+stress_context_graph,115,actor_caepio,Caepio,1,0,1,98,0.002732891938129537,0.0
+stress_context_graph,116,actor_l_mescinius,L. Mescinius,1,0,1,98,0.002732891938129537,0.0
+stress_context_graph,117,actor_m_antonius,M. Antonius,1,0,1,98,0.002732891938129537,0.0
+stress_context_graph,118,actor_p_magius_chilo,P. Magius Chilo,1,0,1,98,0.002732891938129537,0.0
+stress_context_graph,119,actor_sardis,Sardis,1,0,1,98,0.002732891938129537,0.0
+stress_context_graph,120,actor_city_of_dyrrhachium,city of Dyrrhachium,1,0,1,98,0.002732891938129537,0.0
+stress_context_graph,121,actor_city_of_sicyon,city of Sicyon,1,0,1,98,0.002732891938129537,0.0
+stress_context_graph,122,actor_multiple_provincial_communities,multiple provincial communities,1,0,1,98,0.002732891938129537,0.0
+stress_context_graph,123,actor_numerius_of_puteoli,Numerius of Puteoli,1,0,1,98,0.0026795510501897244,0.0
+stress_context_graph,124,actor_patulcius,Patulcius,1,0,1,98,0.0026795510501897244,0.0
+stress_context_graph,125,actor_philargyrus,Philargyrus,1,0,1,98,0.0026795510501897244,0.0
+stress_context_graph,126,actor_publilius,Publilius,1,0,1,98,0.0026795510501897244,0.0
+strict_stress_graph,1,actor_cicero,Cicero,36,13,23,34,0.19903072163565044,0.6738095238095239
+strict_stress_graph,2,actor_quintus_cicero,Quintus Cicero,11,3,8,34,0.06216705412273853,0.08373015873015872
+strict_stress_graph,3,actor_tiro,Tiro,10,1,9,34,0.05614494830617126,0.041666666666666664
+strict_stress_graph,4,actor_atticus,Atticus,9,0,9,34,0.04927120269488934,0.039285714285714285
+strict_stress_graph,5,actor_egnatius,Egnatius,7,1,6,34,0.041062420827941926,0.06759259259259258
+strict_stress_graph,6,actor_pompey,Pompey,2,0,2,3,0.0394411775023498,0.0015873015873015873
+strict_stress_graph,7,actor_faberius,Faberius,6,1,5,34,0.03474634815247842,0.002380952380952381
+strict_stress_graph,8,actor_flaminius,Flaminius,4,1,3,34,0.029345693126840443,0.14285714285714285
+strict_stress_graph,9,actor_l_tullius_montanus,L. Tullius Montanus,3,1,2,34,0.028351023499000025,0.050793650793650794
+strict_stress_graph,10,actor_eros,Eros,4,0,4,34,0.025498836225871076,0.0007936507936507937
+strict_stress_graph,11,actor_q_axius,Q. Axius,4,0,4,34,0.024473844455610468,0.003968253968253968
+strict_stress_graph,12,actor_caerellia,Caerellia,4,1,3,34,0.024369139314695844,0.003439153439153439
+strict_stress_graph,13,actor_l_titius_strabo,L. Titius Strabo,3,1,2,34,0.02201687592209562,0.024603174603174603
+strict_stress_graph,14,actor_p_cornelius,P. Cornelius,3,1,2,34,0.02201687592209562,0.024603174603174603
+strict_stress_graph,15,actor_q_paconius_lepta,Q. Paconius Lepta,1,0,1,3,0.020819951789365635,0.0
+strict_stress_graph,16,actor_ser_sulpicius_galba,Ser. Sulpicius Galba,1,0,1,3,0.020819951789365635,0.0
+strict_stress_graph,17,actor_hermogenes,Hermogenes,3,0,3,34,0.01977752436553242,0.0007936507936507937
+strict_stress_graph,18,actor_plancus,Plancus,2,1,1,34,0.018322804056037756,0.0
+strict_stress_graph,19,actor_cluvian_coheirs,Cluvian coheirs,3,1,2,34,0.018106118364426254,0.0
+strict_stress_graph,20,actor_brutus,Brutus,2,0,2,34,0.016530283713964308,0.0
+strict_stress_graph,21,actor_silius,Silius,2,1,1,34,0.014357022424974972,0.0
+strict_stress_graph,22,actor_funisulanus,Funisulanus,2,1,1,34,0.01417189321962117,0.0
+strict_stress_graph,23,actor_hortensius,Hortensius,2,1,1,34,0.01417189321962117,0.0
+strict_stress_graph,24,actor_q_axius_son,Q. Axius' son,2,1,1,34,0.013954082463610379,0.0
+strict_stress_graph,25,actor_meton,Meton,2,0,2,34,0.013931832629829185,0.0
+strict_stress_graph,26,actor_l_ligus,L. Ligus,2,0,2,34,0.013844022943806593,0.0
+strict_stress_graph,27,actor_pomponia,Pomponia,2,0,2,34,0.013844022943806593,0.0
+strict_stress_graph,28,actor_q_titinius,Q. Titinius,2,0,2,34,0.013844022943806593,0.0
+strict_stress_graph,29,actor_dolabella,Dolabella,2,1,1,34,0.013675789844011162,0.0
+strict_stress_graph,30,actor_caepio,Caepio,2,1,1,34,0.013557208335286768,0.0
+strict_stress_graph,31,actor_m_antonius,M. Antonius,2,1,1,34,0.013557208335286768,0.0
+strict_stress_graph,32,actor_aurelius,Aurelius,2,1,1,34,0.013525711140345856,0.0
+strict_stress_graph,33,actor_ofillius,Ofillius,2,1,1,34,0.013525711140345856,0.0
+strict_stress_graph,34,actor_curius,Curius,2,1,1,34,0.01347976602110534,0.0
+strict_stress_graph,35,actor_publilius,Publilius,2,1,1,34,0.013406781887888682,0.0
+strict_stress_graph,36,actor_terentia,Terentia,1,0,1,34,0.012086844188940278,0.0
+strict_stress_graph,37,actor_avianius,Avianius,1,1,0,34,0.008753390530591626,0.0

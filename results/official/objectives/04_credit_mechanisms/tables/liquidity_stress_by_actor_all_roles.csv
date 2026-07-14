@@ -1,0 +1,143 @@
+canonical_name,node_id,high_stress_record_count,all_stress_record_count,average_stress_score,max_stress_score,refinancing_record_count,repayment_pressure_record_count,strict_slice_high_stress_count,role_mix,mechanism_mix,stress_context_edge_count,third_party_dependency_record_count,supporting_records
+Cicero,actor_cicero,7,85,1.792,5,8,27,4,sender (79); borrower (31); third_party (22); lender (11); recipient (1),account/nomina (51); surety (23); repayment pressure (21); refinancing/versura (13); ambiguous (12); recommendation (12); political/civic finance (7); direct loan (5),80,75,ATT-PILOT-0001; ATT-PILOT-0003; ATT-PILOT-0005; ATT-PILOT-0006; ATT-PILOT-0007; ATT-PILOT-0010; ATT-PILOT-0012; ATT-PILOT-0013; ATT-PILOT-0014; ATT-PILOT-0016; ATT-PILOT-0017; ATT-PILOT-0018; ATT-PILOT-0019; ATT-PILOT-0020; ATT-PILOT-0021; ATT-PILOT-0022; ATT-PILOT-0023; ATT-PILOT-0024; ATT-PILOT-0025; ATT-PILOT-0026; ATT-PILOT-0027; ATT-PILOT-0028; ATT-PILOT-0029; ATT-PILOT-0030; ATT-PILOT-0031; ATT-PILOT-0032; ATT-PILOT-0033; ATT-PILOT-0034; ATT-PILOT-0035; ATT-PILOT-0036; ATT-PILOT-0037; CIC-SRC-EXP-0003; CIC-SRC-EXP-0004; CIC-SRC-EXP-0005; FAM-PILOT-0002; FAM-PILOT-0003; FAM-PILOT-0004; FAM-PILOT-0005; FAM-PILOT-0006; QFR-PILOT-0001; QFR-PILOT-0002; VRB-STAGED-0002; VRB-STAGED-0006; VRB-STAGED-0010; VRB-STAGED-0019; VRB-STAGED-0020; VRB-STAGED-0025; VRB-STAGED-0027; VRB-STAGED-0030; VRB-STAGED-0032; VRB-STAGED-0036; VRB-STAGED-0038; VRB-STAGED-0040; VRB-STAGED-0045; VRB-STAGED-0047; VRB-STAGED-0048; VRB-STAGED-0053; VRB-STAGED-0055; VRB-STAGED-0056; VRB-STAGED-0057; VRB-STAGED-0058; VRB-STAGED-0061; VRB-STAGED-0062; VRB-STAGED-0064; VRB-STAGED-0065; VRB-STAGED-0066; VRB-STAGED-0067; VRB-STAGED-0068; VRB-STAGED-0069; VRB-STAGED-0070; VRB-STAGED-0071; VRB-STAGED-0072; VRB-STAGED-0073; VRB-STAGED-0074; VRB-STAGED-0075; VRB-STAGED-0076; VRB-STAGED-0077; VRB-STAGED-0078; VRB-STAGED-0088; VRB-STAGED-0092; VRB-STAGED-0094; VRB-STAGED-0095; VRB-STAGED-0096; VRB-STAGED-0097; VRB-STAGED-0099
+Atticus,actor_atticus,7,55,2.013,5,9,18,4,recipient (51); third_party (18); lender (8),account/nomina (31); refinancing/versura (13); repayment pressure (12); ambiguous (8); surety (6); direct loan (3); recommendation (3); political/civic finance (1),36,47,ATT-PILOT-0001; ATT-PILOT-0003; ATT-PILOT-0005; ATT-PILOT-0006; ATT-PILOT-0007; ATT-PILOT-0010; ATT-PILOT-0012; ATT-PILOT-0013; ATT-PILOT-0014; ATT-PILOT-0016; ATT-PILOT-0017; ATT-PILOT-0018; ATT-PILOT-0019; ATT-PILOT-0020; ATT-PILOT-0021; ATT-PILOT-0022; ATT-PILOT-0023; ATT-PILOT-0024; ATT-PILOT-0025; ATT-PILOT-0026; ATT-PILOT-0027; ATT-PILOT-0028; ATT-PILOT-0029; ATT-PILOT-0030; ATT-PILOT-0031; ATT-PILOT-0032; ATT-PILOT-0033; ATT-PILOT-0034; ATT-PILOT-0035; ATT-PILOT-0036; ATT-PILOT-0037; CIC-SRC-EXP-0005; VRB-STAGED-0006; VRB-STAGED-0008; VRB-STAGED-0010; VRB-STAGED-0015; VRB-STAGED-0019; VRB-STAGED-0020; VRB-STAGED-0025; VRB-STAGED-0030; VRB-STAGED-0032; VRB-STAGED-0038; VRB-STAGED-0045; VRB-STAGED-0047; VRB-STAGED-0062; VRB-STAGED-0066; VRB-STAGED-0068; VRB-STAGED-0072; VRB-STAGED-0073; VRB-STAGED-0074; VRB-STAGED-0075; VRB-STAGED-0076; VRB-STAGED-0077; VRB-STAGED-0092; VRB-STAGED-0095
+Quintus Cicero,actor_quintus_cicero,1,9,1.615,5,1,3,1,borrower (7); recipient (4); third_party (2),political/civic finance (4); repayment pressure (3); surety (2); ambiguous (2); refinancing/versura (1); direct loan (1),16,8,ATT-PILOT-0005; ATT-PILOT-0010; QFR-PILOT-0001; QFR-PILOT-0002; VRB-STAGED-0006; VRB-STAGED-0045; VRB-STAGED-0047; VRB-STAGED-0048; VRB-STAGED-0073
+Tiro,actor_tiro,1,7,1.700,4,1,1,1,third_party (5); recipient (3); borrower (2),account/nomina (9); refinancing/versura (1),10,7,ATT-PILOT-0006; ATT-PILOT-0013; ATT-PILOT-0014; ATT-PILOT-0026; FAM-PILOT-0004; FAM-PILOT-0005; VRB-STAGED-0027
+Terentia,actor_terentia,1,5,2.000,5,1,2,1,third_party (3); borrower (2); recipient (1),account/nomina (2); surety (2); refinancing/versura (1); repayment pressure (1),6,4,ATT-PILOT-0018; ATT-PILOT-0023; ATT-PILOT-0024; ATT-PILOT-0032; FAM-PILOT-0006
+Eros,actor_eros,1,4,1.750,4,1,0,1,third_party (4),account/nomina (3); refinancing/versura (1),8,4,ATT-PILOT-0022; ATT-PILOT-0029; VRB-STAGED-0025; VRB-STAGED-0072
+Philotimus,actor_philotimus,1,3,3.333,4,1,2,0,borrower (2); third_party (1),account/nomina (2); refinancing/versura (1),4,3,ATT-PILOT-0003; ATT-PILOT-0020; ATT-PILOT-0031
+Dolabella,actor_dolabella,1,3,3.000,5,1,2,0,borrower (2); lender (1),account/nomina (1); repayment pressure (1); refinancing/versura (1),3,3,ATT-PILOT-0016; ATT-PILOT-0028; ATT-PILOT-0037
+Egnatius,actor_egnatius,1,2,4.000,5,1,2,1,lender (1); third_party (1),refinancing/versura (1); surety (1),8,2,ATT-PILOT-0005; VRB-STAGED-0038
+Q. Axius,actor_q_axius,1,2,4.000,5,1,2,1,third_party (2),refinancing/versura (1); repayment pressure (1),4,2,ATT-PILOT-0005; ATT-PILOT-0007
+L. Tullius Montanus,actor_l_tullius_montanus,1,2,3.000,5,1,1,1,borrower (2),refinancing/versura (1); surety (1),2,2,ATT-PILOT-0018; ATT-PILOT-0027
+Marc Antony,actor_marc_antony,1,2,2.500,4,1,0,0,third_party (1); borrower (1),refinancing/versura (1); surety (1),3,2,VRB-STAGED-0008; VRB-STAGED-0036
+Oppius,actor_oppius,1,2,2.500,4,1,0,0,lender (1); third_party (1),refinancing/versura (1); account/nomina (1),4,2,ATT-PILOT-0003; VRB-STAGED-0061
+C. Fufius,actor_c_fufius,1,1,5.000,5,1,1,0,lender (1),surety (1),1,1,VRB-STAGED-0040
+Heraclides,actor_heraclides,1,1,5.000,5,1,1,0,borrower (1),surety (1),1,1,VRB-STAGED-0040
+Hermippus,actor_hermippus,1,1,5.000,5,1,1,0,third_party (1),surety (1),3,1,VRB-STAGED-0040
+L. Ligus,actor_l_ligus,1,1,5.000,5,1,1,1,third_party (1),refinancing/versura (1),2,1,ATT-PILOT-0005
+M. Fufius,actor_m_fufius,1,1,5.000,5,1,1,0,lender (1),surety (1),1,1,VRB-STAGED-0040
+Pomponia,actor_pomponia,1,1,5.000,5,1,1,1,third_party (1),refinancing/versura (1),2,1,ATT-PILOT-0005
+Q. Titinius,actor_q_titinius,1,1,5.000,5,1,1,1,third_party (1),refinancing/versura (1),2,1,ATT-PILOT-0005
+Fulvia,actor_fulvia,1,1,4.000,4,1,0,0,borrower (1),refinancing/versura (1),1,1,VRB-STAGED-0008
+Hortensius,actor_hortensius,1,1,4.000,4,1,0,1,lender (1),refinancing/versura (1),1,1,ATT-PILOT-0029
+Cluvius,actor_cluvius,0,4,2.000,3,0,2,0,lender (3); borrower (1),recommendation (2); repayment pressure (2),6,4,VRB-STAGED-0019; VRB-STAGED-0058; VRB-STAGED-0062; VRB-STAGED-0078
+Thermo Propr,actor_thermo_propr,0,4,2.000,3,0,2,0,recipient (4),repayment pressure (2); ambiguous (1); recommendation (1),0,4,VRB-STAGED-0056; VRB-STAGED-0058; VRB-STAGED-0062; VRB-STAGED-0078
+Camillus,actor_camillus,0,3,1.667,3,0,1,0,third_party (2); lender (1),account/nomina (3),3,2,ATT-PILOT-0024; ATT-PILOT-0031; ATT-PILOT-0032
+Faberius,actor_faberius,0,3,1.667,3,0,1,0,third_party (2); lender (1),ambiguous (1); account/nomina (1); repayment pressure (1),5,3,ATT-PILOT-0012; ATT-PILOT-0026; ATT-PILOT-0028
+Silius,actor_silius,0,3,1.667,3,0,1,0,third_party (2); lender (1),ambiguous (1); repayment pressure (1); recommendation (1),4,3,ATT-PILOT-0012; VRB-STAGED-0055; VRB-STAGED-0071
+Brutus,actor_brutus,0,3,1.500,3,0,1,0,lender (2); recipient (1); third_party (1),political/civic finance (2); account/nomina (1); recommendation (1),7,3,CIC-SRC-EXP-0003; VRB-STAGED-0020; VRB-STAGED-0057
+Tullia,actor_tullia,0,3,1.500,3,0,1,0,third_party (3); recipient (1),surety (2); account/nomina (1); ambiguous (1),5,3,FAM-PILOT-0006; VRB-STAGED-0077; VRB-STAGED-0095
+Caesar,actor_caesar,0,3,1.333,2,0,1,0,lender (1); third_party (1); borrower (1),repayment pressure (1); political/civic finance (1); surety (1),2,2,ATT-PILOT-0021; VRB-STAGED-0048; VRB-STAGED-0089
+Cluvius procurators,actor_cluvius_procurators,0,2,2.000,3,0,1,0,third_party (2),repayment pressure (1); recommendation (1),3,2,VRB-STAGED-0058; VRB-STAGED-0062
+Flaminius,actor_flaminius,0,2,2.000,3,0,1,0,third_party (1); borrower (1),surety (1); account/nomina (1),3,2,ATT-PILOT-0027; FAM-PILOT-0005
+Crassus,actor_crassus,0,2,1.500,2,0,1,0,lender (1); third_party (1),repayment pressure (1); surety (1),1,1,VRB-STAGED-0082; VRB-STAGED-0089
+Publilius,actor_publilius,0,2,1.500,2,0,1,0,lender (2),repayment pressure (1); account/nomina (1),1,1,ATT-PILOT-0030; ATT-PILOT-0035
+Balbus,actor_balbus,0,2,1.000,1,0,0,0,third_party (2),account/nomina (2),4,2,ATT-PILOT-0016; VRB-STAGED-0061
+Caerellia,actor_caerellia,0,2,1.000,1,0,0,0,lender (2),account/nomina (2),5,2,ATT-PILOT-0026; VRB-STAGED-0070
+Curius,actor_curius,0,2,1.000,1,0,0,0,lender (2); third_party (1),account/nomina (3),2,2,ATT-PILOT-0006; VRB-STAGED-0027
+M. Anneius,actor_m_anneius,0,2,1.000,1,0,0,0,third_party (1); lender (1),surety (1); ambiguous (1),2,2,VRB-STAGED-0032; VRB-STAGED-0056
+Plancus,actor_plancus,0,2,1.000,1,0,0,0,lender (2),surety (1); recommendation (1),3,2,ATT-PILOT-0027; VRB-STAGED-0064
+Pompey,actor_pompey,0,2,1.000,1,0,0,0,borrower (1); third_party (1),surety (1); political/civic finance (1),3,2,VRB-STAGED-0042; VRB-STAGED-0048
+Q. Paconius Lepta,actor_q_paconius_lepta,0,2,1.000,1,0,0,0,third_party (2),surety (2),2,2,VRB-STAGED-0032; VRB-STAGED-0042
+Verres,actor_verres,0,2,1.000,1,0,0,0,third_party (2),account/nomina (1); political/civic finance (1),4,2,VRB-STAGED-0096; VRB-STAGED-0097
+A. Caninius Satyrus,actor_a_caninius_satyrus,0,1,3.000,3,0,1,0,lender (1),repayment pressure (1),3,1,ATT-PILOT-0001
+Appius Claudius,actor_appius_claudius,0,1,3.000,3,0,1,0,third_party (1),account/nomina (1),2,1,VRB-STAGED-0020
+Appuleius,actor_appuleius,0,1,3.000,3,0,1,0,third_party (1),surety (1),2,1,ATT-PILOT-0025
+Athens,actor_athens,0,1,3.000,3,1,0,0,borrower (1),refinancing/versura (1),0,0,VRB-STAGED-0015
+Caecilius,actor_caecilius,0,1,3.000,3,0,1,0,borrower (1),repayment pressure (1),3,1,ATT-PILOT-0001
+Caelius,actor_caelius,0,1,3.000,3,0,1,0,lender (1); sender (1); third_party (1),account/nomina (3),1,1,VRB-STAGED-0069
+Cn. Sallustius,actor_cn_sallustius,0,1,3.000,3,0,1,0,third_party (1),repayment pressure (1),2,1,ATT-PILOT-0023
+Cocceius,actor_cocceius,0,1,3.000,3,0,1,0,borrower (1),repayment pressure (1),1,1,VRB-STAGED-0053
+Cornificius,actor_cornificius,0,1,3.000,3,0,1,0,borrower (1); third_party (1),surety (2),3,1,ATT-PILOT-0025
+Iunius,actor_iunius,0,1,3.000,3,0,1,0,lender (1),surety (1),3,1,ATT-PILOT-0025
+L. Lucullus,actor_l_lucullus,0,1,3.000,3,0,1,0,third_party (1),repayment pressure (1),3,1,ATT-PILOT-0001
+L. Pontius,actor_l_pontius,0,1,3.000,3,0,1,0,third_party (1),repayment pressure (1),3,1,ATT-PILOT-0001
+Matinius,actor_matinius,0,1,3.000,3,0,1,0,third_party (1),account/nomina (1),2,1,VRB-STAGED-0020
+Minucius Thermus,actor_minucius_thermus,0,1,3.000,3,0,1,0,third_party (1),repayment pressure (1),2,1,VRB-STAGED-0058
+Mylasa and Alabanda,actor_mylasa_and_alabanda,0,1,3.000,3,0,1,0,borrower (1),repayment pressure (1),1,1,VRB-STAGED-0078
+Nicaea,actor_nicaea,0,1,3.000,3,0,1,0,borrower (1),repayment pressure (1),2,1,VRB-STAGED-0055
+Numerius of Puteoli,actor_numerius_of_puteoli,0,1,3.000,3,0,1,0,lender (1),repayment pressure (1),1,1,VRB-STAGED-0074
+P. Quinctius,actor_p_quinctius,0,1,3.000,3,0,1,0,borrower (1),repayment pressure (1),1,1,VRB-STAGED-0094
+P. Sallustius,actor_p_sallustius,0,1,3.000,3,0,1,0,lender (1),repayment pressure (1),2,1,ATT-PILOT-0023
+P. Scipio,actor_p_scipio,0,1,3.000,3,0,1,0,third_party (1),repayment pressure (1),3,1,ATT-PILOT-0001
+P. Varius,actor_p_varius,0,1,3.000,3,0,1,0,lender (1),repayment pressure (1),3,1,ATT-PILOT-0001
+Philocles,actor_philocles,0,1,3.000,3,0,1,0,borrower (1),repayment pressure (1),2,1,VRB-STAGED-0058
+Q. Axius' son,actor_q_axius_son,0,1,3.000,3,0,1,0,borrower (1),repayment pressure (1),1,1,ATT-PILOT-0007
+Salamis,actor_salamis,0,1,3.000,3,0,1,0,borrower (1),account/nomina (1),4,1,VRB-STAGED-0020
+Scaptius,actor_scaptius,0,1,3.000,3,0,1,0,third_party (1),account/nomina (1),2,1,VRB-STAGED-0020
+Scapula heirs,actor_scapula_heirs,0,1,3.000,3,0,1,0,lender (1),repayment pressure (1),1,1,VRB-STAGED-0094
+Scribonius Libo,actor_scribonius_libo,0,1,3.000,3,0,1,0,borrower (1),surety (1),1,1,VRB-STAGED-0038
+Sex. Naevius,actor_sex_naevius,0,1,3.000,3,0,1,0,third_party (1),repayment pressure (1),2,1,VRB-STAGED-0094
+Tullia's creditors,actor_tullia_s_creditors,0,1,3.000,3,0,1,0,lender (1),account/nomina (1),2,1,VRB-STAGED-0077
+Varro,actor_varro,0,1,3.000,3,0,1,0,third_party (1),repayment pressure (1),2,1,VRB-STAGED-0053
+procuratores,actor_procuratores,0,1,3.000,3,0,1,0,third_party (1),repayment pressure (1),2,1,VRB-STAGED-0078
+young T. Pinnius,actor_young_t_pinnius,0,1,3.000,3,0,1,0,lender (1),repayment pressure (1),2,1,VRB-STAGED-0055
+Ariobarzanes III,actor_ariobarzanes_iii,0,1,2.000,2,0,1,0,borrower (1),repayment pressure (1),0,0,VRB-STAGED-0068
+Crassus' amici,actor_crassus_amici,0,1,2.000,2,0,1,0,borrower (1),repayment pressure (1),0,0,VRB-STAGED-0082
+Antony creditors,actor_antony_creditors,0,1,1.000,1,0,0,0,lender (1),surety (1),1,1,VRB-STAGED-0036
+Arpinum,actor_arpinum,0,1,1.000,1,0,0,0,lender (1),account/nomina (1),2,1,VRB-STAGED-0072
+Ateius Capito,actor_ateius_capito,0,1,1.000,1,0,0,0,third_party (1),recommendation (1),2,1,VRB-STAGED-0064
+Aurelius,actor_aurelius,0,1,1.000,1,0,0,0,lender (1),account/nomina (1),1,1,FAM-PILOT-0004
+Avianius,actor_avianius,0,1,1.000,1,0,0,0,lender (1),account/nomina (1),0,0,FAM-PILOT-0002
+Bruto,actor_bruto,0,1,1.000,1,0,0,0,recipient (1),recommendation (1),0,1,VRB-STAGED-0057
+Brutus Albinus,actor_brutus_albinus,0,1,1.000,1,0,0,0,third_party (1),political/civic finance (1),1,1,VRB-STAGED-0044
+Brutus Albinus friends,actor_brutus_albinus_friends,0,1,1.000,1,0,0,0,borrower (1),political/civic finance (1),1,1,VRB-STAGED-0044
+Brvto,actor_brvto,0,1,1.000,1,0,0,0,recipient (1),recommendation (1),0,1,VRB-STAGED-0067
+Buthrotum,actor_buthrotum,0,1,1.000,1,0,0,0,borrower (1),recommendation (1),2,1,VRB-STAGED-0064
+C. Flavius,actor_c_flavius,0,1,1.000,1,0,0,0,lender (1),recommendation (1),1,1,VRB-STAGED-0067
+C. Octavius,actor_c_octavius,0,1,1.000,1,0,0,0,lender (1),recommendation (1),1,1,VRB-STAGED-0066
+C. Scribonius Curio,actor_c_scribonius_curio,0,1,1.000,1,0,0,0,third_party (1),surety (1),2,1,VRB-STAGED-0036
+Caepio,actor_caepio,0,1,1.000,1,0,0,0,lender (1),surety (1),1,1,QFR-PILOT-0001
+Castricius,actor_castricius,0,1,1.000,1,0,0,0,lender (1),ambiguous (1),2,1,VRB-STAGED-0073
+Cato,actor_cato,0,1,1.000,1,0,0,0,recipient (1),political/civic finance (1),0,1,CIC-SRC-EXP-0004
+Cato the Younger,actor_cato_the_younger,0,1,1.000,1,0,0,0,lender (1),political/civic finance (1),1,1,VRB-STAGED-0081
+Cluvian coheirs,actor_cluvian_coheirs,0,1,1.000,1,0,0,0,lender (1); third_party (1),account/nomina (2),2,1,ATT-PILOT-0017
+Culleolo,actor_culleolo,0,1,1.000,1,0,0,0,recipient (1),surety (1),0,1,VRB-STAGED-0065
+D. Iunius Brutus,actor_d_iunius_brutus,0,1,1.000,1,0,0,0,third_party (1),surety (1),2,1,VRB-STAGED-0088
+Funisulanus,actor_funisulanus,0,1,1.000,1,0,0,0,borrower (1),account/nomina (1),1,1,ATT-PILOT-0022
+Greek provincial communities,actor_greek_provincial_communities,0,1,1.000,1,0,0,0,borrower (1),surety (1),2,1,CIC-SRC-EXP-0005
+Hermogenes,actor_hermogenes,0,1,1.000,1,0,0,0,third_party (1),ambiguous (1),3,1,ATT-PILOT-0012
+L Planco,actor_l_planco,0,1,1.000,1,0,0,0,recipient (1),recommendation (1),0,1,VRB-STAGED-0064
+L. Carpinatius,actor_l_carpinatius,0,1,1.000,1,0,0,0,lender (1),political/civic finance (1),2,1,VRB-STAGED-0097
+L. Culleolus,actor_l_culleolus,0,1,1.000,1,0,0,0,third_party (1),surety (1),2,1,VRB-STAGED-0065
+L. Lucceius,actor_l_lucceius,0,1,1.000,1,0,0,0,lender (1),surety (1),2,1,VRB-STAGED-0065
+L. Mescinius,actor_l_mescinius,0,1,1.000,1,0,0,0,borrower (1),surety (1),1,1,FAM-PILOT-0003
+L. Titius Strabo,actor_l_titius_strabo,0,1,1.000,1,0,0,0,lender (1),recommendation (1),2,1,VRB-STAGED-0057
+M. Antonius,actor_m_antonius,0,1,1.000,1,0,0,0,lender (1),surety (1),1,1,QFR-PILOT-0001
+M. Fadius Gallus,actor_m_fadius_gallus,0,1,1.000,1,0,0,0,recipient (1),account/nomina (1),0,0,FAM-PILOT-0002
+M. Laenius,actor_m_laenius,0,1,1.000,1,0,0,0,lender (1),recommendation (1),2,1,VRB-STAGED-0071
+Meton,actor_meton,0,1,1.000,1,0,0,0,third_party (1),account/nomina (1),2,1,ATT-PILOT-0026
+Ofillius,actor_ofillius,0,1,1.000,1,0,0,0,lender (1),account/nomina (1),1,1,FAM-PILOT-0004
+P Servilio Collegae,actor_p_servilio_collegae,0,1,1.000,1,0,0,0,recipient (1),account/nomina (1),0,1,VRB-STAGED-0070
+P. Cornelius,actor_p_cornelius,0,1,1.000,1,0,0,0,borrower (1),recommendation (1),2,1,VRB-STAGED-0057
+P. Iunius,actor_p_iunius,0,1,1.000,1,0,0,0,borrower (1),surety (1),1,1,VRB-STAGED-0088
+P. Magius Chilo,actor_p_magius_chilo,0,1,1.000,1,0,0,0,borrower (1),surety (1),1,1,VRB-STAGED-0010
+P. Sittius,actor_p_sittius,0,1,1.000,1,0,0,0,borrower (1),surety (1),1,1,VRB-STAGED-0099
+P. Sulla,actor_p_sulla,0,1,1.000,1,0,0,0,third_party (1),surety (1),1,1,VRB-STAGED-0099
+P. Valerius,actor_p_valerius,0,1,1.000,1,0,0,0,borrower (1),surety (1),2,1,VRB-STAGED-0032
+Patulcius,actor_patulcius,0,1,1.000,1,0,0,0,lender (1),account/nomina (1),1,1,VRB-STAGED-0076
+Philargyrus,actor_philargyrus,0,1,1.000,1,0,0,0,lender (1),ambiguous (1),1,1,VRB-STAGED-0075
+Philogenes,actor_philogenes,0,1,1.000,1,0,0,0,borrower (1),account/nomina (1),0,0,ATT-PILOT-0033
+Q. Caecilius Dio,actor_q_caecilius_dio,0,1,1.000,1,0,0,0,borrower (1),account/nomina (1),1,1,VRB-STAGED-0096
+Roman state,actor_roman_state,0,1,1.000,1,0,0,0,lender (1),surety (1),1,1,VRB-STAGED-0088
+Roman state grain funds,actor_roman_state_grain_funds,0,1,1.000,1,0,0,0,third_party (1),political/civic finance (1),3,1,VRB-STAGED-0097
+Sardis,actor_sardis,0,1,1.000,1,0,0,0,borrower (1),ambiguous (1),1,1,VRB-STAGED-0056
+Scapula estate,actor_scapula_estate,0,1,1.000,1,0,0,0,lender (1),account/nomina (1),0,0,VRB-STAGED-0030
+Senate,actor_senate,0,1,1.000,1,0,0,0,third_party (1),political/civic finance (1),2,1,CIC-SRC-EXP-0003
+Ser. Sulpicius Galba,actor_ser_sulpicius_galba,0,1,1.000,1,0,0,0,third_party (1),surety (1),1,1,VRB-STAGED-0042
+Servilius,actor_servilius,0,1,1.000,1,0,0,0,third_party (1),surety (1),2,1,CIC-SRC-EXP-0005
+Servius Sulpicius,actor_servius_sulpicius,0,1,1.000,1,0,0,0,recipient (1),surety (1),0,1,FAM-PILOT-0003
+Sicilian tax company,actor_sicilian_tax_company,0,1,1.000,1,0,0,0,lender (1),political/civic finance (1),2,1,VRB-STAGED-0097
+Titus Pomponius,actor_titus_pomponius,0,1,1.000,1,0,0,0,lender (1),surety (1),0,0,VRB-STAGED-0002
+Xeno,actor_xeno,0,1,1.000,1,0,0,0,third_party (1),account/nomina (1),2,1,VRB-STAGED-0025
+amici,actor_amici,0,1,1.000,1,0,0,0,lender (1),ambiguous (1),1,1,VRB-STAGED-0006
+borrowers under Verres' scheme,actor_borrowers_under_verres_scheme,0,1,1.000,1,0,0,0,borrower (1),political/civic finance (1),2,1,VRB-STAGED-0097
+cities in Asia,actor_cities_in_asia,0,1,1.000,1,0,0,0,borrower (1),political/civic finance (1),1,1,CIC-SRC-EXP-0003
+city of Byllis,actor_city_of_byllis,0,1,1.000,1,0,0,0,borrower (1),surety (1),2,1,VRB-STAGED-0065
+city of Dyrrhachium,actor_city_of_dyrrhachium,0,1,1.000,1,0,0,0,borrower (1),recommendation (1),1,1,VRB-STAGED-0067
+city of Sicyon,actor_city_of_sicyon,0,1,1.000,1,0,0,0,borrower (1),recommendation (1),1,1,VRB-STAGED-0066
+friends of Cato,actor_friends_of_cato,0,1,1.000,1,0,0,0,borrower (1); third_party (1),political/civic finance (2),1,1,VRB-STAGED-0081
+multiple provincial communities,actor_multiple_provincial_communities,0,1,1.000,1,0,0,0,borrower (1),political/civic finance (1),1,1,CIC-SRC-EXP-0004
+provincial governor,actor_provincial_governor,0,1,1.000,1,0,0,0,third_party (1),account/nomina (1),1,1,VRB-STAGED-0070
+publicani,actor_publicani,0,1,1.000,1,0,0,0,lender (1),surety (1),2,1,CIC-SRC-EXP-0005

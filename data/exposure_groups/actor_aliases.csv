@@ -1,0 +1,45 @@
+raw_label,normalized_label,stable_actor_id,alias_status,authority
+Appuleius as praediator,appuleius,ACT-APPULEIUS,resolved_current_label,current_typed_rebuild
+Atticus,atticus,ACT-ATTICUS,resolved_current_label,current_typed_rebuild
+Atticus as manager,atticus,ACT-ATTICUS,resolved_current_label,current_typed_rebuild
+Aurelius,aurelius,ACT-AURELIUS,resolved_current_label,current_typed_rebuild
+Caerellia,caerellia,ACT-CAERELLIA,resolved_current_label,current_typed_rebuild
+Cato the Younger,cato,ACT-CATO,resolved_current_label,current_typed_rebuild
+Cicero,cicero,ACT-CICERO,resolved_current_label,current_typed_rebuild
+Cicero as alleged sponsor,cicero,ACT-CICERO,resolved_current_label,current_typed_rebuild
+Cluvian coheirs,cluvian coheirs,ACT-CLUVIAN-COHEIRS,resolved_current_label,current_typed_rebuild
+Cocceius,cocceius,ACT-COCCEIUS,resolved_current_label,current_typed_rebuild
+Cornificius,cornificius,ACT-CORNIFICIUS,resolved_current_label,current_typed_rebuild
+Cornificius' procurators,cornificius procurators,ACT-CORNIFICIUS-PROCURATORS,resolved_current_label,current_typed_rebuild
+Dolabella,dolabella,ACT-DOLABELLA,resolved_current_label,current_typed_rebuild
+Egnatius Rufus,egnatius rufus,ACT-EGNATIUS-RUFUS,resolved_current_label,current_typed_rebuild
+Eros,eros,ACT-EROS,resolved_current_label,current_typed_rebuild
+Faberius,faberius,ACT-FABERIUS,resolved_current_label,current_typed_rebuild
+"Flaminius, for whom Montanus is surety",flaminius,ACT-FLAMINIUS,resolved_current_label,current_typed_rebuild
+Flamma,flamma,ACT-FLAMMA,resolved_current_label,current_typed_rebuild
+Hermogenes,hermogenes,ACT-HERMOGENES,resolved_current_label,current_typed_rebuild
+Hortensius,hortensius,ACT-HORTENSIUS,resolved_current_label,current_typed_rebuild
+Iunius,iunius,ACT-IUNIUS,resolved_current_label,current_typed_rebuild
+Meton,meton,ACT-METON,resolved_current_label,current_typed_rebuild
+Ofillius,ofillius,ACT-OFILLIUS,resolved_current_label,current_typed_rebuild
+Patulcius,patulcius,ACT-PATULCIUS,resolved_current_label,current_typed_rebuild
+Plancus,plancus,ACT-PLANCUS,resolved_current_label,current_typed_rebuild
+Pompey,pompey,ACT-POMPEY,resolved_current_label,current_typed_rebuild
+Publilius,publilius,ACT-PUBLILIUS,resolved_current_label,current_typed_rebuild
+Q. Paconius Lepta,q paconius lepta,ACT-Q-PACONIUS-LEPTA,resolved_current_label,current_typed_rebuild
+Scribonius Libo,scribonius libo,ACT-SCRIBONIUS-LIBO,resolved_current_label,current_typed_rebuild
+Ser. Sulpicius Galba,ser sulpicius galba,ACT-SER-SULPICIUS-GALBA,resolved_current_label,current_typed_rebuild
+Silius,silius,ACT-SILIUS,resolved_current_label,current_typed_rebuild
+Terentia,terentia,ACT-TERENTIA,resolved_current_label,current_typed_rebuild
+Tiro,tiro,ACT-TIRO,resolved_current_label,current_typed_rebuild
+Tiro as agent,tiro,ACT-TIRO,resolved_current_label,current_typed_rebuild
+Tiro as collection agent,tiro,ACT-TIRO,resolved_current_label,current_typed_rebuild
+L. Tullius Montanus,tullius montanus,ACT-TULLIUS-MONTANUS,resolved_current_label,current_typed_rebuild
+Varro,varro,ACT-VARRO,resolved_current_label,current_typed_rebuild
+young Lucullus,young lucullus,ACT-YOUNG-LUCULLUS,resolved_current_label,current_typed_rebuild
+Faberius' debtor,faberius debtor,PLH-02dd7626e090cce8,placeholder_token,current_typed_rebuild
+unspecified creditor,unspecified creditor,PLH-2efdcaa9cde9f241,placeholder_token,current_typed_rebuild
+party secured through Terentia,party secured through terentia,PLH-3867621eca95f356,placeholder_token,current_typed_rebuild
+unknown creditor,unknown creditor,PLH-b0c742e0f412ff74,placeholder_token,current_typed_rebuild
+unspecified refinancing source,unspecified refinancing source,PLH-de958647944ebc7a,placeholder_token,current_typed_rebuild
+Cluvian estate,cluvian estate,PLH-e6ace6b73e88d8db,placeholder_token,current_typed_rebuild

@@ -1,0 +1,22 @@
+name: reproduce
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate contributions and canonical relationships
+        run: make validate
+      - name: Reproduce O1-O6
+        run: make reproduce
+      - name: Run tests
+        run: make test
+      - name: Require committed results to be current
+        run: git diff --exit-code -- results/official validation/checksums.sha256 validation/latest_verification.json

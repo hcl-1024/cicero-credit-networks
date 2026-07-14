@@ -1,0 +1,577 @@
+variant_pair_id,node_id,canonical_name,actor_type,present_with_cicero,present_without_cicero,presence_status,metric,value_with_cicero,value_without_cicero,absolute_delta,percent_delta,rank_with_cicero,rank_without_cicero,rank_delta
+ciceronian_period_vs_cicero_removed,actor_a_caninius_satyrus,A. Caninius Satyrus,individual,yes,yes,present_in_both,weighted_degree,4.000000,4.000000,0.000000,0.00,19,17,-2
+ciceronian_period_vs_cicero_removed,actor_a_caninius_satyrus,A. Caninius Satyrus,individual,yes,yes,present_in_both,component_size,118.000000,6.000000,-112.000000,-94.92,19,17,-2
+ciceronian_period_vs_cicero_removed,actor_a_caninius_satyrus,A. Caninius Satyrus,individual,yes,yes,present_in_both,pagerank,0.009667,0.011186,0.001519,15.71,19,17,-2
+ciceronian_period_vs_cicero_removed,actor_a_caninius_satyrus,A. Caninius Satyrus,individual,yes,yes,present_in_both,betweenness,0.000098,0.000117,0.000019,19.39,19,17,-2
+ciceronian_period_vs_cicero_removed,actor_antony_creditors,Antony creditors,collective_group,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,56,51,-5
+ciceronian_period_vs_cicero_removed,actor_antony_creditors,Antony creditors,collective_group,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,56,51,-5
+ciceronian_period_vs_cicero_removed,actor_antony_creditors,Antony creditors,collective_group,yes,yes,present_in_both,pagerank,0.005757,0.006988,0.001231,21.38,56,51,-5
+ciceronian_period_vs_cicero_removed,actor_antony_creditors,Antony creditors,collective_group,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,56,51,-5
+ciceronian_period_vs_cicero_removed,actor_appius_claudius,Appius Claudius,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,115,96,-19
+ciceronian_period_vs_cicero_removed,actor_appius_claudius,Appius Claudius,individual,yes,yes,present_in_both,component_size,118.000000,9.000000,-109.000000,-92.37,115,96,-19
+ciceronian_period_vs_cicero_removed,actor_appius_claudius,Appius Claudius,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,115,96,-19
+ciceronian_period_vs_cicero_removed,actor_appius_claudius,Appius Claudius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,115,96,-19
+ciceronian_period_vs_cicero_removed,actor_appuleius,Appuleius,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,116,97,-19
+ciceronian_period_vs_cicero_removed,actor_appuleius,Appuleius,individual,yes,yes,present_in_both,component_size,118.000000,3.000000,-115.000000,-97.46,116,97,-19
+ciceronian_period_vs_cicero_removed,actor_appuleius,Appuleius,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,116,97,-19
+ciceronian_period_vs_cicero_removed,actor_appuleius,Appuleius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,116,97,-19
+ciceronian_period_vs_cicero_removed,actor_arpinum,Arpinum,civic_body,yes,yes,present_in_both,weighted_degree,3.000000,2.000000,-1.000000,-33.33,57,54,-3
+ciceronian_period_vs_cicero_removed,actor_arpinum,Arpinum,civic_body,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,57,54,-3
+ciceronian_period_vs_cicero_removed,actor_arpinum,Arpinum,civic_body,yes,yes,present_in_both,pagerank,0.005631,0.006424,0.000793,14.08,57,54,-3
+ciceronian_period_vs_cicero_removed,actor_arpinum,Arpinum,civic_body,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,57,54,-3
+ciceronian_period_vs_cicero_removed,actor_ateius_capito,Ateius Capito,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,117,98,-19
+ciceronian_period_vs_cicero_removed,actor_ateius_capito,Ateius Capito,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,117,98,-19
+ciceronian_period_vs_cicero_removed,actor_ateius_capito,Ateius Capito,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,117,98,-19
+ciceronian_period_vs_cicero_removed,actor_ateius_capito,Ateius Capito,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,117,98,-19
+ciceronian_period_vs_cicero_removed,actor_athens,Athens,civic_body,yes,yes,present_in_both,weighted_degree,1.000000,1.000000,0.000000,0.00,134,112,-22
+ciceronian_period_vs_cicero_removed,actor_athens,Athens,civic_body,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,134,112,-22
+ciceronian_period_vs_cicero_removed,actor_athens,Athens,civic_body,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,134,112,-22
+ciceronian_period_vs_cicero_removed,actor_athens,Athens,civic_body,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,134,112,-22
+ciceronian_period_vs_cicero_removed,actor_atticus,Atticus,individual,yes,yes,present_in_both,weighted_degree,45.000000,27.000000,-18.000000,-40.00,4,2,-2
+ciceronian_period_vs_cicero_removed,actor_atticus,Atticus,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,4,2,-2
+ciceronian_period_vs_cicero_removed,actor_atticus,Atticus,individual,yes,yes,present_in_both,pagerank,0.025561,0.028600,0.003039,11.89,4,2,-2
+ciceronian_period_vs_cicero_removed,actor_atticus,Atticus,individual,yes,yes,present_in_both,betweenness,0.063975,0.233509,0.169534,265.00,4,2,-2
+ciceronian_period_vs_cicero_removed,actor_aurelius,Aurelius,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,74,79,5
+ciceronian_period_vs_cicero_removed,actor_aurelius,Aurelius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,74,79,5
+ciceronian_period_vs_cicero_removed,actor_aurelius,Aurelius,individual,yes,yes,present_in_both,pagerank,0.004915,0.005182,0.000267,5.43,74,79,5
+ciceronian_period_vs_cicero_removed,actor_aurelius,Aurelius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,74,79,5
+ciceronian_period_vs_cicero_removed,actor_avianius,Avianius,individual,yes,no,with_cicero_only,weighted_degree,1.000000,,,,83,,
+ciceronian_period_vs_cicero_removed,actor_avianius,Avianius,individual,yes,no,with_cicero_only,component_size,118.000000,,,,83,,
+ciceronian_period_vs_cicero_removed,actor_avianius,Avianius,individual,yes,no,with_cicero_only,pagerank,0.004559,,,,83,,
+ciceronian_period_vs_cicero_removed,actor_avianius,Avianius,individual,yes,no,with_cicero_only,betweenness,0.000000,,,,83,,
+ciceronian_period_vs_cicero_removed,actor_balbus,Balbus,individual,yes,yes,present_in_both,weighted_degree,4.000000,1.000000,-3.000000,-75.00,113,113,0
+ciceronian_period_vs_cicero_removed,actor_balbus,Balbus,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,113,113,0
+ciceronian_period_vs_cicero_removed,actor_balbus,Balbus,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,113,113,0
+ciceronian_period_vs_cicero_removed,actor_balbus,Balbus,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,113,113,0
+ciceronian_period_vs_cicero_removed,actor_brutus,Brutus,individual,yes,yes,present_in_both,weighted_degree,9.000000,8.000000,-1.000000,-11.11,5,4,-1
+ciceronian_period_vs_cicero_removed,actor_brutus,Brutus,individual,yes,yes,present_in_both,component_size,118.000000,9.000000,-109.000000,-92.37,5,4,-1
+ciceronian_period_vs_cicero_removed,actor_brutus,Brutus,individual,yes,yes,present_in_both,pagerank,0.022398,0.024800,0.002402,10.72,5,4,-1
+ciceronian_period_vs_cicero_removed,actor_brutus,Brutus,individual,yes,yes,present_in_both,betweenness,0.039594,0.002525,-0.037069,-93.62,5,4,-1
+ciceronian_period_vs_cicero_removed,actor_brutus_albinus,Brutus Albinus,individual,yes,yes,present_in_both,weighted_degree,1.000000,1.000000,0.000000,0.00,135,114,-21
+ciceronian_period_vs_cicero_removed,actor_brutus_albinus,Brutus Albinus,individual,yes,yes,present_in_both,component_size,2.000000,2.000000,0.000000,0.00,135,114,-21
+ciceronian_period_vs_cicero_removed,actor_brutus_albinus,Brutus Albinus,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,135,114,-21
+ciceronian_period_vs_cicero_removed,actor_brutus_albinus,Brutus Albinus,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,135,114,-21
+ciceronian_period_vs_cicero_removed,actor_brutus_albinus_friends,Brutus Albinus friends,collective_group,yes,yes,present_in_both,weighted_degree,1.000000,1.000000,0.000000,0.00,39,37,-2
+ciceronian_period_vs_cicero_removed,actor_brutus_albinus_friends,Brutus Albinus friends,collective_group,yes,yes,present_in_both,component_size,2.000000,2.000000,0.000000,0.00,39,37,-2
+ciceronian_period_vs_cicero_removed,actor_brutus_albinus_friends,Brutus Albinus friends,collective_group,yes,yes,present_in_both,pagerank,0.006467,0.007849,0.001382,21.37,39,37,-2
+ciceronian_period_vs_cicero_removed,actor_brutus_albinus_friends,Brutus Albinus friends,collective_group,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,39,37,-2
+ciceronian_period_vs_cicero_removed,actor_buthrotum,Buthrotum,individual,yes,yes,present_in_both,weighted_degree,3.000000,2.000000,-1.000000,-33.33,53,59,6
+ciceronian_period_vs_cicero_removed,actor_buthrotum,Buthrotum,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,53,59,6
+ciceronian_period_vs_cicero_removed,actor_buthrotum,Buthrotum,individual,yes,yes,present_in_both,pagerank,0.006044,0.006046,0.000002,0.03,53,59,6
+ciceronian_period_vs_cicero_removed,actor_buthrotum,Buthrotum,individual,yes,yes,present_in_both,betweenness,0.005522,0.000000,-0.005522,-100.00,53,59,6
+ciceronian_period_vs_cicero_removed,actor_c_flavius,C. Flavius,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,26,38,12
+ciceronian_period_vs_cicero_removed,actor_c_flavius,C. Flavius,individual,yes,yes,present_in_both,component_size,118.000000,2.000000,-116.000000,-98.31,26,38,12
+ciceronian_period_vs_cicero_removed,actor_c_flavius,C. Flavius,individual,yes,yes,present_in_both,pagerank,0.008433,0.007849,-0.000584,-6.93,26,38,12
+ciceronian_period_vs_cicero_removed,actor_c_flavius,C. Flavius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,26,38,12
+ciceronian_period_vs_cicero_removed,actor_c_fufius,C. Fufius,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,47,47,0
+ciceronian_period_vs_cicero_removed,actor_c_fufius,C. Fufius,individual,yes,yes,present_in_both,component_size,4.000000,4.000000,0.000000,0.00,47,47,0
+ciceronian_period_vs_cicero_removed,actor_c_fufius,C. Fufius,individual,yes,yes,present_in_both,pagerank,0.006392,0.007759,0.001367,21.39,47,47,0
+ciceronian_period_vs_cicero_removed,actor_c_fufius,C. Fufius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,47,47,0
+ciceronian_period_vs_cicero_removed,actor_c_octavius,C. Octavius,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,27,39,12
+ciceronian_period_vs_cicero_removed,actor_c_octavius,C. Octavius,individual,yes,yes,present_in_both,component_size,118.000000,2.000000,-116.000000,-98.31,27,39,12
+ciceronian_period_vs_cicero_removed,actor_c_octavius,C. Octavius,individual,yes,yes,present_in_both,pagerank,0.008433,0.007849,-0.000584,-6.93,27,39,12
+ciceronian_period_vs_cicero_removed,actor_c_octavius,C. Octavius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,27,39,12
+ciceronian_period_vs_cicero_removed,actor_c_scribonius_curio,C. Scribonius Curio,individual,yes,yes,present_in_both,weighted_degree,3.000000,3.000000,0.000000,0.00,102,88,-14
+ciceronian_period_vs_cicero_removed,actor_c_scribonius_curio,C. Scribonius Curio,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,102,88,-14
+ciceronian_period_vs_cicero_removed,actor_c_scribonius_curio,C. Scribonius Curio,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,102,88,-14
+ciceronian_period_vs_cicero_removed,actor_c_scribonius_curio,C. Scribonius Curio,individual,yes,yes,present_in_both,betweenness,0.004742,0.002427,-0.002315,-48.82,102,88,-14
+ciceronian_period_vs_cicero_removed,actor_c_vestorius,C. Vestorius,professional_financier,yes,no,with_cicero_only,weighted_degree,1.000000,,,,84,,
+ciceronian_period_vs_cicero_removed,actor_c_vestorius,C. Vestorius,professional_financier,yes,no,with_cicero_only,component_size,118.000000,,,,84,,
+ciceronian_period_vs_cicero_removed,actor_c_vestorius,C. Vestorius,professional_financier,yes,no,with_cicero_only,pagerank,0.004559,,,,84,,
+ciceronian_period_vs_cicero_removed,actor_c_vestorius,C. Vestorius,professional_financier,yes,no,with_cicero_only,betweenness,0.000000,,,,84,,
+ciceronian_period_vs_cicero_removed,actor_caecilius,Caecilius,individual,yes,yes,present_in_both,weighted_degree,6.000000,5.000000,-1.000000,-16.67,30,36,6
+ciceronian_period_vs_cicero_removed,actor_caecilius,Caecilius,individual,yes,yes,present_in_both,component_size,118.000000,6.000000,-112.000000,-94.92,30,36,6
+ciceronian_period_vs_cicero_removed,actor_caecilius,Caecilius,individual,yes,yes,present_in_both,pagerank,0.007530,0.007849,0.000319,4.24,30,36,6
+ciceronian_period_vs_cicero_removed,actor_caecilius,Caecilius,individual,yes,yes,present_in_both,betweenness,0.055279,0.000147,-0.055132,-99.73,30,36,6
+ciceronian_period_vs_cicero_removed,actor_caelius,Caelius,individual,yes,yes,present_in_both,weighted_degree,3.000000,1.000000,-2.000000,-66.67,58,115,57
+ciceronian_period_vs_cicero_removed,actor_caelius,Caelius,individual,yes,yes,present_in_both,component_size,118.000000,2.000000,-116.000000,-98.31,58,115,57
+ciceronian_period_vs_cicero_removed,actor_caelius,Caelius,individual,yes,yes,present_in_both,pagerank,0.005622,0.004243,-0.001379,-24.53,58,115,57
+ciceronian_period_vs_cicero_removed,actor_caelius,Caelius,individual,yes,yes,present_in_both,betweenness,0.011425,0.000000,-0.011425,-100.00,58,115,57
+ciceronian_period_vs_cicero_removed,actor_caepio,Caepio,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,35,33,-2
+ciceronian_period_vs_cicero_removed,actor_caepio,Caepio,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,35,33,-2
+ciceronian_period_vs_cicero_removed,actor_caepio,Caepio,individual,yes,yes,present_in_both,pagerank,0.007029,0.008232,0.001203,17.11,35,33,-2
+ciceronian_period_vs_cicero_removed,actor_caepio,Caepio,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,35,33,-2
+ciceronian_period_vs_cicero_removed,actor_caerellia,Caerellia,individual,yes,yes,present_in_both,weighted_degree,6.000000,4.000000,-2.000000,-33.33,14,10,-4
+ciceronian_period_vs_cicero_removed,actor_caerellia,Caerellia,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,14,10,-4
+ciceronian_period_vs_cicero_removed,actor_caerellia,Caerellia,individual,yes,yes,present_in_both,pagerank,0.011614,0.014964,0.003350,28.84,14,10,-4
+ciceronian_period_vs_cicero_removed,actor_caerellia,Caerellia,individual,yes,yes,present_in_both,betweenness,0.011630,0.021961,0.010331,88.83,14,10,-4
+ciceronian_period_vs_cicero_removed,actor_caesar,Caesar,individual,yes,yes,present_in_both,weighted_degree,6.000000,5.000000,-1.000000,-16.67,11,13,2
+ciceronian_period_vs_cicero_removed,actor_caesar,Caesar,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,11,13,2
+ciceronian_period_vs_cicero_removed,actor_caesar,Caesar,individual,yes,yes,present_in_both,pagerank,0.012395,0.012658,0.000263,2.12,11,13,2
+ciceronian_period_vs_cicero_removed,actor_caesar,Caesar,individual,yes,yes,present_in_both,betweenness,0.025615,0.019926,-0.005689,-22.21,11,13,2
+ciceronian_period_vs_cicero_removed,actor_camillus,Camillus,individual,yes,yes,present_in_both,weighted_degree,4.000000,3.000000,-1.000000,-25.00,97,52,-45
+ciceronian_period_vs_cicero_removed,actor_camillus,Camillus,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,97,52,-45
+ciceronian_period_vs_cicero_removed,actor_camillus,Camillus,individual,yes,yes,present_in_both,pagerank,0.004422,0.006603,0.002181,49.32,97,52,-45
+ciceronian_period_vs_cicero_removed,actor_camillus,Camillus,individual,yes,yes,present_in_both,betweenness,0.000053,0.000352,0.000299,564.15,97,52,-45
+ciceronian_period_vs_cicero_removed,actor_castricius,Castricius,individual,yes,yes,present_in_both,weighted_degree,3.000000,2.000000,-1.000000,-33.33,29,27,-2
+ciceronian_period_vs_cicero_removed,actor_castricius,Castricius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,29,27,-2
+ciceronian_period_vs_cicero_removed,actor_castricius,Castricius,individual,yes,yes,present_in_both,pagerank,0.007730,0.009511,0.001781,23.04,29,27,-2
+ciceronian_period_vs_cicero_removed,actor_castricius,Castricius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,29,27,-2
+ciceronian_period_vs_cicero_removed,actor_cato_the_younger,Cato the Younger,individual,yes,yes,present_in_both,weighted_degree,1.000000,1.000000,0.000000,0.00,136,116,-20
+ciceronian_period_vs_cicero_removed,actor_cato_the_younger,Cato the Younger,individual,yes,yes,present_in_both,component_size,2.000000,2.000000,0.000000,0.00,136,116,-20
+ciceronian_period_vs_cicero_removed,actor_cato_the_younger,Cato the Younger,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,136,116,-20
+ciceronian_period_vs_cicero_removed,actor_cato_the_younger,Cato the Younger,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,136,116,-20
+ciceronian_period_vs_cicero_removed,actor_cicero,Cicero,individual,yes,no,with_cicero_only,weighted_degree,129.000000,,,,1,,
+ciceronian_period_vs_cicero_removed,actor_cicero,Cicero,individual,yes,no,with_cicero_only,component_size,118.000000,,,,1,,
+ciceronian_period_vs_cicero_removed,actor_cicero,Cicero,individual,yes,no,with_cicero_only,pagerank,0.091307,,,,1,,
+ciceronian_period_vs_cicero_removed,actor_cicero,Cicero,individual,yes,no,with_cicero_only,betweenness,0.598736,,,,1,,
+ciceronian_period_vs_cicero_removed,actor_clodia,Clodia,individual,yes,yes,present_in_both,weighted_degree,1.000000,1.000000,0.000000,0.00,28,40,12
+ciceronian_period_vs_cicero_removed,actor_clodia,Clodia,individual,yes,yes,present_in_both,component_size,118.000000,2.000000,-116.000000,-98.31,28,40,12
+ciceronian_period_vs_cicero_removed,actor_clodia,Clodia,individual,yes,yes,present_in_both,pagerank,0.008274,0.007849,-0.000425,-5.14,28,40,12
+ciceronian_period_vs_cicero_removed,actor_clodia,Clodia,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,28,40,12
+ciceronian_period_vs_cicero_removed,actor_clodius_hermogenes,Clodius Hermogenes,individual,yes,no,with_cicero_only,weighted_degree,1.000000,,,,85,,
+ciceronian_period_vs_cicero_removed,actor_clodius_hermogenes,Clodius Hermogenes,individual,yes,no,with_cicero_only,component_size,118.000000,,,,85,,
+ciceronian_period_vs_cicero_removed,actor_clodius_hermogenes,Clodius Hermogenes,individual,yes,no,with_cicero_only,pagerank,0.004559,,,,85,,
+ciceronian_period_vs_cicero_removed,actor_clodius_hermogenes,Clodius Hermogenes,individual,yes,no,with_cicero_only,betweenness,0.000000,,,,85,,
+ciceronian_period_vs_cicero_removed,actor_cluvian_coheirs,Cluvian coheirs,collective_group,yes,yes,present_in_both,weighted_degree,3.000000,1.000000,-2.000000,-66.67,63,70,7
+ciceronian_period_vs_cicero_removed,actor_cluvian_coheirs,Cluvian coheirs,collective_group,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,63,70,7
+ciceronian_period_vs_cicero_removed,actor_cluvian_coheirs,Cluvian coheirs,collective_group,yes,yes,present_in_both,pagerank,0.005259,0.005522,0.000263,5.00,63,70,7
+ciceronian_period_vs_cicero_removed,actor_cluvian_coheirs,Cluvian coheirs,collective_group,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,63,70,7
+ciceronian_period_vs_cicero_removed,actor_cluvius,Cluvius,professional_financier,yes,yes,present_in_both,weighted_degree,8.000000,7.000000,-1.000000,-12.50,6,5,-1
+ciceronian_period_vs_cicero_removed,actor_cluvius,Cluvius,professional_financier,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,6,5,-1
+ciceronian_period_vs_cicero_removed,actor_cluvius,Cluvius,professional_financier,yes,yes,present_in_both,pagerank,0.019521,0.022834,0.003313,16.97,6,5,-1
+ciceronian_period_vs_cicero_removed,actor_cluvius,Cluvius,professional_financier,yes,yes,present_in_both,betweenness,0.055796,0.039518,-0.016278,-29.17,6,5,-1
+ciceronian_period_vs_cicero_removed,actor_cluvius_procurators,Cluvius procurators,collective_group,yes,yes,present_in_both,weighted_degree,3.000000,3.000000,0.000000,0.00,114,95,-19
+ciceronian_period_vs_cicero_removed,actor_cluvius_procurators,Cluvius procurators,collective_group,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,114,95,-19
+ciceronian_period_vs_cicero_removed,actor_cluvius_procurators,Cluvius procurators,collective_group,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,114,95,-19
+ciceronian_period_vs_cicero_removed,actor_cluvius_procurators,Cluvius procurators,collective_group,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,114,95,-19
+ciceronian_period_vs_cicero_removed,actor_cn_sallustius,Cn. Sallustius,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,118,117,-1
+ciceronian_period_vs_cicero_removed,actor_cn_sallustius,Cn. Sallustius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,118,117,-1
+ciceronian_period_vs_cicero_removed,actor_cn_sallustius,Cn. Sallustius,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,118,117,-1
+ciceronian_period_vs_cicero_removed,actor_cn_sallustius,Cn. Sallustius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,118,117,-1
+ciceronian_period_vs_cicero_removed,actor_cocceius,Cocceius,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,68,41,-27
+ciceronian_period_vs_cicero_removed,actor_cocceius,Cocceius,individual,yes,yes,present_in_both,component_size,118.000000,2.000000,-116.000000,-98.31,68,41,-27
+ciceronian_period_vs_cicero_removed,actor_cocceius,Cocceius,individual,yes,yes,present_in_both,pagerank,0.004981,0.007849,0.002868,57.58,68,41,-27
+ciceronian_period_vs_cicero_removed,actor_cocceius,Cocceius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,68,41,-27
+ciceronian_period_vs_cicero_removed,actor_considius,Considius,individual,yes,no,with_cicero_only,weighted_degree,1.000000,,,,86,,
+ciceronian_period_vs_cicero_removed,actor_considius,Considius,individual,yes,no,with_cicero_only,component_size,118.000000,,,,86,,
+ciceronian_period_vs_cicero_removed,actor_considius,Considius,individual,yes,no,with_cicero_only,pagerank,0.004559,,,,86,,
+ciceronian_period_vs_cicero_removed,actor_considius,Considius,individual,yes,no,with_cicero_only,betweenness,0.000000,,,,86,,
+ciceronian_period_vs_cicero_removed,actor_cornificius,Cornificius,individual,yes,yes,present_in_both,weighted_degree,4.000000,3.000000,-1.000000,-25.00,50,58,8
+ciceronian_period_vs_cicero_removed,actor_cornificius,Cornificius,individual,yes,yes,present_in_both,component_size,118.000000,3.000000,-115.000000,-97.46,50,58,8
+ciceronian_period_vs_cicero_removed,actor_cornificius,Cornificius,individual,yes,yes,present_in_both,pagerank,0.006044,0.006046,0.000002,0.03,50,58,8
+ciceronian_period_vs_cicero_removed,actor_cornificius,Cornificius,individual,yes,yes,present_in_both,betweenness,0.005663,0.000000,-0.005663,-100.00,50,58,8
+ciceronian_period_vs_cicero_removed,actor_crassus,Crassus,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,79,118,39
+ciceronian_period_vs_cicero_removed,actor_crassus,Crassus,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,79,118,39
+ciceronian_period_vs_cicero_removed,actor_crassus,Crassus,individual,yes,yes,present_in_both,pagerank,0.004559,0.004243,-0.000316,-6.93,79,118,39
+ciceronian_period_vs_cicero_removed,actor_crassus,Crassus,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,79,118,39
+ciceronian_period_vs_cicero_removed,actor_curius,Curius,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,93,53,-40
+ciceronian_period_vs_cicero_removed,actor_curius,Curius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,93,53,-40
+ciceronian_period_vs_cicero_removed,actor_curius,Curius,individual,yes,yes,present_in_both,pagerank,0.004553,0.006461,0.001908,41.91,93,53,-40
+ciceronian_period_vs_cicero_removed,actor_curius,Curius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,93,53,-40
+ciceronian_period_vs_cicero_removed,actor_d_iunius_brutus,D. Iunius Brutus,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,119,99,-20
+ciceronian_period_vs_cicero_removed,actor_d_iunius_brutus,D. Iunius Brutus,individual,yes,yes,present_in_both,component_size,3.000000,3.000000,0.000000,0.00,119,99,-20
+ciceronian_period_vs_cicero_removed,actor_d_iunius_brutus,D. Iunius Brutus,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,119,99,-20
+ciceronian_period_vs_cicero_removed,actor_d_iunius_brutus,D. Iunius Brutus,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,119,99,-20
+ciceronian_period_vs_cicero_removed,actor_dolabella,Dolabella,individual,yes,yes,present_in_both,weighted_degree,6.000000,3.000000,-3.000000,-50.00,34,16,-18
+ciceronian_period_vs_cicero_removed,actor_dolabella,Dolabella,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,34,16,-18
+ciceronian_period_vs_cicero_removed,actor_dolabella,Dolabella,individual,yes,yes,present_in_both,pagerank,0.007181,0.011699,0.004518,62.92,34,16,-18
+ciceronian_period_vs_cicero_removed,actor_dolabella,Dolabella,individual,yes,yes,present_in_both,betweenness,0.000566,0.045567,0.045001,7950.71,34,16,-18
+ciceronian_period_vs_cicero_removed,actor_egnatius,Egnatius,individual,yes,yes,present_in_both,weighted_degree,9.000000,7.000000,-2.000000,-22.22,10,8,-2
+ciceronian_period_vs_cicero_removed,actor_egnatius,Egnatius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,10,8,-2
+ciceronian_period_vs_cicero_removed,actor_egnatius,Egnatius,individual,yes,yes,present_in_both,pagerank,0.013156,0.016123,0.002967,22.55,10,8,-2
+ciceronian_period_vs_cicero_removed,actor_egnatius,Egnatius,individual,yes,yes,present_in_both,betweenness,0.015754,0.023038,0.007284,46.24,10,8,-2
+ciceronian_period_vs_cicero_removed,actor_eros,Eros,freedman_or_agent,yes,yes,present_in_both,weighted_degree,8.000000,4.000000,-4.000000,-50.00,103,86,-17
+ciceronian_period_vs_cicero_removed,actor_eros,Eros,freedman_or_agent,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,103,86,-17
+ciceronian_period_vs_cicero_removed,actor_eros,Eros,freedman_or_agent,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,103,86,-17
+ciceronian_period_vs_cicero_removed,actor_eros,Eros,freedman_or_agent,yes,yes,present_in_both,betweenness,0.000673,0.016324,0.015651,2325.56,103,86,-17
+ciceronian_period_vs_cicero_removed,actor_faberius,Faberius,individual,yes,yes,present_in_both,weighted_degree,6.000000,3.000000,-3.000000,-50.00,59,56,-3
+ciceronian_period_vs_cicero_removed,actor_faberius,Faberius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,59,56,-3
+ciceronian_period_vs_cicero_removed,actor_faberius,Faberius,individual,yes,yes,present_in_both,pagerank,0.005549,0.006046,0.000497,8.96,59,56,-3
+ciceronian_period_vs_cicero_removed,actor_faberius,Faberius,individual,yes,yes,present_in_both,betweenness,0.000246,0.039460,0.039214,15940.65,59,56,-3
+ciceronian_period_vs_cicero_removed,actor_flaminius,Flaminius,individual,yes,yes,present_in_both,weighted_degree,4.000000,3.000000,-1.000000,-25.00,101,78,-23
+ciceronian_period_vs_cicero_removed,actor_flaminius,Flaminius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,101,78,-23
+ciceronian_period_vs_cicero_removed,actor_flaminius,Flaminius,individual,yes,yes,present_in_both,pagerank,0.003852,0.005182,0.001330,34.53,101,78,-23
+ciceronian_period_vs_cicero_removed,actor_flaminius,Flaminius,individual,yes,yes,present_in_both,betweenness,0.003503,0.014445,0.010942,312.36,101,78,-23
+ciceronian_period_vs_cicero_removed,actor_fulvia,Fulvia,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,76,68,-8
+ciceronian_period_vs_cicero_removed,actor_fulvia,Fulvia,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,76,68,-8
+ciceronian_period_vs_cicero_removed,actor_fulvia,Fulvia,individual,yes,yes,present_in_both,pagerank,0.004766,0.005786,0.001020,21.40,76,68,-8
+ciceronian_period_vs_cicero_removed,actor_fulvia,Fulvia,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,76,68,-8
+ciceronian_period_vs_cicero_removed,actor_funisulanus,Funisulanus,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,100,81,-19
+ciceronian_period_vs_cicero_removed,actor_funisulanus,Funisulanus,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,100,81,-19
+ciceronian_period_vs_cicero_removed,actor_funisulanus,Funisulanus,individual,yes,yes,present_in_both,pagerank,0.003867,0.005145,0.001278,33.05,100,81,-19
+ciceronian_period_vs_cicero_removed,actor_funisulanus,Funisulanus,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,100,81,-19
+ciceronian_period_vs_cicero_removed,actor_greek_provincial_communities,Greek provincial communities,civic_body,yes,yes,present_in_both,weighted_degree,3.000000,2.000000,-1.000000,-33.33,51,60,9
+ciceronian_period_vs_cicero_removed,actor_greek_provincial_communities,Greek provincial communities,civic_body,yes,yes,present_in_both,component_size,118.000000,3.000000,-115.000000,-97.46,51,60,9
+ciceronian_period_vs_cicero_removed,actor_greek_provincial_communities,Greek provincial communities,civic_body,yes,yes,present_in_both,pagerank,0.006044,0.006046,0.000002,0.03,51,60,9
+ciceronian_period_vs_cicero_removed,actor_greek_provincial_communities,Greek provincial communities,civic_body,yes,yes,present_in_both,betweenness,0.005663,0.000000,-0.005663,-100.00,51,60,9
+ciceronian_period_vs_cicero_removed,actor_heraclides,Heraclides,individual,yes,yes,present_in_both,weighted_degree,3.000000,3.000000,0.000000,0.00,95,76,-19
+ciceronian_period_vs_cicero_removed,actor_heraclides,Heraclides,individual,yes,yes,present_in_both,component_size,4.000000,4.000000,0.000000,0.00,95,76,-19
+ciceronian_period_vs_cicero_removed,actor_heraclides,Heraclides,individual,yes,yes,present_in_both,pagerank,0.004486,0.005445,0.000959,21.38,95,76,-19
+ciceronian_period_vs_cicero_removed,actor_heraclides,Heraclides,individual,yes,yes,present_in_both,betweenness,0.000049,0.000059,0.000010,20.41,95,76,-19
+ciceronian_period_vs_cicero_removed,actor_hermippus,Hermippus,individual,yes,yes,present_in_both,weighted_degree,3.000000,3.000000,0.000000,0.00,106,90,-16
+ciceronian_period_vs_cicero_removed,actor_hermippus,Hermippus,individual,yes,yes,present_in_both,component_size,4.000000,4.000000,0.000000,0.00,106,90,-16
+ciceronian_period_vs_cicero_removed,actor_hermippus,Hermippus,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,106,90,-16
+ciceronian_period_vs_cicero_removed,actor_hermippus,Hermippus,individual,yes,yes,present_in_both,betweenness,0.000049,0.000059,0.000010,20.41,106,90,-16
+ciceronian_period_vs_cicero_removed,actor_hermogenes,Hermogenes,individual,yes,yes,present_in_both,weighted_degree,3.000000,2.000000,-1.000000,-33.33,107,84,-23
+ciceronian_period_vs_cicero_removed,actor_hermogenes,Hermogenes,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,107,84,-23
+ciceronian_period_vs_cicero_removed,actor_hermogenes,Hermogenes,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,107,84,-23
+ciceronian_period_vs_cicero_removed,actor_hermogenes,Hermogenes,individual,yes,yes,present_in_both,betweenness,0.000049,0.031474,0.031425,64132.65,107,84,-23
+ciceronian_period_vs_cicero_removed,actor_hortensius,Hortensius,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,73,82,9
+ciceronian_period_vs_cicero_removed,actor_hortensius,Hortensius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,73,82,9
+ciceronian_period_vs_cicero_removed,actor_hortensius,Hortensius,individual,yes,yes,present_in_both,pagerank,0.004930,0.005145,0.000215,4.36,73,82,9
+ciceronian_period_vs_cicero_removed,actor_hortensius,Hortensius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,73,82,9
+ciceronian_period_vs_cicero_removed,actor_iunius,Iunius,individual,yes,yes,present_in_both,weighted_degree,4.000000,3.000000,-1.000000,-25.00,15,19,4
+ciceronian_period_vs_cicero_removed,actor_iunius,Iunius,individual,yes,yes,present_in_both,component_size,118.000000,3.000000,-115.000000,-97.46,15,19,4
+ciceronian_period_vs_cicero_removed,actor_iunius,Iunius,individual,yes,yes,present_in_both,pagerank,0.011182,0.011186,0.000004,0.04,15,19,4
+ciceronian_period_vs_cicero_removed,actor_iunius,Iunius,individual,yes,yes,present_in_both,betweenness,0.005663,0.000000,-0.005663,-100.00,15,19,4
+ciceronian_period_vs_cicero_removed,actor_l_aemilius_paullus,L. Aemilius Paullus,individual,yes,yes,present_in_both,weighted_degree,1.000000,1.000000,0.000000,0.00,137,119,-18
+ciceronian_period_vs_cicero_removed,actor_l_aemilius_paullus,L. Aemilius Paullus,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,137,119,-18
+ciceronian_period_vs_cicero_removed,actor_l_aemilius_paullus,L. Aemilius Paullus,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,137,119,-18
+ciceronian_period_vs_cicero_removed,actor_l_aemilius_paullus,L. Aemilius Paullus,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,137,119,-18
+ciceronian_period_vs_cicero_removed,actor_l_carpinatius,L. Carpinatius,individual,yes,yes,present_in_both,weighted_degree,3.000000,3.000000,0.000000,0.00,31,28,-3
+ciceronian_period_vs_cicero_removed,actor_l_carpinatius,L. Carpinatius,individual,yes,yes,present_in_both,component_size,6.000000,6.000000,0.000000,0.00,31,28,-3
+ciceronian_period_vs_cicero_removed,actor_l_carpinatius,L. Carpinatius,individual,yes,yes,present_in_both,pagerank,0.007451,0.009044,0.001593,21.38,31,28,-3
+ciceronian_period_vs_cicero_removed,actor_l_carpinatius,L. Carpinatius,individual,yes,yes,present_in_both,betweenness,0.000066,0.000078,0.000012,18.18,31,28,-3
+ciceronian_period_vs_cicero_removed,actor_l_culleolus,L. Culleolus,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,120,100,-20
+ciceronian_period_vs_cicero_removed,actor_l_culleolus,L. Culleolus,individual,yes,yes,present_in_both,component_size,118.000000,3.000000,-115.000000,-97.46,120,100,-20
+ciceronian_period_vs_cicero_removed,actor_l_culleolus,L. Culleolus,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,120,100,-20
+ciceronian_period_vs_cicero_removed,actor_l_culleolus,L. Culleolus,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,120,100,-20
+ciceronian_period_vs_cicero_removed,actor_l_ligus,L. Ligus,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,121,101,-20
+ciceronian_period_vs_cicero_removed,actor_l_ligus,L. Ligus,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,121,101,-20
+ciceronian_period_vs_cicero_removed,actor_l_ligus,L. Ligus,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,121,101,-20
+ciceronian_period_vs_cicero_removed,actor_l_ligus,L. Ligus,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,121,101,-20
+ciceronian_period_vs_cicero_removed,actor_l_lucceius,L. Lucceius,individual,yes,yes,present_in_both,weighted_degree,3.000000,2.000000,-1.000000,-33.33,16,20,4
+ciceronian_period_vs_cicero_removed,actor_l_lucceius,L. Lucceius,individual,yes,yes,present_in_both,component_size,118.000000,3.000000,-115.000000,-97.46,16,20,4
+ciceronian_period_vs_cicero_removed,actor_l_lucceius,L. Lucceius,individual,yes,yes,present_in_both,pagerank,0.011182,0.011186,0.000004,0.04,16,20,4
+ciceronian_period_vs_cicero_removed,actor_l_lucceius,L. Lucceius,individual,yes,yes,present_in_both,betweenness,0.005663,0.000000,-0.005663,-100.00,16,20,4
+ciceronian_period_vs_cicero_removed,actor_l_lucullus,L. Lucullus,individual,yes,yes,present_in_both,weighted_degree,3.000000,3.000000,0.000000,0.00,109,92,-17
+ciceronian_period_vs_cicero_removed,actor_l_lucullus,L. Lucullus,individual,yes,yes,present_in_both,component_size,118.000000,6.000000,-112.000000,-94.92,109,92,-17
+ciceronian_period_vs_cicero_removed,actor_l_lucullus,L. Lucullus,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,109,92,-17
+ciceronian_period_vs_cicero_removed,actor_l_lucullus,L. Lucullus,individual,yes,yes,present_in_both,betweenness,0.000025,0.000029,0.000004,16.00,109,92,-17
+ciceronian_period_vs_cicero_removed,actor_l_mescinius,L. Mescinius,individual,yes,no,with_cicero_only,weighted_degree,1.000000,,,,87,,
+ciceronian_period_vs_cicero_removed,actor_l_mescinius,L. Mescinius,individual,yes,no,with_cicero_only,component_size,118.000000,,,,87,,
+ciceronian_period_vs_cicero_removed,actor_l_mescinius,L. Mescinius,individual,yes,no,with_cicero_only,pagerank,0.004559,,,,87,,
+ciceronian_period_vs_cicero_removed,actor_l_mescinius,L. Mescinius,individual,yes,no,with_cicero_only,betweenness,0.000000,,,,87,,
+ciceronian_period_vs_cicero_removed,actor_l_pontius,L. Pontius,individual,yes,yes,present_in_both,weighted_degree,3.000000,3.000000,0.000000,0.00,110,93,-17
+ciceronian_period_vs_cicero_removed,actor_l_pontius,L. Pontius,individual,yes,yes,present_in_both,component_size,118.000000,6.000000,-112.000000,-94.92,110,93,-17
+ciceronian_period_vs_cicero_removed,actor_l_pontius,L. Pontius,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,110,93,-17
+ciceronian_period_vs_cicero_removed,actor_l_pontius,L. Pontius,individual,yes,yes,present_in_both,betweenness,0.000025,0.000029,0.000004,16.00,110,93,-17
+ciceronian_period_vs_cicero_removed,actor_l_titius_strabo,L. Titius Strabo,individual,yes,yes,present_in_both,weighted_degree,3.000000,2.000000,-1.000000,-33.33,3,3,0
+ciceronian_period_vs_cicero_removed,actor_l_titius_strabo,L. Titius Strabo,individual,yes,yes,present_in_both,component_size,118.000000,9.000000,-109.000000,-92.37,3,3,0
+ciceronian_period_vs_cicero_removed,actor_l_titius_strabo,L. Titius Strabo,individual,yes,yes,present_in_both,pagerank,0.026044,0.027349,0.001305,5.01,3,3,0
+ciceronian_period_vs_cicero_removed,actor_l_titius_strabo,L. Titius Strabo,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,3,3,0
+ciceronian_period_vs_cicero_removed,actor_l_trebellius,L. Trebellius,individual,yes,yes,present_in_both,weighted_degree,1.000000,1.000000,0.000000,0.00,138,120,-18
+ciceronian_period_vs_cicero_removed,actor_l_trebellius,L. Trebellius,individual,yes,yes,present_in_both,component_size,2.000000,2.000000,0.000000,0.00,138,120,-18
+ciceronian_period_vs_cicero_removed,actor_l_trebellius,L. Trebellius,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,138,120,-18
+ciceronian_period_vs_cicero_removed,actor_l_trebellius,L. Trebellius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,138,120,-18
+ciceronian_period_vs_cicero_removed,actor_l_tullius_montanus,L. Tullius Montanus,individual,yes,yes,present_in_both,weighted_degree,3.000000,3.000000,0.000000,0.00,60,30,-30
+ciceronian_period_vs_cicero_removed,actor_l_tullius_montanus,L. Tullius Montanus,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,60,30,-30
+ciceronian_period_vs_cicero_removed,actor_l_tullius_montanus,L. Tullius Montanus,individual,yes,yes,present_in_both,pagerank,0.005513,0.008805,0.003292,59.71,60,30,-30
+ciceronian_period_vs_cicero_removed,actor_l_tullius_montanus,L. Tullius Montanus,individual,yes,yes,present_in_both,betweenness,0.000131,0.010746,0.010615,8103.05,60,30,-30
+ciceronian_period_vs_cicero_removed,actor_m_anneius,M. Anneius,individual,yes,yes,present_in_both,weighted_degree,3.000000,2.000000,-1.000000,-33.33,25,35,10
+ciceronian_period_vs_cicero_removed,actor_m_anneius,M. Anneius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,25,35,10
+ciceronian_period_vs_cicero_removed,actor_m_anneius,M. Anneius,individual,yes,yes,present_in_both,pagerank,0.008433,0.007849,-0.000584,-6.93,25,35,10
+ciceronian_period_vs_cicero_removed,actor_m_anneius,M. Anneius,individual,yes,yes,present_in_both,betweenness,0.010851,0.008221,-0.002630,-24.24,25,35,10
+ciceronian_period_vs_cicero_removed,actor_m_antonius,M. Antonius,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,36,34,-2
+ciceronian_period_vs_cicero_removed,actor_m_antonius,M. Antonius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,36,34,-2
+ciceronian_period_vs_cicero_removed,actor_m_antonius,M. Antonius,individual,yes,yes,present_in_both,pagerank,0.007029,0.008232,0.001203,17.11,36,34,-2
+ciceronian_period_vs_cicero_removed,actor_m_antonius,M. Antonius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,36,34,-2
+ciceronian_period_vs_cicero_removed,actor_m_fufius,M. Fufius,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,48,48,0
+ciceronian_period_vs_cicero_removed,actor_m_fufius,M. Fufius,individual,yes,yes,present_in_both,component_size,4.000000,4.000000,0.000000,0.00,48,48,0
+ciceronian_period_vs_cicero_removed,actor_m_fufius,M. Fufius,individual,yes,yes,present_in_both,pagerank,0.006392,0.007759,0.001367,21.39,48,48,0
+ciceronian_period_vs_cicero_removed,actor_m_fufius,M. Fufius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,48,48,0
+ciceronian_period_vs_cicero_removed,actor_m_laenius,M. Laenius,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,45,67,22
+ciceronian_period_vs_cicero_removed,actor_m_laenius,M. Laenius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,45,67,22
+ciceronian_period_vs_cicero_removed,actor_m_laenius,M. Laenius,individual,yes,yes,present_in_both,pagerank,0.006432,0.005956,-0.000476,-7.40,45,67,22
+ciceronian_period_vs_cicero_removed,actor_m_laenius,M. Laenius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,45,67,22
+ciceronian_period_vs_cicero_removed,actor_marc_antony,Marc Antony,individual,yes,yes,present_in_both,weighted_degree,4.000000,4.000000,0.000000,0.00,94,75,-19
+ciceronian_period_vs_cicero_removed,actor_marc_antony,Marc Antony,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,94,75,-19
+ciceronian_period_vs_cicero_removed,actor_marc_antony,Marc Antony,individual,yes,yes,present_in_both,pagerank,0.004486,0.005445,0.000959,21.38,94,75,-19
+ciceronian_period_vs_cicero_removed,actor_marc_antony,Marc Antony,individual,yes,yes,present_in_both,betweenness,0.008579,0.012429,0.003850,44.88,94,75,-19
+ciceronian_period_vs_cicero_removed,actor_matinius,Matinius,professional_financier,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,122,102,-20
+ciceronian_period_vs_cicero_removed,actor_matinius,Matinius,professional_financier,yes,yes,present_in_both,component_size,118.000000,9.000000,-109.000000,-92.37,122,102,-20
+ciceronian_period_vs_cicero_removed,actor_matinius,Matinius,professional_financier,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,122,102,-20
+ciceronian_period_vs_cicero_removed,actor_matinius,Matinius,professional_financier,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,122,102,-20
+ciceronian_period_vs_cicero_removed,actor_messalla_niger,Messalla Niger,individual,yes,yes,present_in_both,weighted_degree,1.000000,1.000000,0.000000,0.00,139,121,-18
+ciceronian_period_vs_cicero_removed,actor_messalla_niger,Messalla Niger,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,139,121,-18
+ciceronian_period_vs_cicero_removed,actor_messalla_niger,Messalla Niger,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,139,121,-18
+ciceronian_period_vs_cicero_removed,actor_messalla_niger,Messalla Niger,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,139,121,-18
+ciceronian_period_vs_cicero_removed,actor_meton,Meton,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,123,122,-1
+ciceronian_period_vs_cicero_removed,actor_meton,Meton,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,123,122,-1
+ciceronian_period_vs_cicero_removed,actor_meton,Meton,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,123,122,-1
+ciceronian_period_vs_cicero_removed,actor_meton,Meton,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,123,122,-1
+ciceronian_period_vs_cicero_removed,actor_minucius_thermus,Minucius Thermus,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,124,103,-21
+ciceronian_period_vs_cicero_removed,actor_minucius_thermus,Minucius Thermus,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,124,103,-21
+ciceronian_period_vs_cicero_removed,actor_minucius_thermus,Minucius Thermus,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,124,103,-21
+ciceronian_period_vs_cicero_removed,actor_minucius_thermus,Minucius Thermus,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,124,103,-21
+ciceronian_period_vs_cicero_removed,actor_mylasa_and_alabanda,Mylasa and Alabanda,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,69,61,-8
+ciceronian_period_vs_cicero_removed,actor_mylasa_and_alabanda,Mylasa and Alabanda,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,69,61,-8
+ciceronian_period_vs_cicero_removed,actor_mylasa_and_alabanda,Mylasa and Alabanda,individual,yes,yes,present_in_both,pagerank,0.004981,0.006046,0.001065,21.38,69,61,-8
+ciceronian_period_vs_cicero_removed,actor_mylasa_and_alabanda,Mylasa and Alabanda,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,69,61,-8
+ciceronian_period_vs_cicero_removed,actor_nicaea,Nicaea,civic_body,yes,yes,present_in_both,weighted_degree,3.000000,2.000000,-1.000000,-33.33,44,66,22
+ciceronian_period_vs_cicero_removed,actor_nicaea,Nicaea,civic_body,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,44,66,22
+ciceronian_period_vs_cicero_removed,actor_nicaea,Nicaea,civic_body,yes,yes,present_in_both,pagerank,0.006432,0.005956,-0.000476,-7.40,44,66,22
+ciceronian_period_vs_cicero_removed,actor_nicaea,Nicaea,civic_body,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,44,66,22
+ciceronian_period_vs_cicero_removed,actor_numerius_of_puteoli,Numerius of Puteoli,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,64,71,7
+ciceronian_period_vs_cicero_removed,actor_numerius_of_puteoli,Numerius of Puteoli,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,64,71,7
+ciceronian_period_vs_cicero_removed,actor_numerius_of_puteoli,Numerius of Puteoli,individual,yes,yes,present_in_both,pagerank,0.005259,0.005522,0.000263,5.00,64,71,7
+ciceronian_period_vs_cicero_removed,actor_numerius_of_puteoli,Numerius of Puteoli,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,64,71,7
+ciceronian_period_vs_cicero_removed,actor_ofillius,Ofillius,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,75,80,5
+ciceronian_period_vs_cicero_removed,actor_ofillius,Ofillius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,75,80,5
+ciceronian_period_vs_cicero_removed,actor_ofillius,Ofillius,individual,yes,yes,present_in_both,pagerank,0.004915,0.005182,0.000267,5.43,75,80,5
+ciceronian_period_vs_cicero_removed,actor_ofillius,Ofillius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,75,80,5
+ciceronian_period_vs_cicero_removed,actor_oppius,Oppius,individual,yes,yes,present_in_both,weighted_degree,5.000000,2.000000,-3.000000,-60.00,46,14,-32
+ciceronian_period_vs_cicero_removed,actor_oppius,Oppius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,46,14,-32
+ciceronian_period_vs_cicero_removed,actor_oppius,Oppius,individual,yes,yes,present_in_both,pagerank,0.006417,0.012602,0.006185,96.38,46,14,-32
+ciceronian_period_vs_cicero_removed,actor_oppius,Oppius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,46,14,-32
+ciceronian_period_vs_cicero_removed,actor_p_cornelius,P. Cornelius,individual,yes,yes,present_in_both,weighted_degree,3.000000,2.000000,-1.000000,-33.33,8,11,3
+ciceronian_period_vs_cicero_removed,actor_p_cornelius,P. Cornelius,individual,yes,yes,present_in_both,component_size,118.000000,9.000000,-109.000000,-92.37,8,11,3
+ciceronian_period_vs_cicero_removed,actor_p_cornelius,P. Cornelius,individual,yes,yes,present_in_both,pagerank,0.014078,0.014783,0.000705,5.01,8,11,3
+ciceronian_period_vs_cicero_removed,actor_p_cornelius,P. Cornelius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,8,11,3
+ciceronian_period_vs_cicero_removed,actor_p_iunius,P. Iunius,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,70,62,-8
+ciceronian_period_vs_cicero_removed,actor_p_iunius,P. Iunius,individual,yes,yes,present_in_both,component_size,3.000000,3.000000,0.000000,0.00,70,62,-8
+ciceronian_period_vs_cicero_removed,actor_p_iunius,P. Iunius,individual,yes,yes,present_in_both,pagerank,0.004981,0.006046,0.001065,21.38,70,62,-8
+ciceronian_period_vs_cicero_removed,actor_p_iunius,P. Iunius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,70,62,-8
+ciceronian_period_vs_cicero_removed,actor_p_magius_chilo,P. Magius Chilo,individual,yes,no,with_cicero_only,weighted_degree,1.000000,,,,88,,
+ciceronian_period_vs_cicero_removed,actor_p_magius_chilo,P. Magius Chilo,individual,yes,no,with_cicero_only,component_size,118.000000,,,,88,,
+ciceronian_period_vs_cicero_removed,actor_p_magius_chilo,P. Magius Chilo,individual,yes,no,with_cicero_only,pagerank,0.004559,,,,88,,
+ciceronian_period_vs_cicero_removed,actor_p_magius_chilo,P. Magius Chilo,individual,yes,no,with_cicero_only,betweenness,0.000000,,,,88,,
+ciceronian_period_vs_cicero_removed,actor_p_quinctius,P. Quinctius,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,71,63,-8
+ciceronian_period_vs_cicero_removed,actor_p_quinctius,P. Quinctius,individual,yes,yes,present_in_both,component_size,3.000000,3.000000,0.000000,0.00,71,63,-8
+ciceronian_period_vs_cicero_removed,actor_p_quinctius,P. Quinctius,individual,yes,yes,present_in_both,pagerank,0.004981,0.006046,0.001065,21.38,71,63,-8
+ciceronian_period_vs_cicero_removed,actor_p_quinctius,P. Quinctius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,71,63,-8
+ciceronian_period_vs_cicero_removed,actor_p_sallustius,P. Sallustius,individual,yes,yes,present_in_both,weighted_degree,3.000000,2.000000,-1.000000,-33.33,37,25,-12
+ciceronian_period_vs_cicero_removed,actor_p_sallustius,P. Sallustius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,37,25,-12
+ciceronian_period_vs_cicero_removed,actor_p_sallustius,P. Sallustius,individual,yes,yes,present_in_both,pagerank,0.006971,0.010209,0.003238,46.45,37,25,-12
+ciceronian_period_vs_cicero_removed,actor_p_sallustius,P. Sallustius,individual,yes,yes,present_in_both,betweenness,0.000074,0.008221,0.008147,11009.46,37,25,-12
+ciceronian_period_vs_cicero_removed,actor_p_scipio,P. Scipio,individual,yes,yes,present_in_both,weighted_degree,3.000000,3.000000,0.000000,0.00,111,94,-17
+ciceronian_period_vs_cicero_removed,actor_p_scipio,P. Scipio,individual,yes,yes,present_in_both,component_size,118.000000,6.000000,-112.000000,-94.92,111,94,-17
+ciceronian_period_vs_cicero_removed,actor_p_scipio,P. Scipio,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,111,94,-17
+ciceronian_period_vs_cicero_removed,actor_p_scipio,P. Scipio,individual,yes,yes,present_in_both,betweenness,0.000025,0.000029,0.000004,16.00,111,94,-17
+ciceronian_period_vs_cicero_removed,actor_p_sittius,P. Sittius,individual,yes,yes,present_in_both,weighted_degree,1.000000,1.000000,0.000000,0.00,33,42,9
+ciceronian_period_vs_cicero_removed,actor_p_sittius,P. Sittius,individual,yes,yes,present_in_both,component_size,118.000000,2.000000,-116.000000,-98.31,33,42,9
+ciceronian_period_vs_cicero_removed,actor_p_sittius,P. Sittius,individual,yes,yes,present_in_both,pagerank,0.007370,0.007849,0.000479,6.50,33,42,9
+ciceronian_period_vs_cicero_removed,actor_p_sittius,P. Sittius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,33,42,9
+ciceronian_period_vs_cicero_removed,actor_p_sulla,P. Sulla,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,77,123,46
+ciceronian_period_vs_cicero_removed,actor_p_sulla,P. Sulla,individual,yes,yes,present_in_both,component_size,118.000000,2.000000,-116.000000,-98.31,77,123,46
+ciceronian_period_vs_cicero_removed,actor_p_sulla,P. Sulla,individual,yes,yes,present_in_both,pagerank,0.004559,0.004243,-0.000316,-6.93,77,123,46
+ciceronian_period_vs_cicero_removed,actor_p_sulla,P. Sulla,individual,yes,yes,present_in_both,betweenness,0.011425,0.000000,-0.011425,-100.00,77,123,46
+ciceronian_period_vs_cicero_removed,actor_p_valerius,P. Valerius,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,12,12,0
+ciceronian_period_vs_cicero_removed,actor_p_valerius,P. Valerius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,12,12,0
+ciceronian_period_vs_cicero_removed,actor_p_valerius,P. Valerius,individual,yes,yes,present_in_both,pagerank,0.012149,0.012718,0.000569,4.68,12,12,0
+ciceronian_period_vs_cicero_removed,actor_p_valerius,P. Valerius,individual,yes,yes,present_in_both,betweenness,0.000148,0.016207,0.016059,10850.68,12,12,0
+ciceronian_period_vs_cicero_removed,actor_p_varius,P. Varius,individual,yes,yes,present_in_both,weighted_degree,4.000000,4.000000,0.000000,0.00,20,18,-2
+ciceronian_period_vs_cicero_removed,actor_p_varius,P. Varius,individual,yes,yes,present_in_both,component_size,118.000000,6.000000,-112.000000,-94.92,20,18,-2
+ciceronian_period_vs_cicero_removed,actor_p_varius,P. Varius,individual,yes,yes,present_in_both,pagerank,0.009667,0.011186,0.001519,15.71,20,18,-2
+ciceronian_period_vs_cicero_removed,actor_p_varius,P. Varius,individual,yes,yes,present_in_both,betweenness,0.000098,0.000117,0.000019,19.39,20,18,-2
+ciceronian_period_vs_cicero_removed,actor_patulcius,Patulcius,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,65,72,7
+ciceronian_period_vs_cicero_removed,actor_patulcius,Patulcius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,65,72,7
+ciceronian_period_vs_cicero_removed,actor_patulcius,Patulcius,individual,yes,yes,present_in_both,pagerank,0.005259,0.005522,0.000263,5.00,65,72,7
+ciceronian_period_vs_cicero_removed,actor_patulcius,Patulcius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,65,72,7
+ciceronian_period_vs_cicero_removed,actor_philargyrus,Philargyrus,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,66,73,7
+ciceronian_period_vs_cicero_removed,actor_philargyrus,Philargyrus,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,66,73,7
+ciceronian_period_vs_cicero_removed,actor_philargyrus,Philargyrus,individual,yes,yes,present_in_both,pagerank,0.005259,0.005522,0.000263,5.00,66,73,7
+ciceronian_period_vs_cicero_removed,actor_philargyrus,Philargyrus,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,66,73,7
+ciceronian_period_vs_cicero_removed,actor_philocles,Philocles,individual,yes,yes,present_in_both,weighted_degree,3.000000,3.000000,0.000000,0.00,54,50,-4
+ciceronian_period_vs_cicero_removed,actor_philocles,Philocles,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,54,50,-4
+ciceronian_period_vs_cicero_removed,actor_philocles,Philocles,individual,yes,yes,present_in_both,pagerank,0.005971,0.007248,0.001277,21.39,54,50,-4
+ciceronian_period_vs_cicero_removed,actor_philocles,Philocles,individual,yes,yes,present_in_both,betweenness,0.000049,0.000059,0.000010,20.41,54,50,-4
+ciceronian_period_vs_cicero_removed,actor_philogenes,Philogenes,freedman_or_agent,yes,no,with_cicero_only,weighted_degree,1.000000,,,,140,,
+ciceronian_period_vs_cicero_removed,actor_philogenes,Philogenes,freedman_or_agent,yes,no,with_cicero_only,component_size,118.000000,,,,140,,
+ciceronian_period_vs_cicero_removed,actor_philogenes,Philogenes,freedman_or_agent,yes,no,with_cicero_only,pagerank,0.003495,,,,140,,
+ciceronian_period_vs_cicero_removed,actor_philogenes,Philogenes,freedman_or_agent,yes,no,with_cicero_only,betweenness,0.000000,,,,140,,
+ciceronian_period_vs_cicero_removed,actor_philotimus,Philotimus,freedman_or_agent,yes,yes,present_in_both,weighted_degree,6.000000,3.000000,-3.000000,-50.00,62,32,-30
+ciceronian_period_vs_cicero_removed,actor_philotimus,Philotimus,freedman_or_agent,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,62,32,-30
+ciceronian_period_vs_cicero_removed,actor_philotimus,Philotimus,freedman_or_agent,yes,yes,present_in_both,pagerank,0.005449,0.008329,0.002880,52.85,62,32,-30
+ciceronian_period_vs_cicero_removed,actor_philotimus,Philotimus,freedman_or_agent,yes,yes,present_in_both,betweenness,0.000230,0.003699,0.003469,1508.26,62,32,-30
+ciceronian_period_vs_cicero_removed,actor_plancus,Plancus,individual,yes,yes,present_in_both,weighted_degree,5.000000,4.000000,-1.000000,-20.00,7,6,-1
+ciceronian_period_vs_cicero_removed,actor_plancus,Plancus,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,7,6,-1
+ciceronian_period_vs_cicero_removed,actor_plancus,Plancus,individual,yes,yes,present_in_both,pagerank,0.016959,0.020872,0.003913,23.07,7,6,-1
+ciceronian_period_vs_cicero_removed,actor_plancus,Plancus,individual,yes,yes,present_in_both,betweenness,0.009074,0.016207,0.007133,78.61,7,6,-1
+ciceronian_period_vs_cicero_removed,actor_pompey,Pompey,individual,yes,yes,present_in_both,weighted_degree,5.000000,4.000000,-1.000000,-20.00,9,9,0
+ciceronian_period_vs_cicero_removed,actor_pompey,Pompey,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,9,9,0
+ciceronian_period_vs_cicero_removed,actor_pompey,Pompey,individual,yes,yes,present_in_both,pagerank,0.013220,0.015032,0.001812,13.71,9,9,0
+ciceronian_period_vs_cicero_removed,actor_pompey,Pompey,individual,yes,yes,present_in_both,betweenness,0.022834,0.039225,0.016391,71.78,9,9,0
+ciceronian_period_vs_cicero_removed,actor_pomponia,Pomponia,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,125,104,-21
+ciceronian_period_vs_cicero_removed,actor_pomponia,Pomponia,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,125,104,-21
+ciceronian_period_vs_cicero_removed,actor_pomponia,Pomponia,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,125,104,-21
+ciceronian_period_vs_cicero_removed,actor_pomponia,Pomponia,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,125,104,-21
+ciceronian_period_vs_cicero_removed,actor_ptolemy_xii,Ptolemy XII,individual,yes,yes,present_in_both,weighted_degree,1.000000,1.000000,0.000000,0.00,141,124,-17
+ciceronian_period_vs_cicero_removed,actor_ptolemy_xii,Ptolemy XII,individual,yes,yes,present_in_both,component_size,2.000000,2.000000,0.000000,0.00,141,124,-17
+ciceronian_period_vs_cicero_removed,actor_ptolemy_xii,Ptolemy XII,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,141,124,-17
+ciceronian_period_vs_cicero_removed,actor_ptolemy_xii,Ptolemy XII,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,141,124,-17
+ciceronian_period_vs_cicero_removed,actor_publilius,Publilius,individual,yes,yes,present_in_both,weighted_degree,3.000000,1.000000,-2.000000,-66.67,49,74,25
+ciceronian_period_vs_cicero_removed,actor_publilius,Publilius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,49,74,25
+ciceronian_period_vs_cicero_removed,actor_publilius,Publilius,individual,yes,yes,present_in_both,pagerank,0.006323,0.005522,-0.000801,-12.67,49,74,25
+ciceronian_period_vs_cicero_removed,actor_publilius,Publilius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,49,74,25
+ciceronian_period_vs_cicero_removed,actor_q_axius,Q. Axius,individual,yes,yes,present_in_both,weighted_degree,5.000000,3.000000,-2.000000,-40.00,78,87,9
+ciceronian_period_vs_cicero_removed,actor_q_axius,Q. Axius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,78,87,9
+ciceronian_period_vs_cicero_removed,actor_q_axius,Q. Axius,individual,yes,yes,present_in_both,pagerank,0.004559,0.004243,-0.000316,-6.93,78,87,9
+ciceronian_period_vs_cicero_removed,actor_q_axius,Q. Axius,individual,yes,yes,present_in_both,betweenness,0.000246,0.008221,0.007975,3241.87,78,87,9
+ciceronian_period_vs_cicero_removed,actor_q_axius_son,Q. Axius' son,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,96,77,-19
+ciceronian_period_vs_cicero_removed,actor_q_axius_son,Q. Axius' son,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,96,77,-19
+ciceronian_period_vs_cicero_removed,actor_q_axius_son,Q. Axius' son,individual,yes,yes,present_in_both,pagerank,0.004464,0.005445,0.000981,21.98,96,77,-19
+ciceronian_period_vs_cicero_removed,actor_q_axius_son,Q. Axius' son,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,96,77,-19
+ciceronian_period_vs_cicero_removed,actor_q_caecilius_dio,Q. Caecilius Dio,individual,yes,yes,present_in_both,weighted_degree,1.000000,1.000000,0.000000,0.00,98,83,-15
+ciceronian_period_vs_cicero_removed,actor_q_caecilius_dio,Q. Caecilius Dio,individual,yes,yes,present_in_both,component_size,6.000000,6.000000,0.000000,0.00,98,83,-15
+ciceronian_period_vs_cicero_removed,actor_q_caecilius_dio,Q. Caecilius Dio,individual,yes,yes,present_in_both,pagerank,0.004238,0.005145,0.000907,21.40,98,83,-15
+ciceronian_period_vs_cicero_removed,actor_q_caecilius_dio,Q. Caecilius Dio,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,98,83,-15
+ciceronian_period_vs_cicero_removed,actor_q_considius,Q. Considius,individual,yes,yes,present_in_both,weighted_degree,1.000000,1.000000,0.000000,0.00,40,43,3
+ciceronian_period_vs_cicero_removed,actor_q_considius,Q. Considius,individual,yes,yes,present_in_both,component_size,2.000000,2.000000,0.000000,0.00,40,43,3
+ciceronian_period_vs_cicero_removed,actor_q_considius,Q. Considius,individual,yes,yes,present_in_both,pagerank,0.006467,0.007849,0.001382,21.37,40,43,3
+ciceronian_period_vs_cicero_removed,actor_q_considius,Q. Considius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,40,43,3
+ciceronian_period_vs_cicero_removed,actor_q_considius_debtors,Q. Considius' debtors,individual,yes,yes,present_in_both,weighted_degree,1.000000,1.000000,0.000000,0.00,142,125,-17
+ciceronian_period_vs_cicero_removed,actor_q_considius_debtors,Q. Considius' debtors,individual,yes,yes,present_in_both,component_size,2.000000,2.000000,0.000000,0.00,142,125,-17
+ciceronian_period_vs_cicero_removed,actor_q_considius_debtors,Q. Considius' debtors,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,142,125,-17
+ciceronian_period_vs_cicero_removed,actor_q_considius_debtors,Q. Considius' debtors,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,142,125,-17
+ciceronian_period_vs_cicero_removed,actor_q_paconius_lepta,Q. Paconius Lepta,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,104,85,-19
+ciceronian_period_vs_cicero_removed,actor_q_paconius_lepta,Q. Paconius Lepta,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,104,85,-19
+ciceronian_period_vs_cicero_removed,actor_q_paconius_lepta,Q. Paconius Lepta,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,104,85,-19
+ciceronian_period_vs_cicero_removed,actor_q_paconius_lepta,Q. Paconius Lepta,individual,yes,yes,present_in_both,betweenness,0.000525,0.023958,0.023433,4463.43,104,85,-19
+ciceronian_period_vs_cicero_removed,actor_q_titinius,Q. Titinius,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,126,105,-21
+ciceronian_period_vs_cicero_removed,actor_q_titinius,Q. Titinius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,126,105,-21
+ciceronian_period_vs_cicero_removed,actor_q_titinius,Q. Titinius,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,126,105,-21
+ciceronian_period_vs_cicero_removed,actor_q_titinius,Q. Titinius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,126,105,-21
+ciceronian_period_vs_cicero_removed,actor_quintus_cicero,Quintus Cicero,family_or_household,yes,yes,present_in_both,weighted_degree,22.000000,16.000000,-6.000000,-27.27,2,1,-1
+ciceronian_period_vs_cicero_removed,actor_quintus_cicero,Quintus Cicero,family_or_household,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,2,1,-1
+ciceronian_period_vs_cicero_removed,actor_quintus_cicero,Quintus Cicero,family_or_household,yes,yes,present_in_both,pagerank,0.026162,0.032851,0.006689,25.57,2,1,-1
+ciceronian_period_vs_cicero_removed,actor_quintus_cicero,Quintus Cicero,family_or_household,yes,yes,present_in_both,betweenness,0.023702,0.106851,0.083149,350.81,2,1,-1
+ciceronian_period_vs_cicero_removed,actor_roman_state,Roman state,public_body,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,21,21,0
+ciceronian_period_vs_cicero_removed,actor_roman_state,Roman state,public_body,yes,yes,present_in_both,component_size,3.000000,3.000000,0.000000,0.00,21,21,0
+ciceronian_period_vs_cicero_removed,actor_roman_state,Roman state,public_body,yes,yes,present_in_both,pagerank,0.009215,0.011186,0.001971,21.39,21,21,0
+ciceronian_period_vs_cicero_removed,actor_roman_state,Roman state,public_body,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,21,21,0
+ciceronian_period_vs_cicero_removed,actor_roman_state_grain_funds,Roman state grain funds,public_body,yes,yes,present_in_both,weighted_degree,3.000000,3.000000,0.000000,0.00,108,91,-17
+ciceronian_period_vs_cicero_removed,actor_roman_state_grain_funds,Roman state grain funds,public_body,yes,yes,present_in_both,component_size,6.000000,6.000000,0.000000,0.00,108,91,-17
+ciceronian_period_vs_cicero_removed,actor_roman_state_grain_funds,Roman state grain funds,public_body,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,108,91,-17
+ciceronian_period_vs_cicero_removed,actor_roman_state_grain_funds,Roman state grain funds,public_body,yes,yes,present_in_both,betweenness,0.000033,0.000039,0.000006,18.18,108,91,-17
+ciceronian_period_vs_cicero_removed,actor_salamis,Salamis,civic_body,yes,yes,present_in_both,weighted_degree,5.000000,4.000000,-1.000000,-20.00,24,26,2
+ciceronian_period_vs_cicero_removed,actor_salamis,Salamis,civic_body,yes,yes,present_in_both,component_size,118.000000,9.000000,-109.000000,-92.37,24,26,2
+ciceronian_period_vs_cicero_removed,actor_salamis,Salamis,civic_body,yes,yes,present_in_both,pagerank,0.009015,0.009653,0.000638,7.08,24,26,2
+ciceronian_period_vs_cicero_removed,actor_salamis,Salamis,civic_body,yes,yes,present_in_both,betweenness,0.016251,0.000176,-0.016075,-98.92,24,26,2
+ciceronian_period_vs_cicero_removed,actor_sardis,Sardis,civic_body,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,80,126,46
+ciceronian_period_vs_cicero_removed,actor_sardis,Sardis,civic_body,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,80,126,46
+ciceronian_period_vs_cicero_removed,actor_sardis,Sardis,civic_body,yes,yes,present_in_both,pagerank,0.004559,0.004243,-0.000316,-6.93,80,126,46
+ciceronian_period_vs_cicero_removed,actor_sardis,Sardis,civic_body,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,80,126,46
+ciceronian_period_vs_cicero_removed,actor_scaptius,Scaptius,professional_financier,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,127,106,-21
+ciceronian_period_vs_cicero_removed,actor_scaptius,Scaptius,professional_financier,yes,yes,present_in_both,component_size,118.000000,9.000000,-109.000000,-92.37,127,106,-21
+ciceronian_period_vs_cicero_removed,actor_scaptius,Scaptius,professional_financier,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,127,106,-21
+ciceronian_period_vs_cicero_removed,actor_scaptius,Scaptius,professional_financier,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,127,106,-21
+ciceronian_period_vs_cicero_removed,actor_scapula_estate,Scapula estate,estate,yes,no,with_cicero_only,weighted_degree,1.000000,,,,89,,
+ciceronian_period_vs_cicero_removed,actor_scapula_estate,Scapula estate,estate,yes,no,with_cicero_only,component_size,118.000000,,,,89,,
+ciceronian_period_vs_cicero_removed,actor_scapula_estate,Scapula estate,estate,yes,no,with_cicero_only,pagerank,0.004559,,,,89,,
+ciceronian_period_vs_cicero_removed,actor_scapula_estate,Scapula estate,estate,yes,no,with_cicero_only,betweenness,0.000000,,,,89,,
+ciceronian_period_vs_cicero_removed,actor_scapula_heirs,Scapula heirs,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,22,22,0
+ciceronian_period_vs_cicero_removed,actor_scapula_heirs,Scapula heirs,individual,yes,yes,present_in_both,component_size,3.000000,3.000000,0.000000,0.00,22,22,0
+ciceronian_period_vs_cicero_removed,actor_scapula_heirs,Scapula heirs,individual,yes,yes,present_in_both,pagerank,0.009215,0.011186,0.001971,21.39,22,22,0
+ciceronian_period_vs_cicero_removed,actor_scapula_heirs,Scapula heirs,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,22,22,0
+ciceronian_period_vs_cicero_removed,actor_scribonius_libo,Scribonius Libo,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,23,7,-16
+ciceronian_period_vs_cicero_removed,actor_scribonius_libo,Scribonius Libo,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,23,7,-16
+ciceronian_period_vs_cicero_removed,actor_scribonius_libo,Scribonius Libo,individual,yes,yes,present_in_both,pagerank,0.009087,0.017948,0.008861,97.51,23,7,-16
+ciceronian_period_vs_cicero_removed,actor_scribonius_libo,Scribonius Libo,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,23,7,-16
+ciceronian_period_vs_cicero_removed,actor_selicius,Selicius,professional_financier,yes,no,with_cicero_only,weighted_degree,1.000000,,,,90,,
+ciceronian_period_vs_cicero_removed,actor_selicius,Selicius,professional_financier,yes,no,with_cicero_only,component_size,118.000000,,,,90,,
+ciceronian_period_vs_cicero_removed,actor_selicius,Selicius,professional_financier,yes,no,with_cicero_only,pagerank,0.004559,,,,90,,
+ciceronian_period_vs_cicero_removed,actor_selicius,Selicius,professional_financier,yes,no,with_cicero_only,betweenness,0.000000,,,,90,,
+ciceronian_period_vs_cicero_removed,actor_senate,Senate,public_body,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,128,107,-21
+ciceronian_period_vs_cicero_removed,actor_senate,Senate,public_body,yes,yes,present_in_both,component_size,118.000000,9.000000,-109.000000,-92.37,128,107,-21
+ciceronian_period_vs_cicero_removed,actor_senate,Senate,public_body,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,128,107,-21
+ciceronian_period_vs_cicero_removed,actor_senate,Senate,public_body,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,128,107,-21
+ciceronian_period_vs_cicero_removed,actor_ser_sulpicius_galba,Ser. Sulpicius Galba,individual,yes,yes,present_in_both,weighted_degree,1.000000,1.000000,0.000000,0.00,143,127,-16
+ciceronian_period_vs_cicero_removed,actor_ser_sulpicius_galba,Ser. Sulpicius Galba,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,143,127,-16
+ciceronian_period_vs_cicero_removed,actor_ser_sulpicius_galba,Ser. Sulpicius Galba,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,143,127,-16
+ciceronian_period_vs_cicero_removed,actor_ser_sulpicius_galba,Ser. Sulpicius Galba,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,143,127,-16
+ciceronian_period_vs_cicero_removed,actor_servilius,Servilius,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,129,108,-21
+ciceronian_period_vs_cicero_removed,actor_servilius,Servilius,individual,yes,yes,present_in_both,component_size,118.000000,3.000000,-115.000000,-97.46,129,108,-21
+ciceronian_period_vs_cicero_removed,actor_servilius,Servilius,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,129,108,-21
+ciceronian_period_vs_cicero_removed,actor_servilius,Servilius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,129,108,-21
+ciceronian_period_vs_cicero_removed,actor_sex_naevius,Sex. Naevius,individual,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,130,109,-21
+ciceronian_period_vs_cicero_removed,actor_sex_naevius,Sex. Naevius,individual,yes,yes,present_in_both,component_size,3.000000,3.000000,0.000000,0.00,130,109,-21
+ciceronian_period_vs_cicero_removed,actor_sex_naevius,Sex. Naevius,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,130,109,-21
+ciceronian_period_vs_cicero_removed,actor_sex_naevius,Sex. Naevius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,130,109,-21
+ciceronian_period_vs_cicero_removed,actor_sicilian_tax_company,Sicilian tax company,collective_group,yes,yes,present_in_both,weighted_degree,3.000000,3.000000,0.000000,0.00,32,29,-3
+ciceronian_period_vs_cicero_removed,actor_sicilian_tax_company,Sicilian tax company,collective_group,yes,yes,present_in_both,component_size,6.000000,6.000000,0.000000,0.00,32,29,-3
+ciceronian_period_vs_cicero_removed,actor_sicilian_tax_company,Sicilian tax company,collective_group,yes,yes,present_in_both,pagerank,0.007451,0.009044,0.001593,21.38,32,29,-3
+ciceronian_period_vs_cicero_removed,actor_sicilian_tax_company,Sicilian tax company,collective_group,yes,yes,present_in_both,betweenness,0.000066,0.000078,0.000012,18.18,32,29,-3
+ciceronian_period_vs_cicero_removed,actor_silius,Silius,individual,yes,yes,present_in_both,weighted_degree,6.000000,4.000000,-2.000000,-33.33,38,57,19
+ciceronian_period_vs_cicero_removed,actor_silius,Silius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,38,57,19
+ciceronian_period_vs_cicero_removed,actor_silius,Silius,individual,yes,yes,present_in_both,pagerank,0.006612,0.006046,-0.000566,-8.56,38,57,19
+ciceronian_period_vs_cicero_removed,actor_silius,Silius,individual,yes,yes,present_in_both,betweenness,0.000246,0.024193,0.023947,9734.55,38,57,19
+ciceronian_period_vs_cicero_removed,actor_terentia,Terentia,family_or_household,yes,yes,present_in_both,weighted_degree,7.000000,5.000000,-2.000000,-28.57,61,31,-30
+ciceronian_period_vs_cicero_removed,actor_terentia,Terentia,family_or_household,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,61,31,-30
+ciceronian_period_vs_cicero_removed,actor_terentia,Terentia,family_or_household,yes,yes,present_in_both,pagerank,0.005449,0.008329,0.002880,52.85,61,31,-30
+ciceronian_period_vs_cicero_removed,actor_terentia,Terentia,family_or_household,yes,yes,present_in_both,betweenness,0.005033,0.035526,0.030493,605.86,61,31,-30
+ciceronian_period_vs_cicero_removed,actor_tiro,Tiro,freedman_or_agent,yes,yes,present_in_both,weighted_degree,11.000000,6.000000,-5.000000,-45.45,99,69,-30
+ciceronian_period_vs_cicero_removed,actor_tiro,Tiro,freedman_or_agent,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,99,69,-30
+ciceronian_period_vs_cicero_removed,actor_tiro,Tiro,freedman_or_agent,yes,yes,present_in_both,pagerank,0.004196,0.005522,0.001326,31.60,99,69,-30
+ciceronian_period_vs_cicero_removed,actor_tiro,Tiro,freedman_or_agent,yes,yes,present_in_both,betweenness,0.005837,0.055432,0.049595,849.67,99,69,-30
+ciceronian_period_vs_cicero_removed,actor_titus_pomponius,Titus Pomponius,individual,yes,no,with_cicero_only,weighted_degree,1.000000,,,,91,,
+ciceronian_period_vs_cicero_removed,actor_titus_pomponius,Titus Pomponius,individual,yes,no,with_cicero_only,component_size,118.000000,,,,91,,
+ciceronian_period_vs_cicero_removed,actor_titus_pomponius,Titus Pomponius,individual,yes,no,with_cicero_only,pagerank,0.004559,,,,91,,
+ciceronian_period_vs_cicero_removed,actor_titus_pomponius,Titus Pomponius,individual,yes,no,with_cicero_only,betweenness,0.000000,,,,91,,
+ciceronian_period_vs_cicero_removed,actor_tullia,Tullia,family_or_household,yes,yes,present_in_both,weighted_degree,5.000000,2.000000,-3.000000,-60.00,112,110,-2
+ciceronian_period_vs_cicero_removed,actor_tullia,Tullia,family_or_household,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,112,110,-2
+ciceronian_period_vs_cicero_removed,actor_tullia,Tullia,family_or_household,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,112,110,-2
+ciceronian_period_vs_cicero_removed,actor_tullia,Tullia,family_or_household,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,112,110,-2
+ciceronian_period_vs_cicero_removed,actor_tullia_s_creditors,Tullia's creditors,collective_group,yes,yes,present_in_both,weighted_degree,3.000000,2.000000,-1.000000,-33.33,55,49,-6
+ciceronian_period_vs_cicero_removed,actor_tullia_s_creditors,Tullia's creditors,collective_group,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,55,49,-6
+ciceronian_period_vs_cicero_removed,actor_tullia_s_creditors,Tullia's creditors,collective_group,yes,yes,present_in_both,pagerank,0.005854,0.007326,0.001472,25.15,55,49,-6
+ciceronian_period_vs_cicero_removed,actor_tullia_s_creditors,Tullia's creditors,collective_group,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,55,49,-6
+ciceronian_period_vs_cicero_removed,actor_varro,Varro,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,131,128,-3
+ciceronian_period_vs_cicero_removed,actor_varro,Varro,individual,yes,yes,present_in_both,component_size,118.000000,2.000000,-116.000000,-98.31,131,128,-3
+ciceronian_period_vs_cicero_removed,actor_varro,Varro,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,131,128,-3
+ciceronian_period_vs_cicero_removed,actor_varro,Varro,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,131,128,-3
+ciceronian_period_vs_cicero_removed,actor_verres,Verres,individual,yes,yes,present_in_both,weighted_degree,4.000000,4.000000,0.000000,0.00,105,89,-16
+ciceronian_period_vs_cicero_removed,actor_verres,Verres,individual,yes,yes,present_in_both,component_size,6.000000,6.000000,0.000000,0.00,105,89,-16
+ciceronian_period_vs_cicero_removed,actor_verres,Verres,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,105,89,-16
+ciceronian_period_vs_cicero_removed,actor_verres,Verres,individual,yes,yes,present_in_both,betweenness,0.000427,0.000509,0.000082,19.20,105,89,-16
+ciceronian_period_vs_cicero_removed,actor_xeno,Xeno,individual,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,132,129,-3
+ciceronian_period_vs_cicero_removed,actor_xeno,Xeno,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,132,129,-3
+ciceronian_period_vs_cicero_removed,actor_xeno,Xeno,individual,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,132,129,-3
+ciceronian_period_vs_cicero_removed,actor_xeno,Xeno,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,132,129,-3
+ciceronian_period_vs_cicero_removed,actor_amici,amici,collective_group,yes,yes,present_in_both,weighted_degree,3.000000,2.000000,-1.000000,-33.33,18,15,-3
+ciceronian_period_vs_cicero_removed,actor_amici,amici,collective_group,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,18,15,-3
+ciceronian_period_vs_cicero_removed,actor_amici,amici,collective_group,yes,yes,present_in_both,pagerank,0.010001,0.011838,0.001837,18.37,18,15,-3
+ciceronian_period_vs_cicero_removed,actor_amici,amici,collective_group,yes,yes,present_in_both,betweenness,0.011425,0.008221,-0.003204,-28.04,18,15,-3
+ciceronian_period_vs_cicero_removed,actor_borrowers_under_verres_scheme,borrowers under Verres' scheme,collective_group,yes,yes,present_in_both,weighted_degree,4.000000,4.000000,0.000000,0.00,67,55,-12
+ciceronian_period_vs_cicero_removed,actor_borrowers_under_verres_scheme,borrowers under Verres' scheme,collective_group,yes,yes,present_in_both,component_size,6.000000,6.000000,0.000000,0.00,67,55,-12
+ciceronian_period_vs_cicero_removed,actor_borrowers_under_verres_scheme,borrowers under Verres' scheme,collective_group,yes,yes,present_in_both,pagerank,0.005229,0.006347,0.001118,21.38,67,55,-12
+ciceronian_period_vs_cicero_removed,actor_borrowers_under_verres_scheme,borrowers under Verres' scheme,collective_group,yes,yes,present_in_both,betweenness,0.000098,0.000117,0.000019,19.39,67,55,-12
+ciceronian_period_vs_cicero_removed,actor_cities_in_asia,cities in Asia,civic_body,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,72,64,-8
+ciceronian_period_vs_cicero_removed,actor_cities_in_asia,cities in Asia,civic_body,yes,yes,present_in_both,component_size,118.000000,9.000000,-109.000000,-92.37,72,64,-8
+ciceronian_period_vs_cicero_removed,actor_cities_in_asia,cities in Asia,civic_body,yes,yes,present_in_both,pagerank,0.004981,0.006046,0.001065,21.38,72,64,-8
+ciceronian_period_vs_cicero_removed,actor_cities_in_asia,cities in Asia,civic_body,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,72,64,-8
+ciceronian_period_vs_cicero_removed,actor_city_of_byllis,city of Byllis,civic_body,yes,yes,present_in_both,weighted_degree,3.000000,2.000000,-1.000000,-33.33,52,65,13
+ciceronian_period_vs_cicero_removed,actor_city_of_byllis,city of Byllis,civic_body,yes,yes,present_in_both,component_size,118.000000,3.000000,-115.000000,-97.46,52,65,13
+ciceronian_period_vs_cicero_removed,actor_city_of_byllis,city of Byllis,civic_body,yes,yes,present_in_both,pagerank,0.006044,0.006046,0.000002,0.03,52,65,13
+ciceronian_period_vs_cicero_removed,actor_city_of_byllis,city of Byllis,civic_body,yes,yes,present_in_both,betweenness,0.005663,0.000000,-0.005663,-100.00,52,65,13
+ciceronian_period_vs_cicero_removed,actor_city_of_dyrrhachium,city of Dyrrhachium,civic_body,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,81,130,49
+ciceronian_period_vs_cicero_removed,actor_city_of_dyrrhachium,city of Dyrrhachium,civic_body,yes,yes,present_in_both,component_size,118.000000,2.000000,-116.000000,-98.31,81,130,49
+ciceronian_period_vs_cicero_removed,actor_city_of_dyrrhachium,city of Dyrrhachium,civic_body,yes,yes,present_in_both,pagerank,0.004559,0.004243,-0.000316,-6.93,81,130,49
+ciceronian_period_vs_cicero_removed,actor_city_of_dyrrhachium,city of Dyrrhachium,civic_body,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,81,130,49
+ciceronian_period_vs_cicero_removed,actor_city_of_sicyon,city of Sicyon,civic_body,yes,yes,present_in_both,weighted_degree,2.000000,1.000000,-1.000000,-50.00,82,131,49
+ciceronian_period_vs_cicero_removed,actor_city_of_sicyon,city of Sicyon,civic_body,yes,yes,present_in_both,component_size,118.000000,2.000000,-116.000000,-98.31,82,131,49
+ciceronian_period_vs_cicero_removed,actor_city_of_sicyon,city of Sicyon,civic_body,yes,yes,present_in_both,pagerank,0.004559,0.004243,-0.000316,-6.93,82,131,49
+ciceronian_period_vs_cicero_removed,actor_city_of_sicyon,city of Sicyon,civic_body,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,82,131,49
+ciceronian_period_vs_cicero_removed,actor_creditores,creditores,collective_group,yes,yes,present_in_both,weighted_degree,1.000000,1.000000,0.000000,0.00,41,44,3
+ciceronian_period_vs_cicero_removed,actor_creditores,creditores,collective_group,yes,yes,present_in_both,component_size,2.000000,2.000000,0.000000,0.00,41,44,3
+ciceronian_period_vs_cicero_removed,actor_creditores,creditores,collective_group,yes,yes,present_in_both,pagerank,0.006467,0.007849,0.001382,21.37,41,44,3
+ciceronian_period_vs_cicero_removed,actor_creditores,creditores,collective_group,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,41,44,3
+ciceronian_period_vs_cicero_removed,actor_his_amici,his amici,collective_group,yes,yes,present_in_both,weighted_degree,1.000000,1.000000,0.000000,0.00,42,45,3
+ciceronian_period_vs_cicero_removed,actor_his_amici,his amici,collective_group,yes,yes,present_in_both,component_size,2.000000,2.000000,0.000000,0.00,42,45,3
+ciceronian_period_vs_cicero_removed,actor_his_amici,his amici,collective_group,yes,yes,present_in_both,pagerank,0.006467,0.007849,0.001382,21.37,42,45,3
+ciceronian_period_vs_cicero_removed,actor_his_amici,his amici,collective_group,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,42,45,3
+ciceronian_period_vs_cicero_removed,actor_multiple_provincial_communities,multiple provincial communities,civic_body,yes,no,with_cicero_only,weighted_degree,1.000000,,,,92,,
+ciceronian_period_vs_cicero_removed,actor_multiple_provincial_communities,multiple provincial communities,civic_body,yes,no,with_cicero_only,component_size,118.000000,,,,92,,
+ciceronian_period_vs_cicero_removed,actor_multiple_provincial_communities,multiple provincial communities,civic_body,yes,no,with_cicero_only,pagerank,0.004559,,,,92,,
+ciceronian_period_vs_cicero_removed,actor_multiple_provincial_communities,multiple provincial communities,civic_body,yes,no,with_cicero_only,betweenness,0.000000,,,,92,,
+ciceronian_period_vs_cicero_removed,actor_procuratores,procuratores,collective_group,yes,yes,present_in_both,weighted_degree,2.000000,2.000000,0.000000,0.00,133,111,-22
+ciceronian_period_vs_cicero_removed,actor_procuratores,procuratores,collective_group,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,133,111,-22
+ciceronian_period_vs_cicero_removed,actor_procuratores,procuratores,collective_group,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,133,111,-22
+ciceronian_period_vs_cicero_removed,actor_procuratores,procuratores,collective_group,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,133,111,-22
+ciceronian_period_vs_cicero_removed,actor_provincial_governor,provincial governor,public_body,yes,yes,present_in_both,weighted_degree,1.000000,1.000000,0.000000,0.00,144,132,-12
+ciceronian_period_vs_cicero_removed,actor_provincial_governor,provincial governor,public_body,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,144,132,-12
+ciceronian_period_vs_cicero_removed,actor_provincial_governor,provincial governor,public_body,yes,yes,present_in_both,pagerank,0.003495,0.004243,0.000748,21.40,144,132,-12
+ciceronian_period_vs_cicero_removed,actor_provincial_governor,provincial governor,public_body,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,144,132,-12
+ciceronian_period_vs_cicero_removed,actor_publicani,publicani,collective_group,yes,yes,present_in_both,weighted_degree,3.000000,2.000000,-1.000000,-33.33,17,23,6
+ciceronian_period_vs_cicero_removed,actor_publicani,publicani,collective_group,yes,yes,present_in_both,component_size,118.000000,3.000000,-115.000000,-97.46,17,23,6
+ciceronian_period_vs_cicero_removed,actor_publicani,publicani,collective_group,yes,yes,present_in_both,pagerank,0.011182,0.011186,0.000004,0.04,17,23,6
+ciceronian_period_vs_cicero_removed,actor_publicani,publicani,collective_group,yes,yes,present_in_both,betweenness,0.005663,0.000000,-0.005663,-100.00,17,23,6
+ciceronian_period_vs_cicero_removed,actor_young_lucullus,young Lucullus,individual,yes,yes,present_in_both,weighted_degree,1.000000,1.000000,0.000000,0.00,43,46,3
+ciceronian_period_vs_cicero_removed,actor_young_lucullus,young Lucullus,individual,yes,yes,present_in_both,component_size,2.000000,2.000000,0.000000,0.00,43,46,3
+ciceronian_period_vs_cicero_removed,actor_young_lucullus,young Lucullus,individual,yes,yes,present_in_both,pagerank,0.006467,0.007849,0.001382,21.37,43,46,3
+ciceronian_period_vs_cicero_removed,actor_young_lucullus,young Lucullus,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,43,46,3
+ciceronian_period_vs_cicero_removed,actor_young_t_pinnius,young T. Pinnius,individual,yes,yes,present_in_both,weighted_degree,3.000000,2.000000,-1.000000,-33.33,13,24,11
+ciceronian_period_vs_cicero_removed,actor_young_t_pinnius,young T. Pinnius,individual,yes,yes,present_in_both,component_size,118.000000,72.000000,-46.000000,-38.98,13,24,11
+ciceronian_period_vs_cicero_removed,actor_young_t_pinnius,young T. Pinnius,individual,yes,yes,present_in_both,pagerank,0.011899,0.011019,-0.000880,-7.40,13,24,11
+ciceronian_period_vs_cicero_removed,actor_young_t_pinnius,young T. Pinnius,individual,yes,yes,present_in_both,betweenness,0.000000,0.000000,0.000000,,13,24,11

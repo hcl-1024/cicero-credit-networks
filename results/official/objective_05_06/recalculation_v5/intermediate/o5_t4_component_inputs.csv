@@ -1,0 +1,19 @@
+component_id,exposure_group_id,member_record_ids,component_class,amount_source,observed_amount_hs,include_probability,strict_active_months,active_fraction,calculation_window,method_status
+O5T4-EG-CLEAN-0002,EG-CLEAN-0002,VRB-STAGED-0091,missing_amount_stock,single_k_imputation,,1,12,1,45-44 BCE,precalculation_input
+O5T4-EG-CLEAN-0009,EG-CLEAN-0009,ATT-PILOT-0026,missing_amount_stock,single_k_imputation,,1,12,1,45-44 BCE,precalculation_input
+O5T4-EG-CLEAN-0012,EG-CLEAN-0012,ATT-PILOT-0017,missing_amount_stock,single_k_imputation,,1,12,1,45-44 BCE,precalculation_input
+O5T4-EG-CLEAN-0014,EG-CLEAN-0014,ATT-PILOT-0029,missing_amount_stock,single_k_imputation,,1,12,1,45-44 BCE,precalculation_input
+O5T4-EG-CLEAN-0016,EG-CLEAN-0016,VRB-STAGED-0076,missing_exposure_reconstruction,single_k_imputation,,0.9,12,1,45-44 BCE,precalculation_input
+O5T4-EG-CLEAN-0022,EG-CLEAN-0022,ATT-PILOT-0036,missing_amount_stock,single_k_imputation,,1,12,1,45-44 BCE,precalculation_input
+O5T4-EG-CLEAN-0025,EG-CLEAN-0025,ATT-PILOT-0014,observed_stock,selected_observed_group_amount,200000,1,5,0.416666666667,45-44 BCE,precalculation_input
+O5T4-EG-CLEAN-0027,EG-CLEAN-0027,VRB-STAGED-0053,missing_amount_stock,single_k_imputation,,0.9,12,1,45-44 BCE,precalculation_input
+O5T4-EG-CLEAN-0028,EG-CLEAN-0028,ATT-PILOT-0025,missing_amount_stock,single_k_imputation,,0.9,12,1,45-44 BCE,precalculation_input
+O5T4-EG-CLEAN-0030,EG-CLEAN-0030,ATT-PILOT-0028,missing_amount_stock,single_k_imputation,,1,12,1,45-44 BCE,precalculation_input
+O5T4-EG-CLEAN-0031,EG-CLEAN-0031,FAM-PILOT-0005,missing_amount_stock,single_k_imputation,,1,12,1,45-44 BCE,precalculation_input
+O5T4-EG-CLEAN-0035,EG-CLEAN-0035,ATT-PILOT-0027,observed_stock,selected_observed_group_amount,20000,1,12,1,45-44 BCE,precalculation_input
+O5T4-EG-CLEAN-0036,EG-CLEAN-0036,FAM-PILOT-0004,missing_amount_stock,single_k_imputation,,1,12,1,45-44 BCE,precalculation_input
+O5T4-EG-CLEAN-0041,EG-CLEAN-0041,VRB-STAGED-0042,missing_exposure_reconstruction,single_k_imputation,,1,12,1,45-44 BCE,precalculation_input
+O5T4-EG-CLEAN-0047,EG-CLEAN-0047,VRB-STAGED-0038,missing_amount_stock,single_k_imputation,,0.9,12,1,45-44 BCE,precalculation_input
+O5T4-EG-CLEAN-0118,EG-CLEAN-0118,ATT-PILOT-0018,observed_stock,selected_observed_group_amount,25000,1,12,1,45-44 BCE,precalculation_input
+O5T4-O5EG-0015,O5EG-0015,ATT-PILOT-0030;ATT-PILOT-0035,observed_stock,selected_observed_group_amount,400000,1,12,1,45-44 BCE,precalculation_input
+O5T4-O5EG-0016,O5EG-0016,ATT-PILOT-0011;ATT-PILOT-0012,observed_stock,selected_observed_group_amount,1200000,1,12,1,45-44 BCE,precalculation_input

@@ -1,0 +1,9 @@
+release: 1.0.0
+canonical_records: reviewed_record_snapshot_v1
+O1_O2: actor_graph_v1
+O3: direct_and_third_party_graph_v1
+O4: liquidity_stress_and_refinancing_v1
+O5: graph_respecting_stock_recalculation_v5
+O6: weighted_whole_o5_recalculation_v5
+O5_6: borrower_distribution_recalculation_v5
+retired_methods_are_inputs: false
