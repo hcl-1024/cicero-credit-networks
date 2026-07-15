@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Rename the 95 secondary-source staged record identifiers to the `SEC-STAGED-XXXX` convention.
+- Propagate the new identifiers through reviewed authorities, derived O4-O6 outputs, provenance manifests, analysis rules, and release checksums.
+- Preserve all published quantitative findings; this change affects labeling and identifier-derived hashes only.
+
 ## 1.1.2 - 2026-07-15
 
 - Publish version 1.0 of the associated independent research working paper.

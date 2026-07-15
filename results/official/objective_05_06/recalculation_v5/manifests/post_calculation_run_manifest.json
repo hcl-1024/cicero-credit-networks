@@ -4,13 +4,13 @@
       "bytes": 3124,
       "path": "results/official/objective_05_06/recalculation_v5/calculated/o5_t4_components.csv",
       "role": "t4_components",
-      "sha256": "d6fa6142a9d935c90bfa92031f2f4fd7bbfad97c51f23dfd915e74979c99806c"
+      "sha256": "a8c956640c01786be1df89ee617a12fb5e42b872d5f9f9a74bd497c6b8422083"
     },
     {
-      "bytes": 83652,
+      "bytes": 83647,
       "path": "results/official/objective_05_06/recalculation_v5/calculated/o5_t5_surviving_candidates.csv",
       "role": "t5_candidates",
-      "sha256": "5887df92d7ee2e93cdacd12d83c4259c482134b0a46bf7538fac110bc1220440"
+      "sha256": "bbe2f295e28c32cabdd06acd97736c47b2c4b7fd35c1ba1a76b1fbf893637cc9"
     },
     {
       "bytes": 868,
@@ -28,7 +28,7 @@
       "bytes": 950,
       "path": "results/official/objective_05_06/recalculation_v5/calculated/o6_class_incidence_and_weights.csv",
       "role": "o6_classes",
-      "sha256": "0e9f35d32fca7590d6ec86a2954aba956978ffc34d2149ed3d43912053c13a56"
+      "sha256": "d04cf87c2f7bb5d0909312c423f4ba7abb9a81296664af497d73aa135dd1f8f3"
     },
     {
       "bytes": 425,
@@ -37,7 +37,7 @@
       "sha256": "4e6a6ddec6e5902f07264f9c2afa4cff7d158905fffb68ae0d3851c540a2dd09"
     }
   ],
-  "candidate_manifest_sha256": "3e23695f48ba3779be708ead99027c93a0943d3553040afb8dba686b1ecd8a8e",
+  "candidate_manifest_sha256": "3ac1bf92fec2f9c89f5b9deef8fcd0ee83f905fe65603377c625ae1b19b35c6b",
   "created_utc": "2026-07-14T00:00:00+00:00",
   "git_commit": "release-tag-recorded-by-git",
   "hierarchical_p50_hs": "362500",
@@ -52,7 +52,7 @@
   "python": ">=3.11",
   "repair_version": "postcalc_provenance_repair_2026_07_14",
   "run_status": "public_release_reproduction",
-  "sealed_manifest_sha256": "8a047c9aeaa83fd4e30cb408cdeeaa2f77766fc40f2ccbda2d3097c8f3212494",
+  "sealed_manifest_sha256": "c2213dcdbecd5daf5ff461a298fa07a8b45b535c397a130deca769aa27c7dd51",
   "selected_k": 5,
   "sensitivity_outputs": [
     {

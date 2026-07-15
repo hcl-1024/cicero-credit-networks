@@ -662,12 +662,12 @@ def normalized_amount(row: dict[str, str]) -> tuple[str, str, str]:
         "ATT-PILOT-0031": ("20600000", "visual_loeb_page_reviewed"),
         "FAM-PILOT-0001": ("3500000", "explicit_roman_hs"),
         "ATT-PILOT-0034": ("2200000", "explicit_sestertium_phrase"),
-        "VRB-STAGED-0045": ("400000", "explicit_roman_hs"),
-        "VRB-STAGED-0055": ("8000000", "explicit_sestertium_phrase"),
-        "VRB-STAGED-0072": ("100000", "explicit_roman_hs"),
-        "VRB-STAGED-0096": ("1000000", "explicit_sestertium_phrase"),
-        "VRB-STAGED-0097": ("12000000", "explicit_sestertium_phrase"),
-        "VRB-STAGED-0102": ("15000000", "explicit_sestertium_phrase"),
+        "SEC-STAGED-0045": ("400000", "explicit_roman_hs"),
+        "SEC-STAGED-0055": ("8000000", "explicit_sestertium_phrase"),
+        "SEC-STAGED-0072": ("100000", "explicit_roman_hs"),
+        "SEC-STAGED-0096": ("1000000", "explicit_sestertium_phrase"),
+        "SEC-STAGED-0097": ("12000000", "explicit_sestertium_phrase"),
+        "SEC-STAGED-0102": ("15000000", "explicit_sestertium_phrase"),
     }
     if row["record_id"] in explicit_hs_by_record:
         normalized, certainty = explicit_hs_by_record[row["record_id"]]
@@ -957,22 +957,22 @@ def amount_review_triage(rows: list[dict[str, object]]) -> list[dict[str, object
         if row["record_id"] == "ATT-PILOT-0032":
             triage = "descriptive_only"
             reason = "Reviewed Greek mina/account entries preserve multiple account values and interest, but not a single defensible HS normalization."
-        if row["record_id"] == "VRB-STAGED-0012":
+        if row["record_id"] == "SEC-STAGED-0012":
             triage = "currently_unknowable"
             reason = "Amount belongs to a secondary claim not verified in the attached local Latin; do not normalize until the exact primary citation is secured."
-        if row["record_id"] == "VRB-STAGED-0013":
+        if row["record_id"] == "SEC-STAGED-0013":
             triage = "descriptive_only"
             reason = "Att. 1.13 supports the Messalla house-purchase amount and friends-resources language, but the centies/trecies notation and OCR display need a policy before normalization."
-        if row["record_id"] == "VRB-STAGED-0084":
+        if row["record_id"] == "SEC-STAGED-0084":
             triage = "descriptive_only"
             reason = "Ten-million-sesterce political-payment tradition is translation-checked but gift-versus-loan status remains unverified."
-        if row["record_id"] == "VRB-STAGED-0085":
+        if row["record_id"] == "SEC-STAGED-0085":
             triage = "descriptive_only"
             reason = "Ancient amount is in talents; do not convert to HS in this dataset without an explicit conversion policy."
-        if row["record_id"] == "VRB-STAGED-0089":
+        if row["record_id"] == "SEC-STAGED-0089":
             triage = "descriptive_only"
             reason = "Ancient amount is in talents; primary-source support is checked, but do not convert to HS without an explicit conversion policy."
-        if row["record_id"] == "VRB-STAGED-0088":
+        if row["record_id"] == "SEC-STAGED-0088":
             triage = "descriptive_only"
             reason = "Latin preserves multiple distinct HS figures with different roles; do not collapse them into one normalized amount."
         triage_rows.append(

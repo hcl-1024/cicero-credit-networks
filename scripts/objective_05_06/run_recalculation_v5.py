@@ -58,8 +58,8 @@ PARTICIPATION_RATES = (0.25, 0.50, 0.75, 1.00)
 
 GARDEN_MEMBERS = {"ATT-PILOT-0011", "ATT-PILOT-0012"}
 PUBLILIUS_MEMBERS = {"ATT-PILOT-0030", "ATT-PILOT-0035"}
-STRICT_EXCLUDED_RECORDS = {"ATT-PILOT-0037", "VRB-STAGED-0092", "VRB-STAGED-0095"}
-POLITICAL_CONTEXT_RECORDS = {"VRB-STAGED-0036", "VRB-STAGED-0045", "VRB-STAGED-0083"}
+STRICT_EXCLUDED_RECORDS = {"ATT-PILOT-0037", "SEC-STAGED-0092", "SEC-STAGED-0095"}
+POLITICAL_CONTEXT_RECORDS = {"SEC-STAGED-0036", "SEC-STAGED-0045", "SEC-STAGED-0083"}
 FORCED_STOCK_RECORDS = GARDEN_MEMBERS | {"ATT-PILOT-0014"}
 FLOW_ONLY_AMOUNT_ROLES = {"partial_payment", "payment", "repayment", "remission", "settlement"}
 FINANCIAL_AGENT_WORDS = {
@@ -248,9 +248,9 @@ def build_exposure_authorities(
             gid = "O5EG-0016"
         elif rid in PUBLILIUS_MEMBERS:
             gid = "O5EG-0015"
-        elif rid == "VRB-STAGED-0092":
+        elif rid == "SEC-STAGED-0092":
             gid = "O5EG-0004"
-        elif rid == "VRB-STAGED-0095":
+        elif rid == "SEC-STAGED-0095":
             gid = "O5EG-PAPER-0095"
         elif rid in override_by_record and override_by_record[rid].get("action") == "merge":
             gid = override_by_record[rid].get("exposure_group_id") or decisions[override_by_record[rid]["survivor_record_id"]]["exposure_group_id"]
@@ -983,7 +983,7 @@ def static_gates(
     publilius = amount_by_gid.get("O5EG-0015", {})
     check("publilius_400k", publilius.get("selected_amount_hs") == "400000" and "ATT-PILOT-0030-AMT-01" in str(publilius.get("evidence_amount_instance_ids", "")), "Publilius is one exact 400,000-HS stock amount; payment and inferred remainder are excluded.")
     group_by_record = {str(row["record_id"]): str(row["exposure_group_id"]) for row in members}
-    check("records_28_34_separate", group_by_record.get("VRB-STAGED-0095") != group_by_record.get("VRB-STAGED-0092"), "Records 28 and 34 remain separate.")
+    check("records_28_34_separate", group_by_record.get("SEC-STAGED-0095") != group_by_record.get("SEC-STAGED-0092"), "Records 28 and 34 remain separate.")
     strict_records = {str(row["record_id"]) for row in members if row["contributes_to_o5_t4"] == "yes" or row["contributes_to_o5_t5_seed"] == "yes"}
     check("strict_exclusions", not (strict_records & (STRICT_EXCLUDED_RECORDS | POLITICAL_CONTEXT_RECORDS)), "ATT-PILOT-0037, records 28/34, and political/context records do not enter strict families.", ";".join(sorted(strict_records & (STRICT_EXCLUDED_RECORDS | POLITICAL_CONTEXT_RECORDS))))
     o56_members = [rid for component in O56_COMPONENTS for rid in component[1]]

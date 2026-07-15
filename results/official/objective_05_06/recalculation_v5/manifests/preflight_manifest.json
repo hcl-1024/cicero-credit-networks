@@ -9,25 +9,25 @@
       "bytes": 159081,
       "path": "data/canonical/cicero_credit_records.csv",
       "role": "declared_source_input",
-      "sha256": "068aa4c768d66f2102196f358f1c6d2944242ba0a099cf4245b7ea5653a67eb3"
+      "sha256": "30790f14671ea16142e6a0f45ba2c947019f0c348bcca2e00922d7a743ceb690"
     },
     {
       "bytes": 72720,
       "path": "data/exposure_groups/reviewed_record_decisions.csv",
       "role": "declared_source_input",
-      "sha256": "9ecd344913a47f3b9e759dc03b23c6c8183965ac0cae9b9a09b778463aa7ac46"
+      "sha256": "948448db582042745cb38e7854d5c2031ccda2b9b7319119aa708f06fd76f5f5"
     },
     {
       "bytes": 1270,
       "path": "data/exposure_groups/reviewed_overrides.csv",
       "role": "declared_source_input",
-      "sha256": "8017247438f237b0ec55522cbe05ffb5e28cebabbbfdfd825742fc4c1180b7cb"
+      "sha256": "f5fc06c4d2667fcc90dbd3f2992ad2d3ab37c2a345d7b8159d4fffdbad184a17"
     },
     {
       "bytes": 18783,
       "path": "data/amounts/amount_values.csv",
       "role": "declared_source_input",
-      "sha256": "c293ed3a75051a6489b3fca23ace9be2b9639b0e508962285610605974dec2df"
+      "sha256": "7d81ee22cbb7ae59fc6a8fff2b20b5a97762b3c77d761862809ceafb0e39fe93"
     },
     {
       "bytes": 1875,
@@ -53,19 +53,19 @@
       "bytes": 42542,
       "path": "results/official/objective_05_06/recalculation_v5/typed/exposure_member_authority.csv",
       "role": "members",
-      "sha256": "780a2eab89694b9a5df6be962b8cb7332329bbd75d01f6232ca026650dbcf8c2"
+      "sha256": "be47d887b463b9f7000464e4de24400953876ac38aaee8ca02515b4002519865"
     },
     {
       "bytes": 17689,
       "path": "results/official/objective_05_06/recalculation_v5/typed/exposure_amount_authority.csv",
       "role": "amounts",
-      "sha256": "f44970cc8d112b69c6d4322256e0331e4b244a3ab5a79be17f12146c4fa53776"
+      "sha256": "5ee08fbe0eb0de970a701ff0e0ae8c6ed84ed7fd3b10659ef9f7d257a079be56"
     },
     {
       "bytes": 17898,
       "path": "results/official/objective_05_06/recalculation_v5/typed/actor_occurrence_authority.csv",
       "role": "occurrences",
-      "sha256": "26cf8a86c56e2eed154602306a80462172192501c5345605d37f04c545645b5a"
+      "sha256": "4a3781c39e1b43ad3881d894b94d824be573763bb3ee078bd5527e2b39a41eea"
     },
     {
       "bytes": 3825,
@@ -77,19 +77,19 @@
       "bytes": 25681,
       "path": "results/official/objective_05_06/recalculation_v5/typed/relation_authority.csv",
       "role": "relations",
-      "sha256": "dad61a631d7d4470fe0e2dbbe003a4e72521cf6b10b7bbea5a31ff6baa73041f"
+      "sha256": "23d640dee0d69cb2e4cd233d13ed3487f21a731b2ae13450dbde1b0758930896"
     },
     {
       "bytes": 8305,
       "path": "results/official/objective_05_06/recalculation_v5/typed/paper_exposure_crosswalk.csv",
       "role": "paper_crosswalk",
-      "sha256": "31ddcbd3a9fa062fd756dc09d9f4c21cf4bda29ce72c3487a2bc86d048f74b04"
+      "sha256": "c3f7a2d80bb60f3393c4160bed1fbc0bc31815d454d34ad39b716875bd7ca484"
     },
     {
       "bytes": 2607,
       "path": "results/official/objective_05_06/recalculation_v5/intermediate/o5_t4_component_inputs.csv",
       "role": "t4_inputs",
-      "sha256": "6114893b66851bdb856366d08156a159a6ab48197e1fa9d39f30bf0b3f1408d8"
+      "sha256": "b568be4719a792dda81888a82d34d3f198df8fb39af993a882824eea5c46f3ca"
     },
     {
       "bytes": 397,
@@ -101,13 +101,13 @@
       "bytes": 687678,
       "path": "results/official/objective_05_06/recalculation_v5/intermediate/o5_t5_proposal_provenance.csv",
       "role": "proposals",
-      "sha256": "c5518e04be72a631a8954002f03b5f31928bc9bcc6bb449103af67a3b05c4037"
+      "sha256": "96d9023e5e6a098b6d2f0b600e873329419a5ed37e9e3ca03a08700b6949f492"
     },
     {
-      "bytes": 116858,
+      "bytes": 116854,
       "path": "results/official/objective_05_06/recalculation_v5/intermediate/o5_t5_normalized_dyads.csv",
       "role": "dyads",
-      "sha256": "3e23695f48ba3779be708ead99027c93a0943d3553040afb8dba686b1ecd8a8e"
+      "sha256": "3ac1bf92fec2f9c89f5b9deef8fcd0ee83f905fe65603377c625ae1b19b35c6b"
     },
     {
       "bytes": 2153,
@@ -131,7 +131,7 @@
       "bytes": 5179,
       "path": "results/official/objective_05_06/recalculation_v5/intermediate/o6_observed_relations.csv",
       "role": "o6_observed",
-      "sha256": "16bf525a98c31767088d7e492e006ca4715e7e8d0c0b7867244a9746ba48699c"
+      "sha256": "4c9bb2f081f9cbae71ef4a5e94eb2cca675290fedd3fa0ff4c8401e8715f13fd"
     },
     {
       "bytes": 12751,
