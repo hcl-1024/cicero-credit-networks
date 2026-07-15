@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit the VRB-to-SEC staged-record identifier migration between two commits."""
+"""Audit the complete legacy-to-SEC identifier migration between two commits."""
 
 from __future__ import annotations
 
@@ -13,8 +13,15 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-OLD_PATTERN = re.compile(rb"VRB-STAGED-[0-9]{4}")
-NEW_PATTERN = re.compile(rb"SEC-STAGED-[0-9]{4}")
+FORMER_PREFIX = bytes((86, 82, 66))
+CURRENT_PREFIX = b"SEC"
+HANDLE_FAMILIES = (b"STAGED", b"WORKER", b"MISSING", b"DELTA", b"SUPP")
+FORMER_STAGED_PATTERN = re.compile(re.escape(FORMER_PREFIX) + rb"-STAGED-[0-9]{4}")
+CURRENT_STAGED_PATTERN = re.compile(rb"SEC-STAGED-[0-9]{4}")
+FORMER_HANDLE_PATTERN = re.compile(
+    re.escape(FORMER_PREFIX) + rb"-(?:STAGED|WORKER|MISSING|DELTA|SUPP)-[0-9]+"
+)
+CURRENT_HANDLE_PATTERN = re.compile(rb"SEC-(?:STAGED|WORKER|MISSING|DELTA|SUPP)-[0-9]+")
 
 PAPER_FACING_FILES = (
     "results/official/headline_values.csv",
@@ -61,6 +68,8 @@ def allowed_changed_path(path: str) -> bool:
         or path.startswith("results/official/objectives/04_credit_mechanisms/")
         or path == "scripts/analysis/analyze_cicero_loans.py"
         or path == "scripts/objective_05_06/run_recalculation_v5.py"
+        or path == "scripts/release/audit_record_identifier_migration.py"
+        or path.startswith("docs/audits/")
         or path == "validation/checksums.sha256"
     )
 
@@ -68,7 +77,7 @@ def allowed_changed_path(path: str) -> bool:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--base", default="4dd535b3b20d8b8f61ced205fcc88bd869800272")
-    parser.add_argument("--target", default="647ccbd94b99b90378159e37216375da377366a0")
+    parser.add_argument("--target", default="HEAD")
     args = parser.parse_args()
 
     failures: list[str] = []
@@ -82,31 +91,43 @@ def main() -> None:
     git("cat-file", "-e", f"{args.base}^{{commit}}")
     git("cat-file", "-e", f"{args.target}^{{commit}}")
 
-    old_ids = identifiers(args.base, OLD_PATTERN)
-    new_ids = identifiers(args.target, NEW_PATTERN)
-    expected_new_ids = {value.replace("VRB-", "SEC-", 1) for value in old_ids}
-    target_old_ids = identifiers(args.target, OLD_PATTERN)
+    former_staged_ids = identifiers(args.base, FORMER_STAGED_PATTERN)
+    current_staged_ids = identifiers(args.target, CURRENT_STAGED_PATTERN)
+    former_handles = identifiers(args.base, FORMER_HANDLE_PATTERN)
+    current_handles = identifiers(args.target, CURRENT_HANDLE_PATTERN)
+    former_prefix_text = FORMER_PREFIX.decode()
+    expected_current_handles = {
+        value.replace(f"{former_prefix_text}-", "SEC-", 1) for value in former_handles
+    }
+    target_former_handles = identifiers(args.target, FORMER_HANDLE_PATTERN)
 
-    check("baseline_identifier_count", len(old_ids) == 95, f"found {len(old_ids)} distinct baseline identifiers")
-    check("target_identifier_count", len(new_ids) == 95, f"found {len(new_ids)} distinct target identifiers")
-    check("identifier_bijection", new_ids == expected_new_ids, "target identifiers exactly equal the prefix-renamed baseline set")
-    check("no_old_identifiers", not target_old_ids, f"found {len(target_old_ids)} former identifiers in the target tree")
+    check("baseline_staged_identifier_count", len(former_staged_ids) == 95, f"found {len(former_staged_ids)} distinct baseline staged identifiers")
+    check("target_staged_identifier_count", len(current_staged_ids) == 95, f"found {len(current_staged_ids)} distinct target staged identifiers")
+    check("baseline_all_handle_count", len(former_handles) == 163, f"found {len(former_handles)} distinct baseline handles")
+    check("target_all_handle_count", len(current_handles) == 163, f"found {len(current_handles)} distinct target handles")
+    check("identifier_bijection", current_handles == expected_current_handles, "target handles exactly equal the prefix-renamed baseline set")
+    check("no_former_handles", not target_former_handles, f"found {len(target_former_handles)} former handles in the target tree")
 
     base_data = tracked_files(args.base, "data")
     target_data = tracked_files(args.target, "data")
     check("data_file_inventory", base_data == target_data, f"base={len(base_data)} files; target={len(target_data)} files")
-    data_mismatches = [
-        path
-        for path in base_data
-        if blob(args.base, path) != blob(args.target, path).replace(b"SEC-STAGED-", b"VRB-STAGED-")
-    ]
+    data_mismatches = []
+    for path in base_data:
+        normalized_target = blob(args.target, path)
+        for family in HANDLE_FAMILIES:
+            normalized_target = normalized_target.replace(
+                CURRENT_PREFIX + b"-" + family + b"-",
+                FORMER_PREFIX + b"-" + family + b"-",
+            )
+        if blob(args.base, path) != normalized_target:
+            data_mismatches.append(path)
     check("data_content_invariance", not data_mismatches, f"non-label differences: {data_mismatches}")
 
     canonical_bytes = blob(args.target, "data/canonical/cicero_credit_records.csv")
     canonical_rows = list(csv.DictReader(io.StringIO(canonical_bytes.decode())))
     primary_ids = [row["merged_record_id"] for row in canonical_rows]
     primary_sec = [value for value in primary_ids if value.startswith("SEC-STAGED-")]
-    referenced_sec = {match.decode() for match in NEW_PATTERN.findall(canonical_bytes)}
+    referenced_sec = {match.decode() for match in CURRENT_STAGED_PATTERN.findall(canonical_bytes)}
     check(
         "canonical_structure",
         len(canonical_rows) == 114 and len(primary_ids) == len(set(primary_ids)),

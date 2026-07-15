@@ -52,7 +52,7 @@
   "python": ">=3.11",
   "repair_version": "postcalc_provenance_repair_2026_07_14",
   "run_status": "public_release_reproduction",
-  "sealed_manifest_sha256": "c2213dcdbecd5daf5ff461a298fa07a8b45b535c397a130deca769aa27c7dd51",
+  "sealed_manifest_sha256": "ee5ad6c1d604bb8134dccd697393baa68467c2a73761f6a76a7f72e782513c97",
   "selected_k": 5,
   "sensitivity_outputs": [
     {

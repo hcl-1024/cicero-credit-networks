@@ -2,24 +2,24 @@
 
 ## Purpose
 
-This handoff supports an independent audit of the staged-record identifier migration committed on 15 July 2026. The audit must determine whether every former `VRB` staged identifier was changed to the `SEC` convention without altering historical evidence, record classifications, calculated values, sensitivity results, or the working paper.
+This handoff supports an independent audit of the identifier migration begun on 15 July 2026. The audit must determine whether every former staged-record and provenance prefix was changed to the `SEC` convention without altering historical evidence, record classifications, calculated values, sensitivity results, or the working paper.
 
 This document is an audit specification, not an independent sign-off.
 
 ## Commits under audit
 
 - Baseline: `4dd535b3b20d8b8f61ced205fcc88bd869800272`
-- Migration: `647ccbd94b99b90378159e37216375da377366a0`
+- Initial staged-record migration: `647ccbd94b99b90378159e37216375da377366a0`
 - Migration commit message: `improved record labeling`
 
-The migration is present on `main` but remains listed as **Unreleased**. The immutable official release remains `v1.1.2`. Do not create `v1.1.3` until this audit is signed off.
+The current `main` branch extends the initial migration to the worker, missing-record, delta, and supplement provenance families. The migration remains listed as **Unreleased**. The immutable official release remains `v1.1.2`. Do not create `v1.1.3` until the expanded migration is signed off.
 
 ## Claims to test
 
-1. The baseline contains exactly 95 distinct identifiers using the former staged-record prefix.
-2. The migration contains exactly the corresponding 95 `SEC-STAGED-XXXX` identifiers.
-3. No former staged-record identifier remains anywhere in the migration commit's tracked tree.
-4. The mapping is one-to-one and changes only the prefix.
+1. The baseline contains 95 staged-record identifiers and 68 provenance handles using the former prefix, for 163 distinct handles in total.
+2. The migration contains exactly the corresponding 163 `SEC` handles, including 95 `SEC-STAGED-XXXX` identifiers.
+3. No handle using the former prefix remains anywhere in the current tracked tree.
+4. Every mapping is one-to-one and changes only the prefix.
 5. The canonical release still contains 114 unique primary records: 68 use the new prefix, while 27 additional renamed identifiers remain as references to records merged into canonical survivors.
 6. After reversing the prefix substitution in the migration tree, every tracked file under `data/` is byte-for-byte identical to the baseline.
 7. Paper-facing values, sensitivity tables, the quantitative claim registry, its manifest, and the working-paper PDF are byte-for-byte unchanged.
@@ -43,7 +43,7 @@ The command must finish with `"status": "PASS"`. It independently reads both Git
 ### 2. Reproduce from the migration commit
 
 ```sh
-git switch --detach 647ccbd94b99b90378159e37216375da377366a0
+git switch --detach main
 make reproduce-paper-findings
 make verify
 make test
@@ -76,8 +76,8 @@ The automated comparison must report no changes to:
 Review:
 
 ```sh
-git diff --stat 4dd535b3b20d8b8f61ced205fcc88bd869800272 647ccbd94b99b90378159e37216375da377366a0
-git diff --name-only 4dd535b3b20d8b8f61ced205fcc88bd869800272 647ccbd94b99b90378159e37216375da377366a0
+git diff --stat 4dd535b3b20d8b8f61ced205fcc88bd869800272 main
+git diff --name-only 4dd535b3b20d8b8f61ced205fcc88bd869800272 main
 ```
 
 The changed files must be confined to:
@@ -86,6 +86,7 @@ The changed files must be confined to:
 - O4 identifier-bearing tables
 - O5-O6 typed, intermediate, calculated, and manifest outputs
 - the two analysis scripts containing record-specific rules
+- the migration audit files
 - release checksums
 - the changelog
 
@@ -97,7 +98,7 @@ Approve only if every automated check passes, the reproduction and test suite pa
 
 Reject or return for correction if:
 
-- any former identifier remains in the target tree;
+- any handle using the former prefix remains in the target tree;
 - the old and new identifier sets are not exactly one-to-one;
 - any `data/` difference remains after reversing the prefix substitution;
 - any protected paper-facing artifact changes;
