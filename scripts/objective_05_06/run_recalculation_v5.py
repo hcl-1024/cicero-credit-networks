@@ -1259,13 +1259,13 @@ def run() -> dict[str, object]:
     write_csv(sensitivity_paths["participation_grid"], participation_grid)
     write_csv(sensitivity_paths["k_cascade"], k_sensitivity)
     summary = [
-        {"value_id": "selected_k", "value": k, "unit": "integer", "status": "sealed_not_published"},
-        {"value_id": "hierarchical_p50_hs", "value": fmt(imputed), "unit": "HS", "status": "sealed_not_published"},
-        {"value_id": "O5-T4", "value": fmt_currency(o5_t4), "unit": "HS", "status": "calculated_awaiting_independent_audit"},
-        {"value_id": "O5-T5-missing-edge-increment", "value": fmt_currency(missing_increment), "unit": "HS", "status": "calculated_awaiting_independent_audit"},
-        {"value_id": "O5-T5", "value": fmt_currency(o5_t5), "unit": "HS", "status": "calculated_awaiting_independent_audit"},
-        {"value_id": "O5-6", "value": fmt_currency(o56), "unit": "HS", "status": "calculated_awaiting_independent_audit"},
-        {"value_id": "O6W-T5A", "value": fmt(o6_value), "unit": "HS", "status": "calculated_awaiting_independent_audit"},
+        {"value_id": "selected_k", "value": k, "unit": "integer", "status": "official_release_intermediate"},
+        {"value_id": "hierarchical_p50_hs", "value": fmt(imputed), "unit": "HS", "status": "official_release_intermediate"},
+        {"value_id": "O5-T4", "value": fmt_currency(o5_t4), "unit": "HS", "status": "official_release_calculation"},
+        {"value_id": "O5-T5-missing-edge-increment", "value": fmt_currency(missing_increment), "unit": "HS", "status": "official_release_calculation"},
+        {"value_id": "O5-T5", "value": fmt_currency(o5_t5), "unit": "HS", "status": "official_release_calculation"},
+        {"value_id": "O5-6", "value": fmt_currency(o56), "unit": "HS", "status": "official_release_calculation"},
+        {"value_id": "O6W-T5A", "value": fmt(o6_value), "unit": "HS", "status": "official_release_calculation"},
     ]
     write_csv(calculated_paths["summary"], summary)
 

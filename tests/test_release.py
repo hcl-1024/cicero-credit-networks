@@ -61,6 +61,13 @@ class ReleaseTests(unittest.TestCase):
         for key in ("O5-T4", "O5-T5", "O5-6", "O6W-T5A"):
             self.assertIn(key, expected)
 
+    def test_release_value_statuses_are_official(self) -> None:
+        values = {row["value_id"]: row["status"] for row in cli.rows(ROOT / "validation" / "release_expected_values.csv")}
+        self.assertEqual(values["selected_k"], "official_release_intermediate")
+        self.assertEqual(values["hierarchical_p50_hs"], "official_release_intermediate")
+        for key in ("O5-T4", "O5-T5-missing-edge-increment", "O5-T5", "O5-6", "O6W-T5A"):
+            self.assertEqual(values[key], "official_release_calculation")
+
     def test_full_sensitivity_outputs_are_complete(self) -> None:
         sensitivity = cli.V5 / "sensitivity"
         distribution = cli.rows(sensitivity / "o56_distribution_grid.csv")

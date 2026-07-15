@@ -1,8 +1,8 @@
 value_id,value,unit,status
-selected_k,5,integer,sealed_not_published
-hierarchical_p50_hs,362500,HS,sealed_not_published
-O5-T4,6295833.333333,HS,calculated_awaiting_independent_audit
-O5-T5-missing-edge-increment,35307457.374002,HS,calculated_awaiting_independent_audit
-O5-T5,41603290.707335,HS,calculated_awaiting_independent_audit
-O5-6,3677083.333333,HS,calculated_awaiting_independent_audit
-O6W-T5A,1436684112,HS,calculated_awaiting_independent_audit
+selected_k,5,integer,official_release_intermediate
+hierarchical_p50_hs,362500,HS,official_release_intermediate
+O5-T4,6295833.333333,HS,official_release_calculation
+O5-T5-missing-edge-increment,35307457.374002,HS,official_release_calculation
+O5-T5,41603290.707335,HS,official_release_calculation
+O5-6,3677083.333333,HS,official_release_calculation
+O6W-T5A,1436684112,HS,official_release_calculation

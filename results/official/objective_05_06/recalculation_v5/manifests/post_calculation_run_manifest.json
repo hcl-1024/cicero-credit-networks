@@ -31,10 +31,10 @@
       "sha256": "0e9f35d32fca7590d6ec86a2954aba956978ffc34d2149ed3d43912053c13a56"
     },
     {
-      "bytes": 452,
+      "bytes": 425,
       "path": "results/official/objective_05_06/recalculation_v5/calculated/recalculated_values_summary.csv",
       "role": "summary",
-      "sha256": "9e0f0c3bd9f1975e30a25d1fbc9f9617f6ac19674d0d6cb38b5d963aac3db638"
+      "sha256": "4e6a6ddec6e5902f07264f9c2afa4cff7d158905fffb68ae0d3851c540a2dd09"
     }
   ],
   "candidate_manifest_sha256": "3e23695f48ba3779be708ead99027c93a0943d3553040afb8dba686b1ecd8a8e",
@@ -52,7 +52,7 @@
   "python": ">=3.11",
   "repair_version": "postcalc_provenance_repair_2026_07_14",
   "run_status": "public_release_reproduction",
-  "sealed_manifest_sha256": "79742c5bb15a5d4cb547fa044da9364d15bd6c6dc01479278dee4cc96126a6ef",
+  "sealed_manifest_sha256": "8a047c9aeaa83fd4e30cb408cdeeaa2f77766fc40f2ccbda2d3097c8f3212494",
   "selected_k": 5,
   "sensitivity_outputs": [
     {

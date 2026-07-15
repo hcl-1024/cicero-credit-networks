@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "release": "1.1.0",
+  "release": "1.1.1",
   "calculation_window": "45-44 BCE",
   "same_window_anchor_hs": 300000,
   "private_credit_prior_anchor_hs": 400000,

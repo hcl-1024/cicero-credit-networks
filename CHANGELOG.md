@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.1 - 2026-07-15
+
+- Replace provisional internal workflow statuses with official release labels.
+- Classify `selected_k` and `hierarchical_p50_hs` as `official_release_intermediate`.
+- Classify the five published O5/O6 results as `official_release_calculation`.
+
 ## 1.1.0 - 2026-07-15
 
 - Publish the complete paper sensitivity package and paper-facing figure rebuild.
