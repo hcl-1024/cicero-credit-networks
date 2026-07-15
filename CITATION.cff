@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this dataset or code, cite this repository and the associated paper."
 title: "Cicero Credit Networks: Canonical Records and Reproducible O1-O6 Calculations"
 type: dataset
-version: 1.0.0
-date-released: 2026-07-14
+version: 1.1.0
+date-released: 2026-07-15
 license: CC-BY-4.0
 repository-code: "https://github.com/hcl-1024/cicero-credit-networks"
 abstract: "Reviewed Cicero-era credit records, exposure-group authorities, and reproducible network and active-stock calculations."

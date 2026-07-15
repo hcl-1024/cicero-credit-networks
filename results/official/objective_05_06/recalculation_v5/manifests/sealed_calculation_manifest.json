@@ -117,7 +117,7 @@
   },
   "manifest_type": "sealed_calculation_manifest",
   "max_h_visibility": "13.836312685594",
-  "preflight_manifest_sha256": "02d0a19dd09985bedf360ff55f2382fbf6c5625ff8466d0531ffa813781795c9",
+  "preflight_manifest_sha256": "a733abf751271dc3a7e1c06839a43da0bd1e6e63f23df7d09e51e41e6192dc5e",
   "repair_version": "postcalc_provenance_repair_2026_07_14",
   "selected_k": 5,
   "selected_k_count": 1,

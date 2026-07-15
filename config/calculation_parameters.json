@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "release": "1.0.0",
+  "release": "1.1.0",
   "calculation_window": "45-44 BCE",
   "same_window_anchor_hs": 300000,
   "private_credit_prior_anchor_hs": 400000,
@@ -11,5 +11,6 @@
   "senator_comparison_population": 600,
   "lognormal_sigma": 1.0,
   "truncated_pareto_alpha": 1.585,
-  "truncated_pareto_cap_hs": 50000000
+  "truncated_pareto_cap_hs": 50000000,
+  "calculation_interface_precision_places": 12
 }

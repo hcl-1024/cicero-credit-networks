@@ -29,7 +29,7 @@ make verify
 make test
 ```
 
-`make reproduce` rebuilds O1-O6 from canonical records and reviewed analytical authorities. Existing result files are never calculation inputs. `make verify` checks structural invariants and the version 1.0 paper benchmarks.
+`make reproduce` rebuilds O1-O6 from canonical records and reviewed analytical authorities. Existing result files are never calculation inputs. `make verify` checks structural invariants, the paper benchmarks, and the complete sensitivity package. `make reproduce-paper-findings` additionally rebuilds and verifies every repository-backed quantitative statement and figure mapped from the paper.
 
 ## Data Layers
 
@@ -41,6 +41,10 @@ make test
 - `validation/`: expected release values, checksums, and verification evidence.
 
 Canonical evidence and generated estimates are different layers. O5 and O6 values are model outputs, not canonical records or directly observed totals.
+
+The public sensitivity exports include the 78-case distribution grid, 312-case participation grid, all 46 integer k scenarios from 5 through 50, five missing-edge probability rules, three O6 denominator policies, and nine density-discount scenarios. Their filenames and paper locations are enumerated in the paper claim map.
+
+See [docs/paper_findings.md](docs/paper_findings.md) for the paper-to-output map, [docs/numerical_precision.md](docs/numerical_precision.md) for calculation boundaries, and [docs/source_editions.md](docs/source_editions.md) for the consulted editions.
 
 ## Contribute from a Fork
 
@@ -54,7 +58,7 @@ make preview
 
 The preview reports potentially affected objectives but does not change official results. Maintainers review the evidence, record an adjudication, assign or preserve canonical IDs, update exposure decisions where necessary, and only then rebuild an official release. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Principal Version 1.0 Benchmarks
+## Principal Release Benchmarks
 
 | Result | HS |
 |---|---:|
@@ -68,4 +72,4 @@ These are modeled active-stock calculations with documented assumptions. They ar
 
 ## Citation and Licenses
 
-Use `CITATION.cff` for repository citation. Code is MIT-licensed. The structured dataset is released under CC BY 4.0, subject to the separate rights that may apply to quoted editions or linked source material.
+Use `CITATION.cff` for repository citation. The exact locally consulted primary-source editions and reprints are documented in [docs/source_editions.md](docs/source_editions.md). Code is MIT-licensed. The structured dataset is released under CC BY 4.0, subject to the separate rights that may apply to quoted editions or linked source material.

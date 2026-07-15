@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cicero-credit-networks"
-version = "1.0.0"
+version = "1.1.0"
 description = "Canonical records and reproducible O1-O6 calculations for Cicero-era credit networks"
 requires-python = ">=3.11"
 license = {text = "MIT"}

@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 CANONICAL = ROOT / "data" / "canonical" / "cicero_credit_records.csv"
+SCHEMA = ROOT / "data" / "canonical" / "schema.csv"
 DECISIONS = ROOT / "data" / "exposure_groups" / "reviewed_record_decisions.csv"
 PROPOSALS = ROOT / "data" / "contributions" / "proposals"
 OFFICIAL = ROOT / "results" / "official"
@@ -69,6 +70,20 @@ def validate_proposal(path: Path, proposal: dict[str, object]) -> list[str]:
 def validate(release_regression: bool = False) -> dict[str, object]:
     errors: list[str] = []
     canonical = rows(CANONICAL)
+    with CANONICAL.open(newline="", encoding="utf-8-sig") as handle:
+        canonical_fields = list(csv.DictReader(handle).fieldnames or [])
+    schema = rows(SCHEMA)
+    schema_fields = [row["field"] for row in schema]
+    if canonical_fields != schema_fields:
+        errors.append("schema field order does not exactly match the canonical dataset")
+    for rule in schema:
+        field = rule["field"]
+        if rule["required"] == "yes" and any(not row.get(field, "").strip() for row in canonical):
+            errors.append(f"required schema field contains blanks: {field}")
+        allowed = {value for value in rule["controlled_values"].split("|") if value}
+        invalid = sorted({row.get(field, "") for row in canonical if row.get(field, "") and allowed and row[field] not in allowed})
+        if invalid:
+            errors.append(f"schema field {field} contains invalid controlled values: {', '.join(invalid)}")
     ids = [row["merged_record_id"] for row in canonical]
     if any(not value for value in ids):
         errors.append("canonical dataset contains a blank merged_record_id")
@@ -90,6 +105,7 @@ def validate(release_regression: bool = False) -> dict[str, object]:
     result = {
         "status": "PASS" if not errors else "FAIL",
         "canonical_records": len(canonical),
+        "schema_fields": len(schema),
         "reviewed_exposure_decisions": len(decision_rows),
         "contribution_proposals": len(seen_proposals),
         "errors": errors,
@@ -125,6 +141,16 @@ def export_headlines() -> None:
         output.append({"value_id": value_id, "public_label": labels[value_id], "value": row["value"], "unit": row["unit"], "calculation_window": "45-44 BCE", "method_release": "recalculation_v5"})
     write_csv(OFFICIAL / "headline_values.csv", list(output[0]), output)
     write_csv(OFFICIAL / "o5_6_distribution_values.csv", list(distributions[0]), distributions)
+    for source_name, public_name in (
+        ("o56_distribution_grid.csv", "o5_6_distribution_grid.csv"),
+        ("o56_participation_sensitivity.csv", "o5_6_participation_sensitivity.csv"),
+        ("scenario_k_values.csv", "o5_6_k_sensitivity.csv"),
+        ("missing_edge_probability_rule_sensitivity.csv", "o5_missing_edge_probability_rule_sensitivity.csv"),
+        ("o6_denominator_policy_sensitivity.csv", "o6_denominator_policy_sensitivity.csv"),
+        ("density_discount_sensitivity.csv", "o6_density_discount_sensitivity.csv"),
+    ):
+        source = V5 / "sensitivity" / source_name
+        shutil.copyfile(source, OFFICIAL / public_name)
 
 
 def reproduce() -> None:
@@ -138,6 +164,7 @@ def reproduce() -> None:
         "scripts/analysis/build_objective_03_intermediaries.py",
         "scripts/analysis/build_objective_04_credit_mechanisms.py",
         "scripts/objective_05_06/run_recalculation_v5.py",
+        "scripts/objective_05_06/build_additional_sensitivities.py",
     ):
         run_script(script)
     export_headlines()
@@ -161,13 +188,48 @@ def verify() -> dict[str, object]:
     graph_by_name = {row["variant_name"]: row for row in graph_manifest}
     required_graphs = {"combined_transaction_graph", "ciceronian_period_graph", "cicero_removed_graph"}
     missing_graphs = sorted(required_graphs - set(graph_by_name))
-    if mismatches or missing_graphs:
-        raise SystemExit(json.dumps({"status": "FAIL", "value_mismatches": mismatches, "missing_graphs": missing_graphs}, indent=2))
+    distribution_grid = rows(V5 / "sensitivity" / "o56_distribution_grid.csv")
+    participation_grid = rows(V5 / "sensitivity" / "o56_participation_sensitivity.csv")
+    k_grid = rows(V5 / "sensitivity" / "scenario_k_values.csv")
+    probability_grid = rows(V5 / "sensitivity" / "missing_edge_probability_rule_sensitivity.csv")
+    denominator_grid = rows(V5 / "sensitivity" / "o6_denominator_policy_sensitivity.csv")
+    density_grid = rows(V5 / "sensitivity" / "density_discount_sensitivity.csv")
+    selected_rows = [row for row in k_grid if row["scenario_status"] == "selected_base"]
+    sensitivity_errors = []
+    if len(distribution_grid) != 78:
+        sensitivity_errors.append(f"distribution grid has {len(distribution_grid)} rows, expected 78")
+    if len(participation_grid) != 312:
+        sensitivity_errors.append(f"participation grid has {len(participation_grid)} rows, expected 312")
+    if len(k_grid) != 46 or {int(row["scenario_k"]) for row in k_grid} != set(range(5, 51)):
+        sensitivity_errors.append("k grid does not contain every integer scenario from 5 through 50")
+    if len(probability_grid) != 5:
+        sensitivity_errors.append(f"probability-rule grid has {len(probability_grid)} rows, expected 5")
+    if len(denominator_grid) != 3:
+        sensitivity_errors.append(f"denominator-policy grid has {len(denominator_grid)} rows, expected 3")
+    if len(density_grid) != 9:
+        sensitivity_errors.append(f"density-discount grid has {len(density_grid)} rows, expected 9")
+    if len(selected_rows) != 1:
+        sensitivity_errors.append(f"k grid has {len(selected_rows)} selected rows, expected 1")
+    else:
+        selected = selected_rows[0]
+        selected_checks = {
+            "O5-T4": "o5_t4_hs",
+            "O5-T5-missing-edge-increment": "o5_t5_missing_edge_increment_hs",
+            "O5-T5": "o5_t5_hs",
+            "O5-6": "o56_hs",
+            "O6W-T5A": "o6w_t5a_hs",
+        }
+        for value_id, column in selected_checks.items():
+            if abs(float(selected[column]) - actual[value_id]) > max(1e-6, abs(actual[value_id]) * 1e-10):
+                sensitivity_errors.append(f"selected sensitivity {column} does not match {value_id}")
+    if mismatches or missing_graphs or sensitivity_errors:
+        raise SystemExit(json.dumps({"status": "FAIL", "value_mismatches": mismatches, "missing_graphs": missing_graphs, "sensitivity_errors": sensitivity_errors}, indent=2))
     result = {
         "status": "PASS",
         "canonical_records": validation["canonical_records"],
         "release_values_checked": len(expected),
         "graph_variants": len(graph_manifest),
+        "sensitivity_values_checked": len(distribution_grid) + len(participation_grid) + len(k_grid) + len(probability_grid) + len(denominator_grid) + len(density_grid),
     }
     (ROOT / "validation" / "latest_verification.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     return result
@@ -204,15 +266,15 @@ def preview() -> dict[str, object]:
 
 
 def checksums() -> None:
-    selected = [
-        CANONICAL,
-        ROOT / "data" / "canonical" / "schema.csv",
-        ROOT / "data" / "exposure_groups" / "reviewed_record_decisions.csv",
-        ROOT / "config" / "calculation_parameters.json",
-        ROOT / "config" / "o56_borrower_components.csv",
-        OFFICIAL / "headline_values.csv",
-        OFFICIAL / "o5_6_distribution_values.csv",
-    ]
+    selected: list[Path] = []
+    for folder in (
+        ROOT / "data" / "canonical", ROOT / "data" / "exposure_groups", ROOT / "data" / "amounts",
+        ROOT / "data" / "decisions", ROOT / "config", OFFICIAL, ROOT / "validation",
+    ):
+        if folder.exists():
+            selected.extend(path for path in folder.rglob("*") if path.is_file())
+    checksum_file = ROOT / "validation" / "checksums.sha256"
+    selected = sorted({path for path in selected if path != checksum_file and not path.name.startswith(".")})
     lines = []
     for path in selected:
         digest = hashlib.sha256(path.read_bytes()).hexdigest()

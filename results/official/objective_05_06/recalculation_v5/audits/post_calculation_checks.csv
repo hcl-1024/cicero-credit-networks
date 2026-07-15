@@ -5,6 +5,10 @@ same_k_all_families,PASS,"O5-T4, O5-T5, and O5-6 consumed the sealed k.",5
 fixed_anchors_unchanged,PASS,"300,000 and 400,000 HS anchors retained.",300000;400000
 o56_membership_high_confidence,PASS,Reviewed membership and high-confidence gate retained.,9
 distribution_specifications,PASS,Six fixed lognormal/Pareto derivatives produced.,6
+full_distribution_sensitivity,PASS,Complete model/parameter/position sensitivity grid produced.,78
+full_participation_sensitivity,PASS,Complete activity-participation sensitivity grid produced.,312
+full_k_cascade,PASS,Every authorized integer k from 5 through 50 produced.,46
+selected_k_sensitivity_matches_headlines,PASS,Selected sensitivity row reproduces headline O5 and O6 values.,5
 o6_modeled_incidence_reconciliation,PASS,O6 M_c reconciles to twice internal expected-edge mass.,97.39988241104
 o6_reasonableness_decade,PASS,O6W-T5A remains in the 10^9-HS decade.,1436684112
 paper_hold,PASS,"No paper, figure, or current headline registry was written by this build.",awaiting_post_calculation_audit

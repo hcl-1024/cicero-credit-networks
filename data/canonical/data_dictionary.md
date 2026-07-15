@@ -11,4 +11,4 @@ Important field families include:
 - review: confidence, verification status, primary-source status, and review status;
 - provenance: source layer, Verboven references, deduplication group, and repeated mentions.
 
-Controlled values and edit policy are recorded in `schema.csv`. Contributors propose changes through `data/contributions/proposals/` rather than editing the canonical CSV.
+Every released column, its required/optional status, and its controlled values are recorded in `schema.csv`. Blank amounts mean unknown or unstated, never zero. Contributors propose changes through `data/contributions/proposals/` rather than editing the canonical CSV.

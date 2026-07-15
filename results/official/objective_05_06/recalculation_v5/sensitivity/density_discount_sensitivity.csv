@@ -1,0 +1,10 @@
+scenario,density_discount,effective_multiplier,recalculated_total_hs,ratio_to_600m_benchmark,scenario_status
+1x,1,34.532944102772,1436684112,2.394474,selected_undiscounted
+2x,2,17.266472051386,718342056,1.197237,diagnostic_not_selected
+3x,3,11.510981367591,478894704,0.798158,diagnostic_not_selected
+5x,5,6.906588820554,287336822,0.478895,diagnostic_not_selected
+10x,10,3.453294410277,143668411,0.239447,diagnostic_not_selected
+15x,15,2.302196273518,95778941,0.159632,diagnostic_not_selected
+20x,20,1.726647205139,71834206,0.119724,diagnostic_not_selected
+25x,25,1.381317764111,57467364,0.095779,diagnostic_not_selected
+no_extrapolation,34.532944102772,1,41603291,0.069339,diagnostic_not_selected

@@ -1,4 +1,4 @@
-release: 1.0.0
+release: 1.1.0
 canonical_records: reviewed_record_snapshot_v1
 O1_O2: actor_graph_v1
 O3: direct_and_third_party_graph_v1

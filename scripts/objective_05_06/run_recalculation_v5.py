@@ -12,7 +12,7 @@ import sys
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
-from statistics import median
+from statistics import NormalDist, median
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -23,6 +23,7 @@ CALIBRATION = BASE / "calibration"
 CALCULATED = BASE / "calculated"
 AUDITS = BASE / "audits"
 MANIFESTS = BASE / "manifests"
+SENSITIVITY = BASE / "sensitivity"
 
 CANONICAL = ROOT / "data" / "canonical" / "cicero_credit_records.csv"
 DECISIONS = ROOT / "data" / "exposure_groups" / "reviewed_record_decisions.csv"
@@ -43,12 +44,17 @@ K_MIN = 5
 K_MAX = 50
 K_VALUES = range(K_MIN, K_MAX + 1)
 TIE_TOLERANCE = 1e-12
+CALCULATION_INTERFACE_PRECISION_PLACES = 12
 STOCK_DENOMINATOR_MONTHS = 12.0
 IMPUTED_EDGE_MONTHS = 12.0
 SENATOR_POPULATION = 600.0
 PARETO_CAP = 50_000_000.0
 PARETO_ALPHA = 1.585
 LOGNORMAL_SIGMA = 1.0
+LOGNORMAL_SIGMAS = (0.5, 0.7, 0.9, 1.0, 1.1, 1.3, 1.5)
+PARETO_ALPHAS = (1.2, 1.4, 1.585, 1.7, 1.8, 2.0)
+SENSITIVITY_POSITIONS = (0.50, 0.60, 0.70, 0.75, 0.80, 0.90)
+PARTICIPATION_RATES = (0.25, 0.50, 0.75, 1.00)
 
 GARDEN_MEMBERS = {"ATT-PILOT-0011", "ATT-PILOT-0012"}
 PUBLILIUS_MEMBERS = {"ATT-PILOT-0030", "ATT-PILOT-0035"}
@@ -182,13 +188,18 @@ def relation_id(record_id: str, role: str, a: str, b: str) -> str:
 def fmt(value: float) -> str:
     if math.isclose(value, round(value), abs_tol=1e-9):
         return str(int(round(value)))
-    return f"{value:.12f}".rstrip("0").rstrip(".")
+    return f"{value:.{CALCULATION_INTERFACE_PRECISION_PLACES}f}".rstrip("0").rstrip(".")
 
 
 def fmt_currency(value: float) -> str:
     if math.isclose(value, round(value), abs_tol=1e-6):
         return str(int(round(value)))
     return f"{value:.6f}".rstrip("0").rstrip(".")
+
+
+def sensitivity_fmt(value: float, places: int = 6) -> str:
+    text = f"{value:.{places}f}".rstrip("0").rstrip(".")
+    return text if text else "0"
 
 
 def linear_quantile(values: list[float], q: float) -> float:
@@ -1037,6 +1048,93 @@ def distribution_values(calibration_hs: float) -> list[dict[str, object]]:
     return rows
 
 
+def sensitivity_lognormal_total(calibration_hs: float, sigma: float, position: float) -> float:
+    z = {0.50: 0.0, 0.75: 0.67448975, 0.90: 1.28155157}.get(position, NormalDist().inv_cdf(position))
+    mu = math.log(calibration_hs) - sigma * z
+    return SENATOR_POPULATION * math.exp(mu + 0.5 * sigma * sigma)
+
+
+def sensitivity_pareto_total(calibration_hs: float, alpha: float, position: float) -> float:
+    x_min = calibration_hs * (1 - position) ** (1 / alpha)
+    ratio = x_min / PARETO_CAP
+    numerator = alpha * x_min * (1 - ratio ** (alpha - 1))
+    denominator = (alpha - 1) * (1 - ratio**alpha)
+    return SENATOR_POPULATION * numerator / denominator
+
+
+def sensitivity_distribution_rows(calibration_hs: float) -> tuple[list[dict[str, object]], list[dict[str, object]]]:
+    grid: list[dict[str, object]] = []
+    participation: list[dict[str, object]] = []
+    specifications = [
+        ("lognormal", LOGNORMAL_SIGMAS, lambda parameter, q: sensitivity_lognormal_total(calibration_hs, parameter, q)),
+        ("truncated_pareto", PARETO_ALPHAS, lambda parameter, q: sensitivity_pareto_total(calibration_hs, parameter, q)),
+    ]
+    for model, parameters, calculator in specifications:
+        for parameter in parameters:
+            parameter_label = f"sigma={parameter}" if model == "lognormal" else f"alpha={parameter};cap={sensitivity_fmt(PARETO_CAP)}"
+            for position in SENSITIVITY_POSITIONS:
+                raw_total = calculator(parameter, position)
+                total = round(raw_total)
+                row = {
+                    "calibration_hs": sensitivity_fmt(calibration_hs),
+                    "model": model,
+                    "parameter": parameter_label,
+                    "cicero_position": f"p{round(position * 100)}",
+                    "senators_600_mean_hs": sensitivity_fmt(total),
+                }
+                grid.append(row)
+                for rate in PARTICIPATION_RATES:
+                    participation.append({
+                        **row,
+                        "activity_probability": f"{rate:.2f}",
+                        "participation_adjusted_hs": sensitivity_fmt(round(raw_total * rate)),
+                    })
+    return grid, participation
+
+
+def sensitivity_k_rows(
+    point_count: int,
+    t4_components: list[dict[str, object]],
+    o56_components: list[dict[str, object]],
+    expected_edge_mass: float,
+    effective_population: float,
+    selected_k: int,
+) -> list[dict[str, object]]:
+    output: list[dict[str, object]] = []
+    for scenario_k in K_VALUES:
+        amount = imputed_amount(scenario_k, point_count)
+        o5_t4 = sum(
+            (float(row["observed_amount_hs"]) if row["observed_amount_hs"] != "" else amount)
+            * float(row["include_probability"])
+            * float(row["active_fraction"])
+            for row in t4_components
+        )
+        increment = expected_edge_mass * amount
+        o5_t5 = o5_t4 + increment
+        o56 = sum(
+            (float(row["amount_hs"]) if row["amount_treatment"] == "fixed" else amount)
+            * float(row["active_fraction"])
+            for row in o56_components
+        )
+        o6 = o5_t5 * SENATOR_POPULATION / effective_population
+        output.append({
+            "scenario_k": scenario_k,
+            "calibration_record_count_n": point_count,
+            "same_window_anchor_hs": sensitivity_fmt(ANCHOR_SAME_WINDOW),
+            "prior_anchor_hs": sensitivity_fmt(ANCHOR_PRIOR),
+            "imputed_amount_hs": sensitivity_fmt(amount),
+            "o5_t4_hs": sensitivity_fmt(o5_t4),
+            "expected_edge_mass": sensitivity_fmt(expected_edge_mass, 12),
+            "o5_t5_missing_edge_increment_hs": sensitivity_fmt(increment),
+            "o5_t5_hs": sensitivity_fmt(o5_t5),
+            "o56_hs": sensitivity_fmt(o56),
+            "o6_effective_population": sensitivity_fmt(effective_population, 12),
+            "o6w_t5a_hs": sensitivity_fmt(round(o6)),
+            "scenario_status": "selected_base" if scenario_k == selected_k else "diagnostic_not_selected",
+        })
+    return output
+
+
 def file_entry(path: Path, role: str) -> dict[str, object]:
     return {"path": path.relative_to(ROOT).as_posix(), "sha256": sha256_file(path), "bytes": path.stat().st_size, "role": role}
 
@@ -1044,7 +1142,7 @@ def file_entry(path: Path, role: str) -> dict[str, object]:
 def run() -> dict[str, object]:
     global O56_COMPONENTS
     O56_COMPONENTS = load_o56_components()
-    for directory in (TYPED, INTERMEDIATE, CALIBRATION, CALCULATED, AUDITS, MANIFESTS):
+    for directory in (TYPED, INTERMEDIATE, CALIBRATION, CALCULATED, AUDITS, MANIFESTS, SENSITIVITY):
         directory.mkdir(parents=True, exist_ok=True)
     input_paths = [CANONICAL, DECISIONS, OVERRIDES, AMOUNTS, OBJECTIVES, PARAMETERS, O56_COMPONENTS_PATH]
     records_list = read_csv(CANONICAL)
@@ -1135,6 +1233,10 @@ def run() -> dict[str, object]:
         o56_rows.append({"component_id": component_id, "member_record_ids": ";".join(member_ids), "amount_treatment": treatment, "selected_k": k, "amount_hs": fmt(amount), "active_fraction": fmt(active_fraction), "contribution_hs": fmt(contribution), "all_members_high_confidence": "yes"})
     distributions = distribution_values(o56)
     o6_class_rows, o6_value = calculate_o6(o5_t5, o6_actors, o6_observed, o6_internal)
+    expected_edge_mass = sum(float(row["edge_probability_p"]) for row in surviving)
+    effective_population = o5_t5 * SENATOR_POPULATION / o6_value
+    sensitivity_grid, participation_grid = sensitivity_distribution_rows(o56)
+    k_sensitivity = sensitivity_k_rows(len(calibration_points), t4_components, o56_rows, expected_edge_mass, effective_population, k)
 
     candidate_manifest_hash = sha256_file(paths["dyads"])
     for row in o6_class_rows:
@@ -1148,6 +1250,14 @@ def run() -> dict[str, object]:
     write_csv(calculated_paths["t4_components"], amount_by_component)
     write_csv(calculated_paths["t5_candidates"], [dict(row, selected_k=k, imputed_amount_hs=fmt(imputed), expected_contribution_hs=fmt(float(row["edge_probability_p"]) * imputed)) for row in surviving])
     write_csv(calculated_paths["o56_components"], o56_rows); write_csv(calculated_paths["distribution_values"], distributions); write_csv(calculated_paths["o6_classes"], o6_class_rows)
+    sensitivity_paths = {
+        "distribution_grid": SENSITIVITY / "o56_distribution_grid.csv",
+        "participation_grid": SENSITIVITY / "o56_participation_sensitivity.csv",
+        "k_cascade": SENSITIVITY / "scenario_k_values.csv",
+    }
+    write_csv(sensitivity_paths["distribution_grid"], sensitivity_grid)
+    write_csv(sensitivity_paths["participation_grid"], participation_grid)
+    write_csv(sensitivity_paths["k_cascade"], k_sensitivity)
     summary = [
         {"value_id": "selected_k", "value": k, "unit": "integer", "status": "sealed_not_published"},
         {"value_id": "hierarchical_p50_hs", "value": fmt(imputed), "unit": "HS", "status": "sealed_not_published"},
@@ -1166,17 +1276,25 @@ def run() -> dict[str, object]:
         {"check_id": "fixed_anchors_unchanged", "status": "PASS", "detail": "300,000 and 400,000 HS anchors retained.", "value": "300000;400000"},
         {"check_id": "o56_membership_high_confidence", "status": "PASS", "detail": "Reviewed membership and high-confidence gate retained.", "value": len(O56_COMPONENTS)},
         {"check_id": "distribution_specifications", "status": "PASS", "detail": "Six fixed lognormal/Pareto derivatives produced.", "value": len(distributions)},
+        {"check_id": "full_distribution_sensitivity", "status": "PASS" if len(sensitivity_grid) == 78 else "FAIL", "detail": "Complete model/parameter/position sensitivity grid produced.", "value": len(sensitivity_grid)},
+        {"check_id": "full_participation_sensitivity", "status": "PASS" if len(participation_grid) == 312 else "FAIL", "detail": "Complete activity-participation sensitivity grid produced.", "value": len(participation_grid)},
+        {"check_id": "full_k_cascade", "status": "PASS" if len(k_sensitivity) == 46 and int(k_sensitivity[0]["scenario_k"]) == K_MIN and int(k_sensitivity[-1]["scenario_k"]) == K_MAX else "FAIL", "detail": "Every authorized integer k from 5 through 50 produced.", "value": len(k_sensitivity)},
+        {"check_id": "selected_k_sensitivity_matches_headlines", "status": "PASS" if any(row["scenario_status"] == "selected_base" and math.isclose(float(row["o5_t5_hs"]), o5_t5, abs_tol=1e-6) and int(float(row["o6w_t5a_hs"])) == int(round(o6_value)) for row in k_sensitivity) else "FAIL", "detail": "Selected sensitivity row reproduces headline O5 and O6 values.", "value": k},
         {"check_id": "o6_modeled_incidence_reconciliation", "status": "PASS", "detail": "O6 M_c reconciles to twice internal expected-edge mass.", "value": fmt(sum(float(row["edge_probability_p"]) for row in o6_internal))},
         {"check_id": "o6_reasonableness_decade", "status": "PASS", "detail": "O6W-T5A remains in the 10^9-HS decade.", "value": fmt(o6_value)},
         {"check_id": "paper_hold", "status": "PASS", "detail": "No paper, figure, or current headline registry was written by this build.", "value": "awaiting_post_calculation_audit"},
     ]
     final_checks_path = AUDITS / "post_calculation_checks.csv"; write_csv(final_checks_path, final_checks)
+    failed_checks = [row["check_id"] for row in final_checks if row["status"] != "PASS"]
+    if failed_checks:
+        raise ValueError("Post-calculation checks failed: " + "; ".join(failed_checks))
     run_manifest = {
         "run_status": "public_release_reproduction", "created_utc": build_timestamp(),
         "repair_version": REPAIR_VERSION,
         "git_commit": git_commit(), "python": ">=3.11", "platform": "portable-python-standard-library", "sealed_manifest_sha256": sha256_file(sealed_path),
         "selected_k": k, "hierarchical_p50_hs": fmt(imputed), "u_visibility_fingerprint": visibility_hash,
         "candidate_manifest_sha256": candidate_manifest_hash, "calculated_outputs": [file_entry(path, role) for role, path in calculated_paths.items()],
+        "sensitivity_outputs": [file_entry(path, role) for role, path in sensitivity_paths.items()],
         "post_calculation_checks": file_entry(final_checks_path, "post_calculation_checks"), "paper_hold": True,
     }
     run_manifest_path = MANIFESTS / "post_calculation_run_manifest.json"; write_json(run_manifest_path, run_manifest)

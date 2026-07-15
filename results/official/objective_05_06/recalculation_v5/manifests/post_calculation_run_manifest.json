@@ -44,15 +44,35 @@
   "paper_hold": true,
   "platform": "portable-python-standard-library",
   "post_calculation_checks": {
-    "bytes": 877,
+    "bytes": 1264,
     "path": "results/official/objective_05_06/recalculation_v5/audits/post_calculation_checks.csv",
     "role": "post_calculation_checks",
-    "sha256": "9b2949019c302eb4411d29fcdb733145195d33601c388b72b38fa8539cfd6d1f"
+    "sha256": "85306ed12ac205bb4133c79c7c2a5ba66bacb4bc1f43ae8d95101b85a3f73628"
   },
   "python": ">=3.11",
   "repair_version": "postcalc_provenance_repair_2026_07_14",
   "run_status": "public_release_reproduction",
-  "sealed_manifest_sha256": "db938d126b80602df693a049033ae37ca815df702dba0fc14ab3edce64f4f835",
+  "sealed_manifest_sha256": "79742c5bb15a5d4cb547fa044da9364d15bd6c6dc01479278dee4cc96126a6ef",
   "selected_k": 5,
+  "sensitivity_outputs": [
+    {
+      "bytes": 4697,
+      "path": "results/official/objective_05_06/recalculation_v5/sensitivity/o56_distribution_grid.csv",
+      "role": "distribution_grid",
+      "sha256": "5b7c852ca19c3db50aa46ef644f5c498f5d9ba31e2653fc71e0c93ce0bf35e93"
+    },
+    {
+      "bytes": 23501,
+      "path": "results/official/objective_05_06/recalculation_v5/sensitivity/o56_participation_sensitivity.csv",
+      "role": "participation_grid",
+      "sha256": "890db989af0ba2d24a7dbd4762fdbe211b080147a256ab245f0a94fb81901fb1"
+    },
+    {
+      "bytes": 7487,
+      "path": "results/official/objective_05_06/recalculation_v5/sensitivity/scenario_k_values.csv",
+      "role": "k_cascade",
+      "sha256": "6c883f4e3496b36f8ec2317188c4fa3596e692257ef68d11e1cde0ada98b2091"
+    }
+  ],
   "u_visibility_fingerprint": "5d8f56aa526eca848d3c73533d69915cff0c02b873499c962f6db05f760f6bb3"
 }

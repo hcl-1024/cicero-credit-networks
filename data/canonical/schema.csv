@@ -1,23 +1,47 @@
-field,description
-record_id,Stable project identifier for each extracted record.
-collection,Cicero letter collection, e.g. Atticus.
-book,Book number where applicable.
-letter,Letter number within book/source.
-source_letter_id,Normalized reference, e.g. Att. 1.12.
-date,Date as given by source or later editorial convention.
-sender,Sender of the letter.
-recipient,Recipient of the letter.
-borrower,Person or group borrowing/owing money.
-lender,Person or group lending/being owed money.
-third_parties,Agents guarantors sureties intermediaries or other relevant parties.
-amount,Amount mentioned in the source.
-currency_or_unit,Currency or unit such as HS sestertii denarii talents.
-interest_or_terms,Interest rate due date repayment terms security collateral or other terms.
-status,Controlled value: requested promised advanced owed repaid overdue disputed guaranteed transferred unclear.
-loan_type,Controlled value: personal loan debt repayment surety/guarantee credit arrangement interest/usury ambiguous financial obligation exclude.
-latin_evidence,Short Latin phrase or sentence supporting the extraction.
-english_evidence,Short English phrase or translation note supporting interpretation.
-interpretive_note,Brief explanation of the extraction or ambiguity.
-confidence,high medium low exclude.
-source_url_or_edition,Source URL or bibliographic edition.
-review_status,candidate reviewed accepted rejected needs_review.
+field,description,data_type,required,controlled_values
+merged_record_id,Stable release identifier for the representative record,string,yes,
+source_layer,Provenance layer from which the representative record derives,string,yes,canonical_core|canonical_source_expansion|secondary_source_records
+canonical_record_id,Legacy canonical-core identifier when applicable,string,no,
+verboven_record_id,Secondary-source staging identifier when applicable,string,no,
+collection,Cicero letter collection when applicable,string,no,Atticus|Atticus/Familiares|Brutum|Familiares|Quintum
+book,Book number when applicable,string,no,
+letter,Letter number or range when applicable,string,no,
+source_letter_id,Normalized letter reference when applicable,string,no,
+date,Source date or documented editorial/conjectural date,string,yes,
+sender,Sender or ancient source author/string label,string,yes,
+recipient,Recipient or audience/string label,string,yes,
+borrower,Person group or entity borrowing or owing,string,yes,
+lender,Person group or entity lending or being owed,string,yes,
+third_parties,Agents guarantors sureties intermediaries or contextual parties,string,no,
+amount,Amount wording or value preserved from the source,string,no,
+currency_or_unit,Currency or ancient unit when supplied,string,no,
+interest_or_terms,Interest repayment security or other obligation terms,string,yes,
+status,Controlled obligation status,string,yes,advanced|disputed|guaranteed|overdue|owed|promised|repaid|requested|transferred|unclear
+loan_type,Controlled financial-relation type,string,yes,ambiguous financial obligation|credit arrangement|debt repayment|interest/usury|personal loan|surety/guarantee
+latin_evidence,Short Latin evidence or an explicit notice that Latin is not applicable,string,yes,
+english_evidence,Translation or English evidence note,string,yes,
+interpretive_note,Explanation of the extraction and its uncertainty,string,yes,
+confidence,Reviewed confidence category,string,yes,high|medium|low
+source_url_or_edition,Source URL or consulted edition,string,yes,
+review_status,Current record-review status,string,yes,accepted|candidate|checked_context_only|needs_review
+verboven_page,Verboven page reference when applicable,string,no,
+verboven_section,Verboven section or topic when applicable,string,no,
+verboven_footnote,Verboven footnote when applicable,string,no,
+ancient_source_citation,Normalized ancient-source citation,string,yes,
+source_genre,Genre of the ancient source,string,yes,biography|letter|non-letter|poetry|poetry/commentary|speech
+actors,Secondary-layer actor list when applicable,string,no,
+brief_description,Secondary-layer description when applicable,string,no,
+verboven_evidence_note,Secondary-source discovery note when applicable,string,no,
+core_eligibility,Relationship to the conservative Cicero-letter core,string,no,context_only|core_candidate|out_of_scope_gift_or_dowry|out_of_scope_non_letter|out_of_scope_public
+core_match_record_id,Matching core identifier when a separate match is retained,string,no,
+reason_not_core,Reason the row is outside the conservative core,string,no,
+verification_status,Primary verification layer for the representative record,string,yes,latin_controlled_reviewed|online_primary_latin_checked|verboven_only
+amount_note,Amount interpretation normalization or exclusion note,string,no,
+primary_source_verified,More specific primary-source verification outcome,string,no,
+core_recommendation,Recommendation for relationship to the conservative core,string,no,
+source_enrichment_note,Source-acquisition or checking note,string,no,
+dedup_group_id,Stable deduplication group identifier,string,yes,
+representative_record_id,Representative record retained for the deduplication group,string,yes,
+repeated_mention_ids,Retired or merged mention identifiers,string,no,
+all_source_citations,All citations retained for the representative record,string,yes,
+dedup_note,Explanation of unique or merged representative status,string,yes,

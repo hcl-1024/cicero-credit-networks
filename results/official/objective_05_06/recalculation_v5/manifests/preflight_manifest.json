@@ -36,10 +36,10 @@
       "sha256": "2237a84ec4fe96a0c3e229c703a8355b11f6895a6c8e913cfcff63ebaa3590c0"
     },
     {
-      "bytes": 410,
+      "bytes": 458,
       "path": "config/calculation_parameters.json",
       "role": "declared_source_input",
-      "sha256": "51ebf30f6ddd674e601799160d7f9d17dcafa29f572bde50c0f4d4327ec37f1c"
+      "sha256": "040d4e85858ded43d8ba3dc9151f9fef9ddd862f9cd2ac31d7106b58bf9d8d02"
     },
     {
       "bytes": 1050,

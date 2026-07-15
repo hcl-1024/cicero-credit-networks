@@ -1,0 +1,31 @@
+map_id,paper_location,claim_id,description,artifact,verification_status
+P001,Methods and full record appendix,canonical_records,Canonical analyzed record count,data/canonical/cicero_credit_records.csv,repository_verified
+P002,Graph-layer comparison,ciceronian_direct_edges,Ciceronian-period direct layer including all printed graph statistics,build/analysis/graphs/tables/graph_variants/ciceronian_period_graph.csv,repository_verified
+P003,Graph-layer comparison,ciceronian_context_edges,Ciceronian-period third-party layer including all printed graph statistics,build/analysis/graphs/tables/graph_variants/ciceronian_period_graph.csv,repository_verified
+P004,Graph-layer comparison,cicero_removed_edges,Cicero-removed same-scope layer including all printed graph statistics,build/analysis/graphs/tables/graph_variants/ciceronian_period_cicero_removed_graph.csv,repository_verified
+P005,Figure ciceronian-period network,,Ciceronian-period actor network,build/paper_findings/figures/ciceronian_period_actor_graph.svg,repository_verified
+P006,Figure direct borrower-lender network,,Direct principal-to-principal network,build/paper_findings/figures/direct_borrower_lender_graph.svg,repository_verified
+P007,Figure third-party network,,Third-party and contextual network,build/paper_findings/figures/third_party_context_graph.svg,repository_verified
+P008,Figure Cicero removed,,Ciceronian-period network with Cicero removed,build/paper_findings/figures/cicero_removed_actor_graph.svg,repository_verified
+P009,Figure third-party mechanism share,,Third-party share by mechanism,build/paper_findings/figures/third_party_share_by_mechanism.svg,repository_verified
+P010,Actor context-dependence table,,All printed actor and category degrees and ratios,results/official/objectives/03_intermediaries_and_third_parties/tables/actor_third_party_dependence.csv,repository_verified
+P011,Credit mechanisms and chain tables,,All printed liquidity-stress and refinancing-chain classifications,results/official/objectives/04_credit_mechanisms/tables/refinancing_chains.csv,repository_verified
+P012,Figure refinancing chain,,Refinancing and settlement-pressure graph,build/paper_findings/figures/cicero_44_bce_refinancing_chain.svg,repository_verified
+P013,Borrower-side input and distribution route,o56_hs,O5-6 borrower-side calibration and all nine components,results/official/objective_05_06/recalculation_v5/calculated/o56_components.csv,repository_verified
+P014,Graph-respecting baseline,o5_t4_hs,O5-T4 accepted-pair baseline,results/official/headline_values.csv,repository_verified
+P015,Graph-respecting missing-edge increment,o5_t5_missing_edge_increment_hs,O5-T5 expected missing-edge increment,results/official/headline_values.csv,repository_verified
+P016,Graph-respecting total,o5_t5_hs,O5-T5 community total,results/official/headline_values.csv,repository_verified
+P017,O6 weighted extrapolation,o6w_t5a_hs,O6W-T5A weighted 600-senator comparison,results/official/headline_values.csv,repository_verified
+P018,O5 and O6 method arithmetic,o5_expected_edge_mass,Selected imputation amount candidate count expected edge mass effective population and multiplier,results/official/paper_findings.csv,repository_verified
+P019,Main distribution benchmark table,distribution_benchmarks,All six selected distribution benchmarks,results/official/o5_6_distribution_values.csv,repository_verified
+P020,Sensitivity appendix,distribution_grid_rows,Complete 78-case distribution grid,results/official/o5_6_distribution_grid.csv,repository_verified
+P021,Sensitivity appendix,participation_grid_rows,Complete 312-case participation grid,results/official/o5_6_participation_sensitivity.csv,repository_verified
+P022,Sensitivity appendix,k_grid_rows,Complete k=5 through k=50 cascade,results/official/o5_6_k_sensitivity.csv,repository_verified
+P023,Probability-rule sensitivity,probability_rule_rows,All five missing-edge probability rules,results/official/o5_missing_edge_probability_rule_sensitivity.csv,repository_verified
+P024,O6 denominator sensitivity,denominator_policy_rows,All three denominator policies,results/official/o6_denominator_policy_sensitivity.csv,repository_verified
+P025,Density-discount sensitivity,density_discount_rows,Undiscounted and eight density diagnostics,results/official/o6_density_discount_sensitivity.csv,repository_verified
+P026,Full record and support tables,,Record citations dates roles descriptions amounts and confidence fields,data/canonical/cicero_credit_records.csv,repository_verified
+P027,Amount support tables,,Normalized amount instances and inclusion rules,data/amounts/amount_values.csv,repository_verified
+P028,Elite wealth comparison,,Cicero fortune and exceptional-fortune comparanda,docs/source_editions.md,external_citation_not_repository_derived
+P029,Later senatorial benchmark,,Augustan qualification and 600-senator comparison,docs/source_editions.md,external_citation_not_repository_derived
+P030,Imperial income comparison,,Scheidel and Friesen household and elite-income comparanda,docs/source_editions.md,external_citation_not_repository_derived

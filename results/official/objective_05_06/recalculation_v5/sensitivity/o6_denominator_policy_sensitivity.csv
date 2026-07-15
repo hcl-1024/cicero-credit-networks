@@ -1,0 +1,4 @@
+denominator_policy,o5_t5_hs,effective_population,o6w_t5a_hs,status,notes
+observed_incidence_only,41603290.707335,6.615384615385,3773321715,diagnostic_not_selected,Uses authorized observed O6 relations and no modeled incidence.
+observed_plus_internal_imputed_incidence,41603290.707335,17.374713207607,1436684112,selected_base,Uses the same 199 audited internal candidates and their product-rule expected incidence.
+equal_actor_unweighted,41603290.707335,29,860757739,diagnostic_not_selected,Treats every authorized U_visibility actor as one effective unit.
