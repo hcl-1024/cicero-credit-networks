@@ -4,6 +4,12 @@ This repository publishes the reviewed record snapshot, exposure-group authoriti
 
 The release contains 114 canonical records. Latin is the control text. Translations, OCR, and secondary scholarship aid discovery, but the record fields retain verification and confidence information so that contextual or incompletely verified evidence is not mistaken for directly observed private credit.
 
+## Working Paper
+
+Han Chin Li, *Credit Under Pressure: Social Mediation, Debt Stock, and Financial Fragility in Cicero's Correspondence* (Independent Research Working Paper, version 1.0, 15 July 2026).
+
+[Read or download the working paper (PDF)](paper/Li_2026_Credit_Under_Pressure_Working_Paper_v1.0.pdf). This is the public version associated with repository release v1.1.2. DOI registration is deferred.
+
 ## What O1-O6 Mean
 
 | ID | Public label | Research question |

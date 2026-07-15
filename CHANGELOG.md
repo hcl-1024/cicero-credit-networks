@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.2 - 2026-07-15
+
+- Publish version 1.0 of the associated independent research working paper.
+- Add the working-paper citation, version, checksum, and public PDF links.
+- Update repository citation metadata for Han Chin Li and release 1.1.2.
+
 ## 1.1.1 - 2026-07-15
 
 - Replace provisional internal workflow statuses with official release labels.
