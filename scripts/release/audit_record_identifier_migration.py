@@ -63,7 +63,10 @@ def identifiers(commit: str, pattern: re.Pattern[bytes]) -> set[str]:
 def allowed_changed_path(path: str) -> bool:
     return (
         path == "CHANGELOG.md"
+        or path == "CITATION.cff"
+        or path == "README.md"
         or path.startswith("data/")
+        or path == "paper/README.md"
         or path.startswith("results/official/objective_05_06/")
         or path.startswith("results/official/objectives/04_credit_mechanisms/")
         or path == "scripts/analysis/analyze_cicero_loans.py"
