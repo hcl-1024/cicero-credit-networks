@@ -12,7 +12,7 @@ This document is an audit specification, not an independent sign-off.
 - Initial staged-record migration: `647ccbd94b99b90378159e37216375da377366a0`
 - Migration commit message: `improved record labeling`
 
-The current `main` branch extends the initial migration to the worker, missing-record, delta, and supplement provenance families. The migration remains listed as **Unreleased**. The immutable official release remains `v1.1.2`. Do not create `v1.1.3` until the expanded migration is signed off.
+The current `main` branch extends the initial migration to the worker, missing-record, delta, and supplement provenance families. Repository release `v1.1.3` packages these changes as **Labeling adjustments**. This handoff remains the specification for independent verification of that release.
 
 ## Claims to test
 
@@ -122,4 +122,4 @@ Record the following in the audit result:
 - Deviations or observations:
 - Final disposition: APPROVED / RETURNED FOR CORRECTION
 
-If approved, the next release may promote this migration as `v1.1.3` without changing the paper's numerical findings.
+Approval confirms that release `v1.1.3` changes labeling without changing the paper's numerical findings.

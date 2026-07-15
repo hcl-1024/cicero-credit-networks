@@ -1,7 +1,8 @@
 # Changelog
 
-## Unreleased
+## 1.1.3 - 2026-07-15
 
+- Labeling adjustments only; no substantive record content, exposure-group values, calculated values, sensitivity results, or paper findings changed.
 - Rename the 95 secondary-source staged record identifiers to the `SEC-STAGED-XXXX` convention.
 - Rename 68 associated worker, missing-record, delta, and supplement provenance handles to the corresponding `SEC` conventions.
 - Propagate the new identifiers through reviewed authorities, derived O4-O6 outputs, provenance manifests, analysis rules, and release checksums.

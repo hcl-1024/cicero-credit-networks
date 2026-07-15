@@ -53,7 +53,7 @@ make reproduce-paper-findings
 | Research object | Version | Date | Status |
 |---|---:|---|---|
 | Working paper | 1.0 | 15 July 2026 | Under external academic review |
-| Data and code repository | 1.1.2 | 15 July 2026 | Current public release |
+| Data and code repository | 1.1.3 | 15 July 2026 | Current public release — labeling adjustments |
 
 See the [complete changelog](CHANGELOG.md) for earlier repository releases.
 
