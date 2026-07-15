@@ -1,5 +1,5 @@
 # Associated Paper
 
-The repository reproduces the numerical values used by *Credit Under Pressure: Social Networks, Debt Stock, and Elite Instability in Cicero's Correspondence*.
+The repository reproduces the numerical values used by Han Chin Li, *Credit Under Pressure: Social Mediation, Debt Stock, and Financial Fragility in Cicero's Correspondence* (Independent Research Working Paper, 15 July 2026).
 
-The paper PDF is intentionally not bundled in this initial repository build because the latest local manuscript revision requires a fresh hash-bound visual audit. Add the validated publication PDF here or link its DOI before the public GitHub release.
+The working paper and this reproducibility package are published as separate, cross-linked research objects so that each can be cited and versioned independently. The paper's DOI will be linked here after its publication record is issued. The repository release itself is the authoritative source for the data, code, paper-facing outputs, and reproduction instructions.
