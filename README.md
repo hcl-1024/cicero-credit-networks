@@ -16,6 +16,8 @@
 - [Visit the paper's website](https://hcl-1024.github.io/systems-across-time/research/paper.html)
 - [View paper-to-output documentation](docs/paper_findings.md)
 
+The v1.0 PDF was revised on 17 July 2026 to improve two Andreau citations. The paper title, version designation, data, calculations, sensitivity results, and findings are unchanged.
+
 ## Data
 
 The current release contains 114 reviewed canonical records. Latin is the control text. Translations, OCR, and secondary scholarship support discovery, while verification and confidence fields distinguish directly observed evidence from contextual or incompletely verified material.

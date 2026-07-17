@@ -1,5 +1,11 @@
 # Changelog
 
+## Working paper v1.0 PDF revision - 2026-07-17
+
+- Improve two Andreau citations and their page-level references in the associated working paper.
+- Retain the existing paper title, version 1.0 designation, publication date, and public filename.
+- Make no changes to records, exposure-group values, calculated values, sensitivity results, or quantitative findings.
+
 ## 1.1.3 - 2026-07-15
 
 - Labeling adjustments only; no substantive record content, exposure-group values, calculated values, sensitivity results, or paper findings changed.
